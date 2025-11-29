@@ -156,18 +156,18 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/problem-understanding",
-              "path": "/Hackathon-Transpetro/docs/category/problem-understanding",
+              "id": "/category/entendimento-do-problema",
+              "path": "/Hackathon-Transpetro/docs/category/entendimento-do-problema",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/user-understanding",
-              "path": "/Hackathon-Transpetro/docs/category/user-understanding",
+              "id": "/category/compreensão-do-usuário",
+              "path": "/Hackathon-Transpetro/docs/category/compreensão-do-usuário",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/proposed-solution",
-              "path": "/Hackathon-Transpetro/docs/category/proposed-solution",
+              "id": "/category/propósito-da-solução",
+              "path": "/Hackathon-Transpetro/docs/category/propósito-da-solução",
               "sidebar": "defaultSidebar"
             },
             {
@@ -176,13 +176,13 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/technical-implementation",
-              "path": "/Hackathon-Transpetro/docs/category/technical-implementation",
+              "id": "/category/implementação-técnica",
+              "path": "/Hackathon-Transpetro/docs/category/implementação-técnica",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/business-plan",
-              "path": "/Hackathon-Transpetro/docs/category/business-plan",
+              "id": "/category/plano-de-negócio",
+              "path": "/Hackathon-Transpetro/docs/category/plano-de-negócio",
               "sidebar": "defaultSidebar"
             }
           ],

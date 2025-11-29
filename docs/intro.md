@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Introduction
+title: Introdução
 slug: /intro
 ---
 
@@ -16,7 +16,7 @@ import Admonition from '@theme/Admonition';
 &emsp; It is to break this cycle that Reevo is born. We are a **P2P (peer-to-peer) fintech credit platform** that proposes to be the digital, transparent, and efficient bridge between these two worlds. We directly connect rural producers who need financing to grow with a community of investors who want to actively participate in the success of Brazilian agribusiness.
 
 ---
-## Three Pillars of Innovation
+## Pilares para a Inovação
 
 **Credit Intelligence (AgroScore)**
 

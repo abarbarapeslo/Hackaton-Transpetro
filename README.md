@@ -40,7 +40,7 @@
         </a>
       </td>
       <td align="center">
-        <a href="https://www.linkedin.com/in/david-deodato">
+        <a href="https://www.linkedin.com/in/david-deodato/">
           <img src="https://github.com/david-deodato.png" style="border-radius: 10%; width: 150px;" alt="David Deodato"/><br>
           <sub><b>David Deodato</b></sub>
         </a>

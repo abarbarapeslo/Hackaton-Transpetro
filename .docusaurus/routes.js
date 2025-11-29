@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/Hackathon-Transpetro/docs',
-    component: ComponentCreator('/Hackathon-Transpetro/docs', 'c56'),
+    component: ComponentCreator('/Hackathon-Transpetro/docs', '70e'),
     routes: [
       {
         path: '/Hackathon-Transpetro/docs',
-        component: ComponentCreator('/Hackathon-Transpetro/docs', 'baa'),
+        component: ComponentCreator('/Hackathon-Transpetro/docs', 'a35'),
         routes: [
           {
             path: '/Hackathon-Transpetro/docs',
-            component: ComponentCreator('/Hackathon-Transpetro/docs', '945'),
+            component: ComponentCreator('/Hackathon-Transpetro/docs', '4a5'),
             routes: [
               {
                 path: '/Hackathon-Transpetro/docs/',
@@ -56,38 +56,38 @@ export default [
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackathon-Transpetro/docs/category/business-plan',
-                component: ComponentCreator('/Hackathon-Transpetro/docs/category/business-plan', 'e24'),
+                path: '/Hackathon-Transpetro/docs/category/compreensão-do-usuário',
+                component: ComponentCreator('/Hackathon-Transpetro/docs/category/compreensão-do-usuário', '161'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackathon-Transpetro/docs/category/problem-understanding',
-                component: ComponentCreator('/Hackathon-Transpetro/docs/category/problem-understanding', '0ea'),
+                path: '/Hackathon-Transpetro/docs/category/entendimento-do-problema',
+                component: ComponentCreator('/Hackathon-Transpetro/docs/category/entendimento-do-problema', '70a'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackathon-Transpetro/docs/category/proposed-solution',
-                component: ComponentCreator('/Hackathon-Transpetro/docs/category/proposed-solution', 'a19'),
+                path: '/Hackathon-Transpetro/docs/category/implementação-técnica',
+                component: ComponentCreator('/Hackathon-Transpetro/docs/category/implementação-técnica', '305'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackathon-Transpetro/docs/category/plano-de-negócio',
+                component: ComponentCreator('/Hackathon-Transpetro/docs/category/plano-de-negócio', 'a3d'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackathon-Transpetro/docs/category/propósito-da-solução',
+                component: ComponentCreator('/Hackathon-Transpetro/docs/category/propósito-da-solução', '8e4'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
                 path: '/Hackathon-Transpetro/docs/category/requirements',
                 component: ComponentCreator('/Hackathon-Transpetro/docs/category/requirements', '228'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackathon-Transpetro/docs/category/technical-implementation',
-                component: ComponentCreator('/Hackathon-Transpetro/docs/category/technical-implementation', 'a19'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackathon-Transpetro/docs/category/user-understanding',
-                component: ComponentCreator('/Hackathon-Transpetro/docs/category/user-understanding', '609'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },

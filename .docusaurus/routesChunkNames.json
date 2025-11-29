@@ -42,46 +42,46 @@
       "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
     }
   },
-  "/Hackathon-Transpetro/docs-c56": {
+  "/Hackathon-Transpetro/docs-70e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---hackathon-transpetro-docsaba-00c"
     }
   },
-  "/Hackathon-Transpetro/docs-baa": {
+  "/Hackathon-Transpetro/docs-a35": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---hackathon-transpetro-docs-437-8bf"
   },
-  "/Hackathon-Transpetro/docs-945": {
+  "/Hackathon-Transpetro/docs-4a5": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/Hackathon-Transpetro/docs/-e85": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---hackathon-transpetro-docs-1-db-2aa"
   },
-  "/Hackathon-Transpetro/docs/category/business-plan-e24": {
+  "/Hackathon-Transpetro/docs/category/compreensão-do-usuário-161": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackathon-transpetro-docs-category-business-plan-8-ca-df2"
+    "__props": "__props---hackathon-transpetro-docs-category-compreensao-do-usuario-2-f-7-a78"
   },
-  "/Hackathon-Transpetro/docs/category/problem-understanding-0ea": {
+  "/Hackathon-Transpetro/docs/category/entendimento-do-problema-70a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackathon-transpetro-docs-category-problem-understanding-580-5c5"
+    "__props": "__props---hackathon-transpetro-docs-category-entendimento-do-problema-67-e-9c3"
   },
-  "/Hackathon-Transpetro/docs/category/proposed-solution-a19": {
+  "/Hackathon-Transpetro/docs/category/implementação-técnica-305": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackathon-transpetro-docs-category-proposed-solution-981-b96"
+    "__props": "__props---hackathon-transpetro-docs-category-implementacao-tecnica-6-ce-046"
+  },
+  "/Hackathon-Transpetro/docs/category/plano-de-negócio-a3d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---hackathon-transpetro-docs-category-plano-de-negocio-8-b-7-881"
+  },
+  "/Hackathon-Transpetro/docs/category/propósito-da-solução-8e4": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---hackathon-transpetro-docs-category-proposito-da-solucaobcd-43e"
   },
   "/Hackathon-Transpetro/docs/category/requirements-228": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---hackathon-transpetro-docs-category-requirementsc-00-590"
-  },
-  "/Hackathon-Transpetro/docs/category/technical-implementation-a19": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackathon-transpetro-docs-category-technical-implementation-11-b-907"
-  },
-  "/Hackathon-Transpetro/docs/category/user-understanding-609": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackathon-transpetro-docs-category-user-understandingefb-c67"
   },
   "/Hackathon-Transpetro/docs/compreensao_usuario/jornada_usuario-520": {
     "__comp": "__comp---theme-doc-item-178-a40",

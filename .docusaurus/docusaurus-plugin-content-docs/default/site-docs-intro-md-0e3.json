@@ -1,6 +1,6 @@
 {
   "id": "intro",
-  "title": "Introduction",
+  "title": "Introdução",
   "description": "Introduction to the Reevo Project",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -13,7 +13,7 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "Introduction",
+    "title": "Introdução",
     "slug": "/intro"
   },
   "sidebar": "defaultSidebar",
@@ -22,7 +22,7 @@
     "permalink": "/Hackathon-Transpetro/docs/"
   },
   "next": {
-    "title": "Problem Understanding",
-    "permalink": "/Hackathon-Transpetro/docs/category/problem-understanding"
+    "title": "Entendimento do Problema",
+    "permalink": "/Hackathon-Transpetro/docs/category/entendimento-do-problema"
   }
 }

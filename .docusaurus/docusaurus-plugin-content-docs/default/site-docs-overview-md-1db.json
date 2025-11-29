@@ -1,6 +1,6 @@
 {
   "id": "overview",
-  "title": "Project Overview (Reevo)",
+  "title": "Overview do Projeto",
   "description": "Introdução",
   "source": "@site/docs/overview.md",
   "sourceDirName": ".",
@@ -18,7 +18,7 @@
   },
   "sidebar": "defaultSidebar",
   "next": {
-    "title": "Introduction",
+    "title": "Introdução",
     "permalink": "/Hackathon-Transpetro/docs/intro"
   }
 }
