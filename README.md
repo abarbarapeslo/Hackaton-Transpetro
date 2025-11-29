@@ -32,8 +32,8 @@
         </a>
       </td>
       <td align="center">
-        <a href="hhttps://www.linkedin.com/in/barbarapeslo/">
-          <img src="https://github.com/abarbarapeslo.png" style="border-radius: 10%; width: 150px;" alt="Bárbara Lopes"/><br>
+        <a href="hhttps://www.linkedin.com/in/barbarapeslo">
+          <img src="https://github.com/abarbarapeslo.png" style="border-radius: 10%; width: 150px;" alt="Barbara Lopes"/><br>
           <sub><b>Barbara Lopes</b></sub>
         </a>
       </td>
