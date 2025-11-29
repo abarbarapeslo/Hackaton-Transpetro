@@ -78,7 +78,7 @@ sidebar_position: 8
 
 <div style={{textAlign: 'center'}}>
   <a style={{margin:'10px'}} href="https://www.linkedin.com/in/barbarapeslo/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-João%20Victor%20Wandermurem%20de%20Oliveira-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Barbara%20Lopes-blue?style=for-the-badge&logo=linkedin" />
   </a>
 
   <a href="https://github.com/abarbarapeslo/" target="_blank">

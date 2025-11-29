@@ -4,7 +4,7 @@ sidebar_label: "Roadmap"
 sidebar_position: 7
 ---
 
-## Phase 1: Validation and MVP (Months 1-12)
+## Fase 1: Validação (Months 1-12)
 
 &emsp;This phase is funded by the **Seed** Round (R$ 4.5 million), focused on proving the *Product-Market Fit* (PMF), mitigating default risk, and validating the usability of the P2P cycle.
 
@@ -15,7 +15,7 @@ sidebar_position: 7
 | **Minimum P2P Cycle (MVP)** | **Accounts Service (KYC/Onboarding)** (RF-CAD) and **Digital Wallet Service** (BRL $\leftrightarrow$ USDC On/Off-Ramp RF-INV-001/004) and **Primary Offers Marketplace**. | **GMV Generation:** Achieve **R$ 10 million** in GMV. |
 | **First Payments** | **Notifications Service** and development of the **Asynchronous Distribution Flow** (RF-INV-005) to process the first payments. | **Proof of Value:** 99% of payments distributed correctly (financial error margin). |
 
-### Phase 2: Scale and Optimization (Months 13-36)
+### PhaFasese 2: Escalonamento e Otimização (Months 13-36)
 
 &emsp;Focus on horizontal scalability and increased retention, introducing the DeFi differential and added value for the Investor.
 
@@ -25,7 +25,7 @@ sidebar_position: 7
 | **B2B/ESG Monetization** | **Analysis/Backend Service:** Creation of the **Impact Reports API (RF-INV-007)** and implementation of **Corporate Services** (B2B subscriptions). | **Sustainability:** Achieve **Operational Break-Even** (EBITDA $\ge$ 0) and prepare the platform for the Series A round. |
 | **GMV Growth** | Optimization of CAC via deep integration with **Cooperatives and Agricultural ERPs** APIs. | **Scale:** Achieve **R$ 50 million** in GMV. |
 
-### Phase 3: Leadership and Expansion (Months 37+)
+### Phase 3: Liderança e Expansão (Months 37+)
 
 &emsp;Focus on product diversification, regional expansion, and consolidation as the dominant *AgriFintech* market *player*.
 
