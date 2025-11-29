@@ -24,7 +24,7 @@ sidebar_position: 8
   - Engenheiro Frontend
 
 <div style={{textAlign: 'center'}}>
-  <a style={{margin:'10px'}} href="https://www.linkedin.com/in/davidijesus" target="_blank">
+  <a style={{margin:'10px'}} href="https://www.linkedin.com/in/davi-nascimento-de-jesus/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Davi%20Nascimento%20de%20Jesus-blue?style=for-the-badge&logo=linkedin" />
   </a>
 
@@ -102,7 +102,7 @@ sidebar_position: 8
 
 <div style={{textAlign: 'center'}}>
   <a style={{margin:'10px'}} href="https://www.linkedin.com/in/davidijesus" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-David%20Deodato-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-David%20Deodato%20de%20Jesus-blue?style=for-the-badge&logo=linkedin" />
   </a>
 
   <a href="https://github.com/davidijesus" target="_blank">
