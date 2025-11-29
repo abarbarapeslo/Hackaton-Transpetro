@@ -1,7 +1,7 @@
 {
   "id": "overview",
   "title": "Project Overview (Reevo)",
-  "description": "Introduction",
+  "description": "Introdução",
   "source": "@site/docs/overview.md",
   "sourceDirName": ".",
   "slug": "/",
