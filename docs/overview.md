@@ -8,12 +8,12 @@ sidebar_position: 0
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Reevo Banner - Agriculture and Technology" />
+        <img src="/img/nome.png" style={{width: 1024}} alt="Transpetro" />
         <br/>
     </div>
 </div>
 
-## Introduction
+## Introdução
 
 &emsp;**Reevo** is a digital peer-to-peer (P2P) credit platform that connects small and medium-sized farmers with individual investors interested in portfolio diversification and positive socio-environmental impact.  
 
@@ -21,7 +21,7 @@ sidebar_position: 0
 
 ---
 
-## Problem
+## Problema
 
 &emsp;In Brazil, family farmers represent 77% of rural establishments (IBGE, 2017), but they access less than 15% of formal rural credit. High bureaucracy, collateral requirements, and variable income tied to harvests make bank credit restrictive.  
 

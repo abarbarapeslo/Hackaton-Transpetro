@@ -34,26 +34,31 @@
       <td align="center">
         <a href="hhttps://www.linkedin.com/in/barbarapeslo/">
           <img src="https://github.com/abarbarapeslo.png" style="border-radius: 10%; width: 150px;" alt="Bárbara Lopes"/><br>
-          <sub><b>Bárbara Lopes</b></sub>
+          <sub><b>Barbara Lopes</b></sub>
         </a>
       </td>
+      <td align="center">
+        <a href="hhttps://www.linkedin.com/in/barbarapeslo/">
+          <img src="https://github.com/abarbarapeslo.png" style="border-radius: 10%; width: 150px;" alt="David Deodato"/><br>
+          <sub><b>David Deodato</b></sub>
+        </a>
     </tr>
   </table>
 </div>
 
 
 
-## Description
+## Descrição
 
-**Reevo** is a P2P (peer-to-peer) credit fintech platform designed to connect small and medium-sized Brazilian rural producers with individuals interested in investing directly in agribusiness. Using data analysis, AI, and a cloud microservices architecture, our mission is to create a more agile, transparent, and sustainable credit ecosystem.
+**Transpetro** is a P2P (peer-to-peer) credit fintech platform designed to connect small and medium-sized Brazilian rural producers with individuals interested in investing directly in agribusiness. Using data analysis, AI, and a cloud microservices architecture, our mission is to create a more agile, transparent, and sustainable credit ecosystem.
 
 The complete project documentation, including architecture, flows, and data model, can be found on our Docusaurus site.
 
 
-**[>> Access the Complete Documentation Here <<](https://jvwandermurem.github.io/Hackathon-Peerseed/)**
-**[>> Access the explanatory video on the platform's technical structure <<](https://drive.google.com/file/d/1hJQIJXGkipL9sOwm_O3_qHIpd2iZJpLP/view?usp=sharing)**
+**[>> Access the Complete Documentation Here <<](https://abarbarapeslo.github.io/Hackathon-Transpetro/)**
+**[>> Access the explanatory video on the platform's technical structure <<](colocarlink)**
 
-### Problem Solved
+### Solução do Problema
 
 Brazilian agribusiness faces a paradox: while the sector is a powerhouse, small and medium-sized rural producers suffer from restricted and bureaucratic access to traditional credit. On the other hand, investors seek investment alternatives with impact and transparency. Reevo solves this problem through:
 
@@ -62,7 +67,7 @@ Brazilian agribusiness faces a paradox: while the sector is a powerhouse, small 
 - **Offer of liquidity** for investors through a secondary market.
 - **Reduction of bureaucracy** and high fees from traditional intermediaries.
 
-## Reevo Ecosystem
+## Ecossistema Transpetro
 
 The system operates based on key concepts that ensure its functionality and transparency:
 
@@ -73,7 +78,7 @@ The system operates based on key concepts that ensure its functionality and tran
 | **Investment Shares (Cotas)** | The CPR is fractionated into small shares (e.g., R$ 100 each), which are the assets bought by investors. | To allow pulverized investment, reducing risk for the investor and facilitating fundraising. |
 | **Secondary Market** | Feature that allows investors to sell their shares to other users before the CPR matures. | To provide liquidity, one of the platform's biggest differentials. |
 
-## Key Features
+## Features Chaves
 
 ### 1. **Automated Credit Analysis (AgroScore)**
 - 100% digital application process.
