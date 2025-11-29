@@ -1,0 +1,28 @@
+{
+  "id": "docs/equipe",
+  "title": "Team",
+  "description": "&emsp;&emsp;The Reevo project is composed of three students from Inteli – Institute of Technology and Leadership. The team combines practical experience in technology, entrepreneurship, and product design. Below, we present the team members:",
+  "source": "@site/docs/docs/equipe.md",
+  "sourceDirName": "docs",
+  "slug": "/docs/equipe",
+  "permalink": "/Hackathon-Transpetro/docs/docs/equipe",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Team",
+    "sidebar_label": "Team",
+    "sidebar_position": 8
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Roadmap",
+    "permalink": "/Hackathon-Transpetro/docs/docs/roadmap"
+  },
+  "next": {
+    "title": "prova_real",
+    "permalink": "/Hackathon-Transpetro/docs/docs/prova_real"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "implementacao_tecnica/Blockchain",
+  "title": "Blockchain",
+  "description": "&emsp;The Reevo will be developed on the Polkadot/Substrate ecosystem foundation to meet the rigorous demands of the credit market. This technological foundation ensures the institutional security and interoperability required for compliance and efficient communication.",
+  "source": "@site/docs/implementacao_tecnica/Blockchain.md",
+  "sourceDirName": "implementacao_tecnica",
+  "slug": "/implementacao_tecnica/Blockchain",
+  "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/Blockchain",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Blockchain"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Frontend",
+    "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/front_end"
+  },
+  "next": {
+    "title": "Infrastructure Planning",
+    "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/infraestrutura"
+  }
+}

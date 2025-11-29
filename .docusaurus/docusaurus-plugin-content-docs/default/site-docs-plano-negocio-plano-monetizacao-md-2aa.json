@@ -1,0 +1,27 @@
+{
+  "id": "plano_negocio/plano_monetizacao",
+  "title": "Monetization Plan",
+  "description": "Contextualization",
+  "source": "@site/docs/plano_negocio/plano_monetizacao.md",
+  "sourceDirName": "plano_negocio",
+  "slug": "/plano_negocio/plano_monetizacao",
+  "permalink": "/Hackathon-Transpetro/docs/plano_negocio/plano_monetizacao",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Monetization Plan"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Financing Analysis",
+    "permalink": "/Hackathon-Transpetro/docs/plano_negocio/analise_financeira"
+  },
+  "next": {
+    "title": "Distribution Strategy",
+    "permalink": "/Hackathon-Transpetro/docs/plano_negocio/estrategia_distribuicao"
+  }
+}

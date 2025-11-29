@@ -1,0 +1,28 @@
+{
+  "id": "docs/overview",
+  "title": "Project Overview (Reevo)",
+  "description": "Introduction",
+  "source": "@site/docs/docs/overview.md",
+  "sourceDirName": "docs",
+  "slug": "/",
+  "permalink": "/Hackathon-Transpetro/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_label": "Overview",
+    "slug": "/",
+    "sidebar_position": 0
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/Hackathon-Transpetro/docs/blog/2021-08-26-welcome/welcome"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/Hackathon-Transpetro/docs/intro"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "docs/solucao_problema/modelagem_dados",
+  "title": "Data Modeling",
+  "description": "Introduction",
+  "source": "@site/docs/docs/solucao_problema/modelagem_dados.md",
+  "sourceDirName": "docs/solucao_problema",
+  "slug": "/docs/solucao_problema/modelagem_dados",
+  "permalink": "/Hackathon-Transpetro/docs/docs/solucao_problema/modelagem_dados",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Data Modeling"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Data Flow",
+    "permalink": "/Hackathon-Transpetro/docs/docs/solucao_problema/fluxo_dados"
+  },
+  "next": {
+    "title": "Visual Identity",
+    "permalink": "/Hackathon-Transpetro/docs/docs/solucao_problema/identidade_visual"
+  }
+}

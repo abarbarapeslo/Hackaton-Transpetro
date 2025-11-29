@@ -1,0 +1,203 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Hackathon-Transpetro/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Hackathon-Transpetro/docs",
+          "mainDocId": "overview",
+          "docs": [
+            {
+              "id": "compreensao_usuario/jornada_usuario",
+              "path": "/Hackathon-Transpetro/docs/compreensao_usuario/jornada_usuario",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "compreensao_usuario/personas",
+              "path": "/Hackathon-Transpetro/docs/compreensao_usuario/personas",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "compreensao_usuario/publico_alvo",
+              "path": "/Hackathon-Transpetro/docs/compreensao_usuario/publico_alvo",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "entendimento_problema/analise_negocios",
+              "path": "/Hackathon-Transpetro/docs/entendimento_problema/analise_negocios",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "entendimento_problema/mapeamento_problema",
+              "path": "/Hackathon-Transpetro/docs/entendimento_problema/mapeamento_problema",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "equipe",
+              "path": "/Hackathon-Transpetro/docs/equipe",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/back_end",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/back_end",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/banco_de_dados",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/banco_de_dados",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/Blockchain",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/Blockchain",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/devops",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/devops",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/front_end",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/front_end",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/infraestrutura",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/infraestrutura",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/machine_learning",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/machine_learning",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implementacao_tecnica/seguranca",
+              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/seguranca",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/Hackathon-Transpetro/docs/intro",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "overview",
+              "path": "/Hackathon-Transpetro/docs/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "plano_negocio/analise_financeira",
+              "path": "/Hackathon-Transpetro/docs/plano_negocio/analise_financeira",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "plano_negocio/analise_mercado",
+              "path": "/Hackathon-Transpetro/docs/plano_negocio/analise_mercado",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "plano_negocio/estrategia_distribuicao",
+              "path": "/Hackathon-Transpetro/docs/plano_negocio/estrategia_distribuicao",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "plano_negocio/metricas",
+              "path": "/Hackathon-Transpetro/docs/plano_negocio/metricas",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "plano_negocio/plano_monetizacao",
+              "path": "/Hackathon-Transpetro/docs/plano_negocio/plano_monetizacao",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "roadmap",
+              "path": "/Hackathon-Transpetro/docs/roadmap",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/arquitetura_solucao",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/arquitetura_solucao",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/fluxo_dados",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/fluxo_dados",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/identidade_visual",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/identidade_visual",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/modelagem_dados",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/modelagem_dados",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/proposta_valor",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/proposta_valor",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/requisitos/requisitos_funcionais",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "solucao_problema/requisitos/requisitos_nao_funcionais",
+              "path": "/Hackathon-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/problem-understanding",
+              "path": "/Hackathon-Transpetro/docs/category/problem-understanding",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/user-understanding",
+              "path": "/Hackathon-Transpetro/docs/category/user-understanding",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/proposed-solution",
+              "path": "/Hackathon-Transpetro/docs/category/proposed-solution",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/requirements",
+              "path": "/Hackathon-Transpetro/docs/category/requirements",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/technical-implementation",
+              "path": "/Hackathon-Transpetro/docs/category/technical-implementation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/business-plan",
+              "path": "/Hackathon-Transpetro/docs/category/business-plan",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/Hackathon-Transpetro/docs/",
+                "label": "Overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

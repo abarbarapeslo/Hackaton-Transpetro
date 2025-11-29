@@ -1,0 +1,27 @@
+{
+  "id": "docs/plano_negocio/metricas",
+  "title": "Evaluation metrics",
+  "description": "Contextualization",
+  "source": "@site/docs/docs/plano_negocio/metricas.md",
+  "sourceDirName": "docs/plano_negocio",
+  "slug": "/docs/plano_negocio/metricas",
+  "permalink": "/Hackathon-Transpetro/docs/docs/plano_negocio/metricas",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Evaluation metrics"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Distribution Strategy",
+    "permalink": "/Hackathon-Transpetro/docs/docs/plano_negocio/estrategia_distribuicao"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/Hackathon-Transpetro/docs/docs/roadmap"
+  }
+}

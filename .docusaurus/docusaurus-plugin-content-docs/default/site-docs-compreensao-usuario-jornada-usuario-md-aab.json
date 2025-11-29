@@ -1,0 +1,27 @@
+{
+  "id": "compreensao_usuario/jornada_usuario",
+  "title": "User Journey",
+  "description": "Understanding",
+  "source": "@site/docs/compreensao_usuario/jornada_usuario.md",
+  "sourceDirName": "compreensao_usuario",
+  "slug": "/compreensao_usuario/jornada_usuario",
+  "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/jornada_usuario",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "User Journey",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Personas",
+    "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/personas"
+  },
+  "next": {
+    "title": "Proposed Solution",
+    "permalink": "/Hackathon-Transpetro/docs/category/proposed-solution"
+  }
+}

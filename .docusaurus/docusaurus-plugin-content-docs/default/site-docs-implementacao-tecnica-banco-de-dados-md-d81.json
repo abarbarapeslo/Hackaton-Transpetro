@@ -1,0 +1,27 @@
+{
+  "id": "implementacao_tecnica/banco_de_dados",
+  "title": "Data Architecture",
+  "description": "Storage Layer",
+  "source": "@site/docs/implementacao_tecnica/banco_de_dados.md",
+  "sourceDirName": "implementacao_tecnica",
+  "slug": "/implementacao_tecnica/banco_de_dados",
+  "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/banco_de_dados",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "title": "Data Architecture"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Technical Implementation",
+    "permalink": "/Hackathon-Transpetro/docs/category/technical-implementation"
+  },
+  "next": {
+    "title": "Frontend",
+    "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/front_end"
+  }
+}

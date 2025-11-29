@@ -1,0 +1,24 @@
+{
+  "id": "equipe",
+  "title": "Equipe",
+  "description": "&emsp;&emsp; O \"nome do projeto\" é composto por quatro inovadores em tecnologia. A equipe combina experiência prática em tecnologia, empreendedorismo, design de produtos e execução de soluções. Abaixo, apresentamos os membros da equipe:",
+  "source": "@site/docs/equipe.md",
+  "sourceDirName": ".",
+  "slug": "/equipe",
+  "permalink": "/Hackathon-Transpetro/docs/equipe",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Equipe",
+    "sidebar_label": "Equipe",
+    "sidebar_position": 8
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Roadmap",
+    "permalink": "/Hackathon-Transpetro/docs/roadmap"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "docs/plano_negocio/analise_mercado",
+  "title": "Market Analysis",
+  "description": "Contextualization",
+  "source": "@site/docs/docs/plano_negocio/analise_mercado.md",
+  "sourceDirName": "docs/plano_negocio",
+  "slug": "/docs/plano_negocio/analise_mercado",
+  "permalink": "/Hackathon-Transpetro/docs/docs/plano_negocio/analise_mercado",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Market Analysis"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Business Plan",
+    "permalink": "/Hackathon-Transpetro/docs/category/business-plan-1"
+  },
+  "next": {
+    "title": "Financing Analysis",
+    "permalink": "/Hackathon-Transpetro/docs/docs/plano_negocio/analise_financeira"
+  }
+}

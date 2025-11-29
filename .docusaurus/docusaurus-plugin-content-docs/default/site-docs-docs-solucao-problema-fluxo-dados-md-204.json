@@ -1,0 +1,27 @@
+{
+  "id": "docs/solucao_problema/fluxo_dados",
+  "title": "Data Flow",
+  "description": "Introduction",
+  "source": "@site/docs/docs/solucao_problema/fluxo_dados.md",
+  "sourceDirName": "docs/solucao_problema",
+  "slug": "/docs/solucao_problema/fluxo_dados",
+  "permalink": "/Hackathon-Transpetro/docs/docs/solucao_problema/fluxo_dados",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Data Flow"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Solution Architecture",
+    "permalink": "/Hackathon-Transpetro/docs/docs/solucao_problema/arquitetura_solucao"
+  },
+  "next": {
+    "title": "Data Modeling",
+    "permalink": "/Hackathon-Transpetro/docs/docs/solucao_problema/modelagem_dados"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "blog/2021-08-26-welcome/index",
+  "title": "Welcome",
+  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "source": "@site/docs/blog/2021-08-26-welcome/index.md",
+  "sourceDirName": "blog/2021-08-26-welcome",
+  "slug": "/blog/2021-08-26-welcome/welcome",
+  "permalink": "/Hackathon-Transpetro/docs/blog/2021-08-26-welcome/welcome",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "inline": true,
+      "label": "facebook",
+      "permalink": "/Hackathon-Transpetro/docs/tags/facebook"
+    },
+    {
+      "inline": true,
+      "label": "hello",
+      "permalink": "/Hackathon-Transpetro/docs/tags/hello"
+    },
+    {
+      "inline": true,
+      "label": "docusaurus",
+      "permalink": "/Hackathon-Transpetro/docs/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "slorber",
+      "yangshun"
+    ],
+    "tags": [
+      "facebook",
+      "hello",
+      "docusaurus"
+    ]
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "MDX Blog Post",
+    "permalink": "/Hackathon-Transpetro/docs/blog/mdx-blog-post"
+  }
+}

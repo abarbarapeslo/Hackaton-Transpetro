@@ -1,0 +1,27 @@
+{
+  "id": "solucao_problema/arquitetura_solucao",
+  "title": "Solution Architecture",
+  "description": "Introduction",
+  "source": "@site/docs/solucao_problema/arquitetura_solucao.md",
+  "sourceDirName": "solucao_problema",
+  "slug": "/solucao_problema/arquitetura_solucao",
+  "permalink": "/Hackathon-Transpetro/docs/solucao_problema/arquitetura_solucao",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Solution Architecture"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Non-Functional Requirements",
+    "permalink": "/Hackathon-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais"
+  },
+  "next": {
+    "title": "Data Flow",
+    "permalink": "/Hackathon-Transpetro/docs/solucao_problema/fluxo_dados"
+  }
+}
