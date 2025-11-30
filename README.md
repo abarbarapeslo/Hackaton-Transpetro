@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="/static/img/nautilus_vs_white.png" alt="Nautilus" width="600">
+  <img src="/static/img/nautilus_logo.svg" alt="Nautilus" width="600">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <div align="center">
-  <img src="/static/img/nautilus_vs_white.png" alt="Nautilus" width="800">
+  <img src="/static/img/nautilus_logo.svg" alt="Nautilus" width="800">
 </div>
 
 ## Membros da Equipe
