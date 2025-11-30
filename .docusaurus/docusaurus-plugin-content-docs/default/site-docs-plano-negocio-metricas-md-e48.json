@@ -1,7 +1,7 @@
 {
   "id": "plano_negocio/metricas",
   "title": "Métricas de Avaliação",
-  "description": "Contextualization",
+  "description": "Contextualização",
   "source": "@site/docs/plano_negocio/metricas.md",
   "sourceDirName": "plano_negocio",
   "slug": "/plano_negocio/metricas",
@@ -17,7 +17,7 @@
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Estratégia de Distribuição",
+    "title": "Estratégia de Implementação e Adoção",
     "permalink": "/Hackaton-Transpetro/docs/plano_negocio/estrategia_distribuicao"
   },
   "next": {

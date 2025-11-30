@@ -1,0 +1,27 @@
+{
+  "id": "proposito_solucao/requisitos/requisitos_funcionais",
+  "title": "Requisitos Funcionais",
+  "description": "Contextualização",
+  "source": "@site/docs/proposito_solucao/requisitos/requisitos_funcionais.md",
+  "sourceDirName": "proposito_solucao/requisitos",
+  "slug": "/proposito_solucao/requisitos/requisitos_funcionais",
+  "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Requisitos Funcionais"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Requisitos",
+    "permalink": "/Hackaton-Transpetro/docs/category/requisitos"
+  },
+  "next": {
+    "title": "Requerimentos Não-Funcionais",
+    "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais"
+  }
+}

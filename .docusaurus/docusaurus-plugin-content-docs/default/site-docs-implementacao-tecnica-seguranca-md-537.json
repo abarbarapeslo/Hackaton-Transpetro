@@ -1,6 +1,6 @@
 {
   "id": "implementacao_tecnica/seguranca",
-  "title": "Security",
+  "title": "Segurança",
   "description": "Introdução",
   "source": "@site/docs/implementacao_tecnica/seguranca.md",
   "sourceDirName": "implementacao_tecnica",
@@ -10,15 +10,15 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 5,
-    "title": "Security"
+    "sidebar_position": 6,
+    "title": "Segurança"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Infrastructure Planning",
-    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura"
+    "title": "Back End",
+    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/back_end"
   },
   "next": {
     "title": "DevOps",

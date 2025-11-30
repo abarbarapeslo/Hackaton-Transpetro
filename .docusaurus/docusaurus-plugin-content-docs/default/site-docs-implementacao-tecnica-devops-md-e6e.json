@@ -1,7 +1,7 @@
 {
   "id": "implementacao_tecnica/devops",
   "title": "DevOps",
-  "description": "Introduction",
+  "description": "DevOps no Nautilus",
   "source": "@site/docs/implementacao_tecnica/devops.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/devops",
@@ -10,18 +10,18 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 6,
+    "sidebar_position": 7,
     "title": "DevOps"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Security",
+    "title": "Segurança",
     "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca"
   },
   "next": {
-    "title": "AgroScore",
+    "title": "Machine Learning",
     "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning"
   }
 }

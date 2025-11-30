@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/Hackaton-Transpetro/docs',
-    component: ComponentCreator('/Hackaton-Transpetro/docs', '0aa'),
+    component: ComponentCreator('/Hackaton-Transpetro/docs', '520'),
     routes: [
       {
         path: '/Hackaton-Transpetro/docs',
-        component: ComponentCreator('/Hackaton-Transpetro/docs', '4cc'),
+        component: ComponentCreator('/Hackaton-Transpetro/docs', '99d'),
         routes: [
           {
             path: '/Hackaton-Transpetro/docs',
-            component: ComponentCreator('/Hackaton-Transpetro/docs', '634'),
+            component: ComponentCreator('/Hackaton-Transpetro/docs', '458'),
             routes: [
               {
                 path: '/Hackaton-Transpetro/docs',
@@ -200,50 +200,50 @@ export default [
                 sidebar: "defaultSidebar"
               },
               {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao', '6d6'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados', 'b64'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual', '44a'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados', '1f1'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/proposta_valor',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/proposta_valor', 'e35'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais', '0a0'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
+                path: '/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais', '9a5'),
+                exact: true,
+                sidebar: "defaultSidebar"
+              },
+              {
                 path: '/Hackaton-Transpetro/docs/roadmap',
                 component: ComponentCreator('/Hackaton-Transpetro/docs/roadmap', 'e59'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao', 'a1e'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/fluxo_dados',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/fluxo_dados', 'e3e'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/identidade_visual',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/identidade_visual', '6b4'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/modelagem_dados',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/modelagem_dados', 'b3d'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/proposta_valor',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/proposta_valor', 'c36'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais', 'c88'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais', 'e61'),
                 exact: true,
                 sidebar: "defaultSidebar"
               }

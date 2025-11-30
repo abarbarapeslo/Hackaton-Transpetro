@@ -12,14 +12,19 @@ As personas abaixo representam os **três perfis principais** que interagem com 
 
 ---
 
-##  Carlos – Operador do Centro de Operações (COT)
+## Carlos – Operador do Centro de Operações (COT)
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 350}} alt="Operador Centro de Operações" />
-        <br/>
-    </div>
+    <img
+      src={require('@site/static/img/carlo_persona.png').default}
+      style={{width: 1024}}
+      alt="Operador Centro de Operações"
+    />
+    <br/>
+  </div>
 </div>
+
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ### 👨‍💻 Quem é Carlos?
@@ -49,10 +54,15 @@ As personas abaixo representam os **três perfis principais** que interagem com 
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 350}} alt="Engenheiro Naval" />
-        <br/>
-    </div>
+    <img
+      src={require('@site/static/img/rafael_persona.png').default}
+      style={{width: 1024}}
+      alt="Engenheiro Naval"
+    />
+    <br/>
+  </div>
 </div>
+
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ### 👷 Quem é Rafael?
@@ -82,10 +92,15 @@ As personas abaixo representam os **três perfis principais** que interagem com 
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 350}} alt="Analista de Eficiência Energética" />
-        <br/>
-    </div>
+    <img
+      src={require('@site/static/img/ana_persona.png').default}
+      style={{width: 1024}}
+      alt="Analista de Eficiência Energética"
+    />
+    <br/>
+  </div>
 </div>
+
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ### 👩‍🔬 Quem é Ana?
@@ -121,4 +136,3 @@ As personas abaixo representam os **três perfis principais** que interagem com 
 - Transparência para relatórios ESG  
 
 ---
-

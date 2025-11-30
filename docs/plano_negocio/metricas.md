@@ -3,31 +3,72 @@ sidebar_position: 5
 title: Métricas de Avaliação
 ---
 
-## Contextualization
+## Contextualização
 
-&emsp;To measure Reevo's success, we will use a combination of **quantitative** indicators (focused on volume and financial health) and **qualitative** indicators (focused on satisfaction and impact), aligned with the Functional Requirements (RFs) and User Journeys (Sérgio and Marina).
-
-## Quantitative Indicators (Performance and Financial)
-&emsp;These indicators prove the economic viability and market scale of the platform.
-
-| Indicator | How it will be measured | Goal/Success Parameter |
-| :--- | :--- | :--- |
-| **Gross Merchandise Volume (GMV)** | Total sum of loans requested and financed (CPR signed) by Farmers over a period. | **Year 1 Goal:** R$ 10 million (Market Validation). **Growth:** Achieve 150% GMV growth in Year 2. |
-| **Default Rate** | Percentage of the total loan volume that is past due by more than 90 days (RF-AGR-006). | Maintain below **5%** after the first complete crop cycle, proving the effectiveness of **AgroScore**. |
-| **Customer Acquisition Cost (CAC)** | Total investment in marketing/sales divided by the number of new active Farmers and Investors. | Maintain CAC below **15% of the LTV** (Lifetime Value) of the average customer, ensuring scalability. |
-| **Reinvestment Rate (Investor)** | Percentage of Investors who reinvest their returns on the platform into a new opportunity in the subsequent month (RF-INV-005). | Greater than **70%**, indicating high satisfaction and confidence in the net yield and impact model. |
-| **Average Credit Analysis Time** | Average time (in minutes) from the Farmer's document submission until the AgroScore is generated (RF-AGR-002). | Maintain below **5 minutes** for 98% of requests, proving the speed differential. |
-| **Funding Fraction (Marketplace)** | Percentage of loan requests that achieve 100% funding within the stipulated deadline. | Greater than **85%**, ensuring that the Farmer's demand is consistently met. |
+&emsp;Para medir o sucesso do **Nautilus**, utilizaremos um conjunto de métricas **quantitativas** (focadas em eficiência operacional, consumo e manutenção) e **qualitativas** (focadas na adoção e percepção de valor pelas equipes).  
+Essas métricas estão alinhadas às necessidades das personas: Carlos (COT), Rafael (Engenharia Naval) e Ana (Eficiência Energética).
 
 ---
 
-## 2. Qualitative Indicators (Satisfaction and Perceived Value)
+## 1. Indicadores Quantitativos (Operacionais e Energéticos)
 
-&emsp;These indicators assess user experience and the intangible impact of the solution.
+&emsp;São os indicadores que demonstram o impacto direto do Nautilus na **redução de custos**, **melhoria energética** e **otimização de rotas e manutenção**.
 
-| Indicator | How it will be measured | Goal/Success Parameter |
+### **Desempenho Operacional**
+
+| Indicador | Como é medido | Meta / Parâmetro de Sucesso |
 | :--- | :--- | :--- |
-| **Net Promoter Score (NPS)** | Quick survey from 0 to 10 asking users the likelihood of recommending Reevo to a friend/colleague. | **NPS** above **50**, indicating high loyalty and satisfaction (especially after the first funding/investment). |
-| **Journey Completion Rate** | Percentage of users who start registration (RF-CAD-001) and complete it, or who start a loan request and finalize it (RF-AGR-001). | **Onboarding completion rate** greater than **80%**, reflecting the platform's usability. |
-| **Legal Compliance Feedback** | Collection of *feedback* from Registry Offices regarding the acceptance and registration process of the **Digital CPR (ICP-Brasil)**. | **Zero rejections** of the digital CPR due to non-compliance, proving the legal robustness of the solution (RF-AGR-003). |
-| **Engagement with Impact Reports** | Number of Investors who access or download the **Impact Reports (RF-INV-007)** monthly. | More than **50%** of active Investors accessing the reports, validating the value of the ESG differential. |
+| **Precisão da Estimativa de Fouling** | Comparação entre fouling previsto × fouling observado após limpeza/inspeção. | Acurácia acima de **85%** após os primeiros 6 meses. |
+| **Redução de Perda Hidrodinâmica** | Comparação entre consumo previsto sem fouling × consumo real após limpeza oportuna. | Redução média de **2%–5%** no consumo por navio/ano. |
+| **Consumo Evitado** | Cálculo energético indicando kg de combustível economizado por correções antecipadas. | Economia anual acima de **R$ 300k/navio** (variável). |
+| **Tempo para Geração de Indicadores** | Latência média do sistema para cálculos e atualizações. | Atualizações em **< 5 minutos** por processamento. |
+
+---
+
+### **Manutenção e Planejamento**
+
+| Indicador | Como é medido | Meta / Parâmetro de Sucesso |
+| :--- | :--- | :--- |
+| **Previsibilidade de Limpezas** | Aderência entre data sugerida × data realmente executada. | Aderência superior a **75%** no primeiro ano. |
+| **Redução de Limpezas Desnecessárias** | Quantidade de limpezas antecipadas ou adiadas com base nas previsões. | Redução de **10%–20%** em limpezas fora do momento ideal. |
+| **Disponibilidade Operacional da Frota** | Horas de operação disponíveis após otimização de limpeza/docagem. | Aumento de **2%–3%** na disponibilidade. |
+
+---
+
+### **Eficiência Energética e ESG**
+
+| Indicador | Como é medido | Meta / Parâmetro de Sucesso |
+| :--- | :--- | :--- |
+| **CO₂ Evitado** | Cálculo direto do consumo evitado × fator de emissão. | Redução entre **1%–4%** nas emissões por navio/ano. |
+| **KPIs de Intensidade Energética** | kWh/t·milha antes × depois da implementação do Nautilus. | Queda contínua trimestre a trimestre. |
+| **Conformidade NORMAM 401** | Número de alertas ou não conformidades detectadas. | **Zero não conformidades** após adoção total. |
+
+---
+
+## 2. Indicadores Qualitativos (Adoção e Valor Percebido)
+
+&emsp;Avaliam a aceitação do sistema pelas equipes e o impacto prático no fluxo operacional.
+
+| Indicador | Como é medido | Meta / Parâmetro de Sucesso |
+| :--- | :--- | :--- |
+| **Adoção pelo COT** | Frequência de uso dos painéis e alertas por operadores. | Uso diário por **> 80%** dos operadores ativos. |
+| **Satisfação da Engenharia Naval** | Feedback após ciclos de docagem e limpezas sugeridas. | Índice de satisfação **> 85%** no primeiro ano. |
+| **Clareza dos Indicadores Energéticos (Ana)** | Pesquisa interna sobre entendimento e utilidade dos KPIs. | Percepção de clareza **> 90%**. |
+| **Redução de Retrabalho Operacional** | Feedback qualitativo do COT e engenharia. | Redução percebida de retrabalho e inconsistências. |
+| **Integração com o Fluxo Operacional** | Avaliação de aderência aos processos atuais da Transpetro. | Integração considerada “natural” por **> 70%** dos usuários. |
+
+---
+
+## 3. Resultado Esperado
+
+&emsp;Com essas métricas, o Nautilus busca demonstrar claramente seu valor financeiro e operacional, incluindo:
+
+- redução de consumo e emissões,  
+- aumento de eficiência energética,  
+- otimização de limpezas e docagens,  
+- apoio à conformidade ambiental,  
+- melhoria na tomada de decisão operacional.
+
+Esses indicadores permitem medir, acompanhar e justificar o impacto real do Nautilus sobre a frota.
+
+---

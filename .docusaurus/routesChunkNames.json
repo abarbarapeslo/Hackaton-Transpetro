@@ -42,17 +42,17 @@
       "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
     }
   },
-  "/Hackaton-Transpetro/docs-0aa": {
+  "/Hackaton-Transpetro/docs-520": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---hackaton-transpetro-docsaba-e0e"
     }
   },
-  "/Hackaton-Transpetro/docs-4cc": {
+  "/Hackaton-Transpetro/docs-99d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---hackaton-transpetro-docs-20-f-b0e"
   },
-  "/Hackaton-Transpetro/docs-634": {
+  "/Hackaton-Transpetro/docs-458": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/Hackaton-Transpetro/docs-3e7": {
@@ -155,36 +155,36 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---hackaton-transpetro-docs-plano-negocio-plano-monetizacao-2-aa-ed7"
   },
+  "/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao-6d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-arquitetura-solucaob-0-a-3c5"
+  },
+  "/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados-b64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-fluxo-dados-051-088"
+  },
+  "/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual-44a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-identidade-visual-806-a40"
+  },
+  "/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados-1f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-modelagem-dadosd-91-eb3"
+  },
+  "/Hackaton-Transpetro/docs/proposito_solucao/proposta_valor-e35": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-proposta-valor-3-da-c99"
+  },
+  "/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais-0a0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-requisitos-requisitos-funcionais-0-f-9-c99"
+  },
+  "/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais-9a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackaton-transpetro-docs-proposito-solucao-requisitos-requisitos-nao-funcionais-8-d-1-64e"
+  },
   "/Hackaton-Transpetro/docs/roadmap-e59": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---hackaton-transpetro-docs-roadmap-0-df-cf7"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao-a1e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-arquitetura-solucaoad-8-98d"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/fluxo_dados-e3e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-fluxo-dados-165-ad3"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/identidade_visual-6b4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-identidade-visual-3-df-367"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/modelagem_dados-b3d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-modelagem-dados-8-a-7-0a2"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/proposta_valor-c36": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-proposta-valor-348-7f8"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais-c88": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-requisitos-requisitos-funcionais-78-d-212"
-  },
-  "/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais-e61": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-solucao-problema-requisitos-requisitos-nao-funcionaisea-8-251"
   }
 }

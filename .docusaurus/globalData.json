@@ -106,43 +106,43 @@
               "sidebar": "defaultSidebar"
             },
             {
+              "id": "proposito_solucao/arquitetura_solucao",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "proposito_solucao/fluxo_dados",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "proposito_solucao/identidade_visual",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "proposito_solucao/modelagem_dados",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "proposito_solucao/proposta_valor",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/proposta_valor",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "proposito_solucao/requisitos/requisitos_funcionais",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "proposito_solucao/requisitos/requisitos_nao_funcionais",
+              "path": "/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais",
+              "sidebar": "defaultSidebar"
+            },
+            {
               "id": "roadmap",
               "path": "/Hackaton-Transpetro/docs/roadmap",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/arquitetura_solucao",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/fluxo_dados",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/fluxo_dados",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/identidade_visual",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/identidade_visual",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/modelagem_dados",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/modelagem_dados",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/proposta_valor",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/proposta_valor",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/requisitos/requisitos_funcionais",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "solucao_problema/requisitos/requisitos_nao_funcionais",
-              "path": "/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais",
               "sidebar": "defaultSidebar"
             },
             {

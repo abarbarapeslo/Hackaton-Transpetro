@@ -1,7 +1,7 @@
 {
   "id": "implementacao_tecnica/machine_learning",
-  "title": "AgroScore",
-  "description": "Overview and Objective",
+  "title": "Machine Learning",
+  "description": "Introdução",
   "source": "@site/docs/implementacao_tecnica/machine_learning.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/machine_learning",
@@ -10,10 +10,10 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 6,
-    "title": "AgroScore"
+    "sidebar_position": 8,
+    "title": "Machine Learning"
   },
   "sidebar": "defaultSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/devops"
   },
   "next": {
-    "title": "back_end",
-    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/back_end"
+    "title": "Plano de Negócio",
+    "permalink": "/Hackaton-Transpetro/docs/category/plano-de-negócio"
   }
 }

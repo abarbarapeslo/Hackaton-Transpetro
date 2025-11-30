@@ -1,7 +1,7 @@
 {
   "id": "implementacao_tecnica/infraestrutura",
-  "title": "Infrastructure Planning",
-  "description": "Introduction",
+  "title": "Plano de Infraestrutura",
+  "description": "Introdução",
   "source": "@site/docs/implementacao_tecnica/infraestrutura.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/infraestrutura",
@@ -10,18 +10,18 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 4,
-    "title": "Infrastructure Planning"
+    "sidebar_position": 2,
+    "title": "Plano de Infraestrutura"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Data Architecture",
+    "title": "Arquitetura de Dados",
     "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/banco_de_dados"
   },
   "next": {
-    "title": "Security",
-    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca"
+    "title": "Back End",
+    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/back_end"
   }
 }

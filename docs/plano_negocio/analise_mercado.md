@@ -3,54 +3,147 @@ sidebar_position: 1
 title: Análise de Mercado
 ---
 
-## Contextualization
+# Análise de Mercado
 
-&emsp; Market Analysis is a fundamental step for understanding the environment in which a product or service will be introduced, allowing for the identification of opportunities, challenges, and consumer behavior. 
+## Contextualização
 
-## Sector Overview
-
-&emsp; Currently, Brazil has consolidated itself as one of the main global agricultural powers, with a history of expanding frontiers and continuously increasing field productivity. This reality **demands a massive volume of financing for agribusiness**, which is divided into working capital credit (purchase of inputs, raw materials), investment credit (acquisition of equipment such as tractors and storage), and commercialization credit.
-
-&emsp; Despite this demand, the Brazilian rural credit market exhibits **significant structural inefficiency**, caused by its **strong dependence on traditional, bureaucratic, and segmented systems**, which historically favor large producers to the detriment of a vast contingent of Small and Medium Producers (PMEs). Although the sector moves **over R$1 trillion annually**, the fragility in credit distribution and the estimated deficit — **especially among PMEs** — create a **substantial opportunity for new credit models**.
+&emsp;A Análise de Mercado permite compreender o ambiente competitivo, a demanda existente e as oportunidades para introdução de um novo produto ou serviço. No caso deste projeto, o foco é entender o cenário do **crédito rural no Brasil**, suas ineficiências estruturais e os movimentos do mercado que possibilitam a entrada de modelos digitais, como o P2P.
 
 ---
-## Market Trends
 
-&emsp; The rural credit market in Brazil is robust and essential for the dynamism of agribusiness, one of the key sectors of the national economy. In 2024, the total applied in rural credit, covering working capital, investment, and commercialization, reached approximately R$ 330.9 billion, a value that represents only a fraction of the ideal financing need, estimated at around R$ 900 billion. This gap **evidences a significant deficit**, especially for **small and medium-sized producers**, who **face difficulties accessing traditional credit** due to **bureaucratic barriers and lack of collateral**.
+# 1. Visão Geral do Setor
 
-&emsp; Plano Safra 2025/2026, the largest to date, made R$ 516.2 billion available to the sector, expanding credit supply and maintaining subsidized interest rates below market levels. Resources are divided between controlled lines, which include government subsidies and feature lower interest, and free lines, whose cost is closer to the market. Despite the expressive increase in subsidized resources, effective disbursement and liquidity still face challenges, with seasonal and regional variations sensitive to economic and climatic performance.
+&emsp;O Brasil consolidou-se como potência agrícola global, com crescente produtividade e expansão territorial. Esse avanço depende diretamente de **financiamento de alto volume**, distribuído em três grandes categorias:
 
-&emsp; In parallel, **the private and digital financing market has been growing rapidly**. **Fintech platforms and peer-to-peer (P2P) models are gaining ground,** offering agility, financial inclusion, and transparency, especially for those not served by the traditional system. The expansion of these digital solutions is driven by the digitalization of processes, integration of public and private data, and the growing interest of investors in financial products linked to agribusiness, especially within **ESG** premises.
+- **Custeio** (insumos, manutenção e safra)  
+- **Investimento** (equipamentos e infraestrutura)  
+- **Comercialização** (armazenagem e logística)
+
+&emsp;Mesmo movimentando **mais de R$ 1 trilhão ao ano**, o setor apresenta **grande deficiência de acesso ao crédito**, especialmente entre **pequenos e médios produtores (PMEs)**. A forte dependência de bancos, a burocracia e a exigência de garantias tradicionais criam exclusão financeira significativa.
+
+&emsp;Esse cenário abre espaço para **novos modelos de crédito**, mais eficientes, digitais e inclusivos.
 
 ---
-## Competitor Analysis
 
-### Credit Models in Agribusiness
+# 2. Tendências do Mercado
 
-**Traditional Credit**
+## 2.1 Déficit Histórico de Crédito
 
-&emsp; The Traditional model is primarily provided by **public and private banks**, cooperatives, and government programs like Pronaf, Pronamp, and BNDES lines. It is based on classic financial analysis, **demands real collateral (land, machinery, harvest), strong bureaucracy, and long release periods**. It presents high volume and reach for large producers but has **low inclusion of small and medium producers** due to **difficulties in access**.
+- Necessidade estimada de financiamento: **~R$ 900 bilhões**  
+- Crédito efetivamente aplicado em 2024: **R$ 330,9 bilhões**
+
+➡️ **Déficit estrutural enorme**, concentrado entre pequenos produtores.
+
+## 2.2 Plano Safra 2025/26
+
+- Total disponibilizado: **R$ 516,2 bilhões**  
+- Juros abaixo do mercado nas linhas controladas  
+- Apesar do volume recorde, ainda há entraves de:
+  - liquidez,
+  - operacionalização,
+  - regionalização,
+  - processamento de análises de risco.
+
+## 2.3 Financiamento Privado e Digital
+
+&emsp;O mercado privado vem crescendo com força, impulsionado por:
+
+- **Fintechs**  
+- **P2P Lending**  
+- **Tokenização de ativos**  
+- **Informações alternativas (IA, satélites, dados públicos)**  
+- **Interesse de investidores ESG**
+
+➡️ Essas soluções oferecem **menos burocracia, maior velocidade** e **transparência**.
+
+---
+
+# 3. Análise Competitiva
+
+## Modelos de Crédito em Agronegócio
+
+### 3.1 Crédito Tradicional (Bancos / Cooperativas)
+
+**Características:**
+
+- Altas exigências de garantias reais  
+- Processo lento e burocrático  
+- Grande volume para grandes produtores  
+- Baixa inclusão de PMEs
 
 :::info
-Data from ITT Brasil indicates that **only 15% of total agricultural financing** offered by traditional banks is distributed among **85% of family farmers**.
+Apenas **15%** do crédito rural dos bancos chega aos **85%** de agricultores familiares (ITT Brasil).
 :::
 
-**Structured Private Market**
+---
 
-&emsp; The structured private market has been gaining relevance rapidly. It consists of **specialized funds**, such as FIAGRO and FIDC, which offer resources to finance large operations, mainly through the securitization of rural receivables. These players are strong in fundraising and have the backing of institutional investors, ensuring security and scale for medium and large operations. However, it **limits access for small producers, with high dependence on the quality and volume of receivables and the manager's operational capacity**.
+### 3.2 Mercado Privado Estruturado (FIAGRO, FIDC)
 
-**P2P Model**
+**Pontos fortes:**
 
-&emsp; The P2P market has gained prominence through digital platforms that promote **peer-to-peer loans** with **risk analysis based on alternative data**. This model facilitates credit access for PMEs and small farmers, offering fractional investments to individual investors. They present **strong potential for growth and innovation**, but are still limited in scale and fundraising compared to the traditional market.
+- Alto nível de segurança  
+- Forte captação com investidores institucionais  
+- Capacidade de financiar grandes operações
 
-### Benchmarking
-&emsp; Below is a **comparative analysis of the main platforms and financing models within the Brazilian rural credit market** that **compete directly or indirectly with the project**. It will explore the positioning, target audience, competitive advantages, and challenges faced by each player, allowing for an understanding of the nuances between traditional modalities, consolidated institutions, and innovative digital solutions that implement peer-to-peer credit models, asset tokenization, and intelligent technologies within the sector. This analysis is fundamental for **identifying opportunities for differentiation and viability against the competition**.
+**Limitações:**
 
-| Plataforma de Crédito | Modelo | Público-Alvo | Diferenciais | Desafios |
-| :-------------------- | :----- | :----------- | :------------ | :------- |
-| Reevo | P2P tokenized | PMEs and retail investors | Multi-dimensional score, staggered release, assisted digital onboarding | Initial fundraising, scalability, regulation |
-| TerraMagna | Distributor financing | Medium and large producers | Satellite analysis, strong collateral | Low presence among PMEs |
-| Agrotoken | Tokenization of grains | Large producers and institutional investors | External audit, bank integration | Difficult adoption by small producers |
-| CrowdFarming | Pre-financing via adoption | Sustainable niches | Transparency, social impact | Low scale, complex logistics |
-| Nagro/Liqi | Tokenization of CCB/CPR | PMEs and P2P investors | AI analysis, digital operations | Limited reach |
-| Bancos públicos | Official subsidized credit | All producers, mainly large ones | Low cost of capital, wide reach, support programs | Bureaucracy, slowness, low inclusion for smaller producers |
+- Acesso restrito ao pequeno produtor  
+- Forte dependência de recebíveis e garantias
+
+---
+
+### 3.3 P2P / Fintechs
+
+**Diferenciais:**
+
+- Uso de dados alternativos  
+- Investimentos fracionados  
+- Operações digitais  
+- Inclusão de pequenos produtores
+
+**Desafios:**
+
+- Escalabilidade  
+- Captação consistente  
+- Regulação
+
+---
+
+# 4. Benchmarking de Plataformas de Crédito
+
+| Plataforma | Modelo | Público-Alvo | Diferenciais | Desafios |
+|-----------|--------|--------------|--------------|----------|
+| **Reevo** | P2P tokenizado | PMEs e investidores pessoa física | Score multidimensional, liberação escalonada, onboarding assistido | Escalabilidade, regulação, captação inicial |
+| **TerraMagna** | Financiamento via distribuidores | Médios e grandes produtores | Análise satelital, forte garantia | Baixa atuação em PMEs |
+| **Agrotoken** | Tokenização de grãos | Grandes produtores e institucionais | Auditorias externas, integração bancária | Adoção difícil para pequenos |
+| **CrowdFarming** | Pré-financiamento com adoção | Agricultura sustentável | Transparência e impacto social | Logística complexa, baixa escala |
+| **Nagro / Liqi** | Tokenização (CCB/CPR) | PMEs e investidores P2P | IA para análise, operações digitais | Alcance limitado |
+| **Bancos Públicos** | Crédito controlado | Todos os produtores | Juros baixíssimos, presença nacional | Burocracia e exclusão dos menores |
+
+---
+
+# 5. Oportunidades Identificadas
+
+- Alta demanda reprimida por crédito entre PMEs  
+- Crescimento contínuo do agronegócio  
+- Busca por investimentos com impacto real (ESG)  
+- Adoção crescente de soluções digitais  
+- Ineficiências do modelo bancário tradicional  
+- Falta de transparência nos modelos atuais  
+
+---
+
+# 6. Conclusão
+
+&emsp;O mercado brasileiro de crédito rural apresenta um **gap bilionário**, principalmente entre pequenos e médios produtores. Esse vazio estrutural, aliado à modernização digital e ao crescente interesse de investidores em ativos ligados ao agronegócio, cria uma oportunidade concreta para soluções **P2P, tokenizadas e baseadas em dados**.
+
+&emsp;A proposta do projeto se encaixa diretamente nessas tendências, oferecendo:
+
+- Inclusão financeira  
+- Agilidade  
+- Transparência  
+- Maior eficiência  
+- Acesso democrático ao capital  
+
+&emsp;Com diferenciais claros e um mercado em expansão, o cenário é favorável para a adoção e crescimento da solução.
+

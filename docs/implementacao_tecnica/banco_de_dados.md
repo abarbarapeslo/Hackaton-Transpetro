@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-title: Data Architecture
+title: Arquitetura de Dados
 ---
 
 ## Storage Layer

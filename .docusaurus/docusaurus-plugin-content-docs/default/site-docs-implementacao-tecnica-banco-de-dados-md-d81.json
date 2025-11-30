@@ -1,6 +1,6 @@
 {
   "id": "implementacao_tecnica/banco_de_dados",
-  "title": "Data Architecture",
+  "title": "Arquitetura de Dados",
   "description": "Storage Layer",
   "source": "@site/docs/implementacao_tecnica/banco_de_dados.md",
   "sourceDirName": "implementacao_tecnica",
@@ -13,7 +13,7 @@
   "sidebarPosition": 0,
   "frontMatter": {
     "sidebar_position": 0,
-    "title": "Data Architecture"
+    "title": "Arquitetura de Dados"
   },
   "sidebar": "defaultSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/Hackaton-Transpetro/docs/category/implementação-técnica"
   },
   "next": {
-    "title": "Infrastructure Planning",
+    "title": "Plano de Infraestrutura",
     "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura"
   }
 }

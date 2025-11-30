@@ -1,76 +1,96 @@
 ---
-sidebar_position: 6
-title: AgroScore
+sidebar_position: 8
+title: Machine Learning
 ---
 
-## Overview and Objective
+## Introdução
 
-The **AgroScore** is Reevo's engine for **automated credit analysis** and a core competitive differentiator. Its objective is to provide a **fast, fair, and data-driven credit risk assessment**, directly addressing requirement **RF-AGR-002**.
+&emsp;O **Machine Learning no Nautilus** tem como objetivo estimar o nível de **fouling**, prever **perda de eficiência hidrodinâmica** e gerar **alertas operacionais** para apoiar Carlos (COT), Rafael (Engenheiro Naval) e Ana (Eficiência Energética).
 
-For the farmer Sérgio, AgroScore means moving away from the subjectivity and slowness of traditional banks and receiving a response in **hours, not weeks**. For the investor Marina, AgroScore translates the complexity of an agricultural profile into a clear and standardized risk metric (**A to E**), allowing her to make informed and confident investment decisions.
-
----
-
-## Focus on Interpretability and Performance
-
-The choice of model type for the MVP is guided by two critical factors in credit systems: **interpretability** (to justify the decision) and **speed**.
-
-| Model Type | Advantages for Reevo | Disadvantages |
-| :--- | :--- | :--- |
-| **Classical Models (Logistic Regression, Gradient Boosting)** | - **High Interpretability:** Allow analysis of the importance of each variable. Essential for **compliance and user feedback**. - **High Performance:** Fast to train and make predictions, ideal for APIs (**RNF-ED-01**). | May not capture extremely complex non-linear relationships in the data. |
-| **Deep Learning (Neural Networks)** | - **Capacity:** Learns very complex and non-linear patterns. | - **Low Interpretability ("Black Box")**, making decision explanation difficult (**regulatory and business risk**). Slower: Requires more data and computational power to train and predict. |
+As previsões permitem decisões mais rápidas sobre velocidade, rotas, consumo e planejamento de limpeza.
 
 ---
 
-## Data Sources (Features)
+## Objetivo do Modelo
 
-AgroScore is powered by a diverse set of data to create a **360º risk profile** of the farmer.
-
-| Feature Category | Data Examples | Source |
-| :--- | :--- | :--- |
-| **Registration Data** | Age, region, marital status. | `usuarios` table (PostgreSQL). |
-| **Property Data** | Hectares, main crop, land tenure (owned/leased). | Application Form (**RF-AGR-001**). |
-| **Historical Production Data** | Revenue from the last cycle (based on Invoices/NFs). | Document Upload (**RF-AGR-001**). |
-| **External Credit Data** | Credit score (Serasa/SPC), debt history. | Credit Bureau APIs (**RNF-C-01**). |
-| **Platform Behavior Data** | Payment history of previous loans on Reevo. | `cprs` and `parcelas` tables (PostgreSQL). |
+- Estimar continuamente o **nível de bioincrustação** no casco.  
+- Prever o impacto no consumo e desempenho do navio.  
+- Antecipar momentos ideais de limpeza e docagem.  
+- Reduzir custos operacionais (combustível + manutenção).  
 
 ---
 
-## Model Lifecycle (MLOps) in the MVP
+## Tipos de Modelos Utilizados
 
-For the MVP, we will adopt a **semi-manual lifecycle**, focused on simplicity and quick validation, with a clear path to future automation.
+| Tipo de Modelo | Por que usar no Nautilus | Limitações |
+|----------------|--------------------------|------------|
+| **Modelos clássicos** (Regressão, Gradient Boosting) | Rápidos, interpretáveis e ideais para explicar causas do aumento de consumo. | Capturam menos relações extremamente complexas. |
+| **Modelos temporais** (Time Series / Forecasting) | Lidam bem com viagem × viagem, tendências e sazonalidade. | Requerem histórico consistente. |
+| **Modelos avançados** (Redes neurais / LSTM) | Capturam padrões hidrodinâmicos longos e não lineares. | Menos interpretáveis e mais pesados. |
 
-**A. Data Collection and Preparation**
-
-Data from the sources above is collected in a batch process. A script extracts data from PostgreSQL and combines it with bureau data, generating a consolidated training dataset.
-
-**B. Model Training and Evaluation**
-
-Training is performed in a development environment, typically a Python file. A developer executes the Python file that performs data cleaning, feature engineering, ML model training, and rigorous evaluation with statistical metrics (e.g., AUC, Precision, Recall). The result is a single trained model file (e.g., `agro_score_model_v1.pkl`).
-
-**C. Artifact Versioning and Storage**
-
-The model file (`.pkl`) and the Python file that generated it are versioned with **Git**. The model artifact itself is stored in an **Object Storage service (S3 compatible)**, following a clear versioning nomenclature (e.g., `s3://Reevo-models/agro_score_model_v1.pkl`).
-
-**D. Model Deployment (Serving):**
-
-The **Credit Analysis Microservice** is configured (via environment variable) with the path to the active model file in Object Storage. Upon startup, the **FastAPI service downloads the model file and loads it into memory**. When a credit analysis request arrives at the API, the service simply calls the `model.predict()` function with the request data.
-
-**Rationale:** This is the deployment pattern with the **lowest latency** and least complexity for the MVP, ensuring that credit analyses are processed in seconds, as per **RF-AGR-002**.
+Para o MVP, priorizamos modelos **interpretáveis e rápidos**.
 
 ---
 
-## Monitoring and Retraining
+## Principais Fontes de Dados (Features)
 
-An ML model can degrade over time (**model drift**). Our monitoring strategy in the MVP will be periodic and semi-manual.
+| Categoria | Exemplos de Variáveis |
+|----------|------------------------|
+| **Operacionais** | Velocidade, torque, potência, RPM, consumo diário. |
+| **Ambientais** | Corrente, vento, temperatura da água, densidade. |
+| **Histórico de Viagens** | Desempenho pré e pós-limpeza, tendências. |
+| **Informações do Casco** | Tipo de pintura, tempo desde última docagem. |
 
-* **Performance Monitoring:** Every cycle (e.g., quarterly), we will analyze the real performance of the loans granted. We will compare the **default rate predicted by the model with the actual rate**. If the model's accuracy drops below a predefined threshold, the retraining process is triggered.
-* **Retraining:** The retraining process follows the same cycle, using an updated dataset with the most recent loan performance data. A new model artifact (`agro_score_model_v2.pkl`) is generated and, after validation, the production service configuration is updated to use the new version.
+Esses dados permitem avaliar a degradação real do casco.
 
-## Future Evolution (Post-MVP)
+---
 
-With business validation, the **MLOps cycle** will evolve into a more automated pipeline:
+## Ciclo de ML no Nautilus (MVP)
 
-* **Feature Store:** Centralization of feature data to ensure consistency between training and prediction.
-* **Automated Training Pipeline:** Use of tools like **MLflow or Kubeflow** to automate training, versioning, and performance logging of the models.
-* **Canary Deploy / A/B Testing:** Deployment of new model versions to a small percentage of traffic, comparing their performance with the old version before releasing it to all users.
+### 1. Coleta e Preparação de Dados
+- Extração de dados operacionais, ambientais e históricos.  
+- Normalização e tratamento de outliers.  
+
+### 2. Treinamento do Modelo
+- Desenvolvimento em ambiente Python.  
+- Testes com métricas como MAE, RMSE e erro percentual.  
+- Geração do modelo final (`fouling_model_v1.pkl`).  
+
+### 3. Versionamento e Armazenamento
+- Código versionado no GitHub.  
+- Modelo armazenado em Object Storage, com versionamento claro.  
+
+### 4. Deploy (Serving)
+- O serviço do Nautilus carrega o modelo na inicialização.  
+- Previsões são feitas em tempo real para cada viagem ou período configurado.  
+
+---
+
+## Monitoramento e Atualização
+
+- **Monitoramento periódico:** comparação entre previsão × consumo real.  
+- **Drift detection:** se o erro ultrapassa o limite, inicia-se retraining.  
+- **Retraining:** novo dataset → novo modelo (`fouling_model_v2.pkl`).  
+- Atualização é simples: só apontar o serviço para a versão nova.
+
+---
+
+## Evolução Futura (Pós-MVP)
+
+- **Automação completa (MLOps):** pipelines de treinamento e deploy.  
+- **Feature Store:** padronização das variáveis usadas pelo modelo.  
+- **Modelos híbridos:** combinação de hidrodinâmica + ML.  
+- **A/B Teste:** validar novos modelos sem arriscar o sistema principal.
+
+---
+
+## Resultado
+
+O Machine Learning torna o Nautilus capaz de:
+
+- prever fouling antes que impacte o consumo,  
+- apoiar decisões de manutenção,  
+- estimar emissões evitadas,  
+- entregar insights confiáveis aos três perfis da Transpetro.
+
+---

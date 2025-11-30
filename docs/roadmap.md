@@ -4,33 +4,58 @@ sidebar_label: "Roadmap"
 sidebar_position: 7
 ---
 
-## Fase 1: Validação (Months 1-12)
+# Roadmap da Solução Nautilus
 
-&emsp;This phase is funded by the **Seed** Round (R$ 4.5 million), focused on proving the *Product-Market Fit* (PMF), mitigating default risk, and validating the usability of the P2P cycle.
+## Fase 1: Validação e MVP Operacional (Meses 1–12)
 
-| Strategic Focus | Technical Implementation Priority (Microservices) | Business and Financial Milestones |
+&emsp;Nesta fase, o objetivo é **validar o modelo preditivo**, comprovar a **viabilidade operacional** e entregar um **MVP funcional** capaz de gerar insights reais sobre bioincrustação para a frota da Transpetro.
+
+| Foco Estratégico | Prioridade Técnica (Microserviços / Pipelines) | Entregas e Métricas |
 | :--- | :--- | :--- |
-| **Risk Mitigation (AgroScore)** | **Credit Analysis Service:** Development and *deployment* of the **Score Engine (ML)** (RF-AGR-002) and integration with Bureaus/Government APIs. | **AgroScore Validation:** Controlled initial rejection rate. |
-| **Legal and Judicial Core** | **Contracts Service:** Generation of the **CPR** and integration with **ICP-Brasil Provider** (RF-AGR-003) and Official Registry (B3/CERC). | **Legalized Asset:** First tokenized and successfully registered CPR. |
-| **Minimum P2P Cycle (MVP)** | **Accounts Service (KYC/Onboarding)** (RF-CAD) and **Digital Wallet Service** (BRL $\leftrightarrow$ USDC On/Off-Ramp RF-INV-001/004) and **Primary Offers Marketplace**. | **GMV Generation:** Achieve **R$ 10 million** in GMV. |
-| **First Payments** | **Notifications Service** and development of the **Asynchronous Distribution Flow** (RF-INV-005) to process the first payments. | **Proof of Value:** 99% of payments distributed correctly (financial error margin). |
+| **Unificação dos Dados Operacionais** | **Vessel Data Service:** Ingestão e normalização de dados AIS, Consumo, IWS e ambiente (Copernicus/NOAA). | **Dataset Integrado:** Base única validada com +90% de completude. |
+| **Primeiro Modelo Preditivo** | **Fouling Estimator Service:** ML para estimar fouling + engine hidrodinâmica. | **Fouling Score:** MVP capaz de classificar o estado do casco. |
+| **MVP do Dashboard** | **Frontend Web:** Telas iniciais para COT, Engenharia e ESG. | **Uso Real:** Dashboard usado em testes com ao menos 3 embarcações. |
+| **Alertas e Insights Iniciais** | **Alert Engine:** Regras básicas de perda de eficiência e arrasto. | **Primeiros Alertas:** +80% de acurácia na detecção de degradação. |
 
-### PhaFasese 2: Escalonamento e Otimização (Months 13-36)
+---
 
-&emsp;Focus on horizontal scalability and increased retention, introducing the DeFi differential and added value for the Investor.
+## Fase 2: Escalonamento e Precisão Operacional (Meses 13–36)
 
-| Strategic Focus | Technical Implementation Priority (Microservices) | Business and Financial Milestones |
+&emsp;Com o MVP validado, a fase 2 foca em **escalabilidade horizontal**, **melhoria da acurácia preditiva**, integração com processos internos e suporte à **tomada de decisão operacional**.
+
+| Foco Estratégico | Prioridade Técnica (Microserviços / Infra) | Entregas e Métricas |
 | :--- | :--- | :--- |
-| **Liquidity and Retention** | **Marketplace Service:** Development of the **Secondary Offers Manager** (RF-INV-003) and integration of the **Staking (Token SEED)** module. | **Capital Attraction:** Default Rate drops to **6%**; Increase in **Reinvestment Rate** to > 70%. |
-| **B2B/ESG Monetization** | **Analysis/Backend Service:** Creation of the **Impact Reports API (RF-INV-007)** and implementation of **Corporate Services** (B2B subscriptions). | **Sustainability:** Achieve **Operational Break-Even** (EBITDA $\ge$ 0) and prepare the platform for the Series A round. |
-| **GMV Growth** | Optimization of CAC via deep integration with **Cooperatives and Agricultural ERPs** APIs. | **Scale:** Achieve **R$ 50 million** in GMV. |
+| **Aumento de Precisão** | **Fouling Estimator v2:** Modelos de time-series, retraining automático, análise espacial do casco. | **Precisão ≥ 90%** nas previsões de degradação. |
+| **Impacto Energético Completo** | **Fuel Impact Service:** Cálculo avançado de consumo, emissões, slip e arrasto. | **Indicadores Integrados:** Custo vs. eficiência vs. emissões. |
+| **Planejamento Avançado de Limpeza** | **Cleaning Forecast Service:** Previsão ótima de janelas de limpeza. | **IWS Planner:** Redução estimada de 10–15% em custos operacionais. |
+| **Escalabilidade e Cloud** | Deploy multi-AZ, uso de K8s, cache distribuído. | **Disponibilidade 99,5%** e latência < 300ms. |
+| **Integração com Times Internos** | APIs para COT, Engenharia Naval, ESG e Sustentabilidade. | **Adoção Operacional:** Nautilus usado diariamente no COT. |
 
-### Phase 3: Liderança e Expansão (Months 37+)
+---
 
-&emsp;Focus on product diversification, regional expansion, and consolidation as the dominant *AgriFintech* market *player*.
+## Fase 3: Liderança, Automação e Expansão (Meses 37+)
 
-| Strategic Focus | Technical Implementation (Innovation and Expansion) | Business and Financial Milestones |
+&emsp;A fase final busca consolidar o Nautilus como **plataforma líder de monitoramento hidrodinâmico**, com expansão regional e automação avançada.
+
+| Foco Estratégico | Prioridade Técnica (Inovação e Expansão) | Entregas e Métricas |
 | :--- | :--- | :--- |
-| **Product Diversification** | Development of the **Variable Income/Harvest Partnership** module (shared risk) and creation of new types of Asset Tokens (e.g., Storage Token). | **Revenue Expansion:** B2B Services and Performance Fee revenue become the majority. |
-| **Full Governance** | Progressive decentralization of Fee/Parameter decisions to **Token SEED holders**. | **Governance Maturity:** Platform operating as a DAO (Decentralized Autonomous Organization). |
-| **Regional Expansion** | Deployment of infrastructure (VPC and K8s) in new regions/countries, with regulatory adaptations. | **Market Leadership:** Consolidation of Reevo as the main digital credit avenue in the SME sector. |
+| **Automação Total do Ciclo** | Engine de recomendações, alertas preditivos e análises automáticas. | **Operações Autônomas:** Sugestões automáticas de rota/velocidade. |
+| **Expansão Regional** | Deploy em novas áreas (Bacia de Santos, Norte/Nordeste), novos parâmetros ambientais. | **Escopo Ampliado:** Cobertura de 100% da frota. |
+| **Modelos Avançados de Fouling** | Modelagem espacial 3D por zona; predição longa (90 dias). | **Eficiência Máxima:** +20% em precisão energética. |
+| **Relatórios ESG + Auditoria Técnica** | Geração automática de relatórios NORMAM 401, emissões evitadas, impacto por limpeza adiada. | **Conformidade Plena:** Nautilus como ferramenta oficial de evidência. |
+| **Suporte a Novos Casos de Uso** | API para manutenção, pintura, revestimentos e materiais antifouling. | **Expansão de Domínio:** Plataforma multiuso de engenharia naval. |
+
+---
+
+## Conclusão
+
+&emsp;O roadmap do **Nautilus** foi projetado para entregar valor desde o primeiro mês, evoluindo progressivamente em direção a uma plataforma:
+
+- robusta,  
+- confiável,  
+- integrada à operação da Transpetro,  
+- e capaz de gerar economia real de combustível e emissões.
+
+&emsp;O objetivo final é transformar o Nautilus no **centro nervoso de monitoramento hidrodinâmico da frota**, apoiando decisões críticas com precisão e inteligência.
+
+---

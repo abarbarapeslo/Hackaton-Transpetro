@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: Data Modeling
+title: Modelagem dos Dados
 ---
 
 ## Introduction

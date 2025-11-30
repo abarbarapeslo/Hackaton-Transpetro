@@ -1,6 +1,6 @@
 {
   "id": "implementacao_tecnica/back_end",
-  "title": "back_end",
+  "title": "Back End",
   "description": "Introdução",
   "source": "@site/docs/implementacao_tecnica/back_end.md",
   "sourceDirName": "implementacao_tecnica",
@@ -10,14 +10,18 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Back End"
+  },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "AgroScore",
-    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning"
+    "title": "Plano de Infraestrutura",
+    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura"
   },
   "next": {
-    "title": "Plano de Negócio",
-    "permalink": "/Hackaton-Transpetro/docs/category/plano-de-negócio"
+    "title": "Segurança",
+    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca"
   }
 }

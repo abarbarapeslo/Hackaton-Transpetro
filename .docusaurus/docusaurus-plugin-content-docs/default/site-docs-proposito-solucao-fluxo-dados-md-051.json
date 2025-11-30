@@ -1,0 +1,27 @@
+{
+  "id": "proposito_solucao/fluxo_dados",
+  "title": "Fluxo de Dados",
+  "description": "Introduction",
+  "source": "@site/docs/proposito_solucao/fluxo_dados.md",
+  "sourceDirName": "proposito_solucao",
+  "slug": "/proposito_solucao/fluxo_dados",
+  "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Fluxo de Dados"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Arquitetura da Solução",
+    "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao"
+  },
+  "next": {
+    "title": "Modelagem dos Dados",
+    "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados"
+  }
+}

@@ -3,54 +3,81 @@ sidebar_position: 3
 title: Plano de Monetização
 ---
 
-## Contextualization
+## Contextualização
 
-&emsp;The Reevo monetization plan is a **hybrid fee-based model**, designed to generate revenue from both sides of the ecosystem (Farmer and Investor), ensuring sustainability and alignment with the success of credit operations.
-
-## Revenue Streams
-
-&emsp;Revenue streams are derived from the Gross Merchandise Volume (GMV), as defined in the Functional Requirements (RF-TAX-001), and the offering of value-added services.
-
-| Source | Description | Strategic Justification |
-| :--- | :--- | :--- |
-| **Origination Fee (RF-TAX-001)** | Charge on the value of each credit operation originated. | Ensures revenue with each concession, covering CAC and the costs of *onboarding* and **AgroScore**. |
-| **Performance Fee (RF-TAX-001)** | Percentage on interest received by investors for each installment paid. | Links revenue to the profitability and recurrence of operations. |
-| **Marketplace Fee (RF-INV-003)** | Fixed commission per operation for selling/buying credit shares in the **Secondary Market**. | Boosts revenue as platform **liquidity** grows, a value-added service for the Investor (Marina). |
+&emsp;O **Nautilus** não é um produto comercializado externamente, mas um sistema interno voltado para **reduzir custos operacionais**, melhorar a eficiência energética da frota e apoiar decisões de manutenção.  
+Assim, seu plano de monetização está baseado em **economia direta**, **evitação de custos** e **ganhos de eficiência**, em linha com metas estratégicas da Transpetro.
 
 ---
 
-## 2. Pricing Model
+## Principais Fontes de Valor Financeiro
 
-&emsp;The pricing model is based on percentage commission, adjusted to risk and market conditions.
+O valor financeiro gerado pelo Nautilus pode ser dividido em três pilares:  
+**economia de combustível**, **otimização de manutenção**, e **redução de emissões** (crédito de carbono/ESG).
 
-| Product/Service | Pricing | Rationale and Competitiveness |
+| Fonte de Valor | Descrição | Benefício Financeiro Direto |
 | :--- | :--- | :--- |
-| **Credit Origination** | **2% to 4%** of the granted value (variable based on **AgroScore** risk). | Allows competitiveness against banks and *fintechs*, while risk variation encourages the producer to improve their score. |
-| **Performance** | **15% to 20%** on gross interest received by the Investor. | Ensures a high margin for the platform and keeps the Investor's **Net Return** attractive compared to fixed income. |
-| **Marketplace Transaction** | **1% to 1.5%** of the transaction value in the Secondary Market. | Low enough fee to stimulate liquidity without burdening the Investor. |
-
-&emsp;The Reevo revenue model mixes **transactional fees and subscriptions**, optimizing adoption for both B2C (Farmer/Individual Investor) and B2B (Cooperatives), and is aligned with the margins and *benchmarks* of P2P platforms and credit *fintechs*.
+| **1. Economia de Combustível** | Previsões de fouling evitam perda de eficiência, permitindo limpeza no momento ideal. | Redução de **2% a 10%** no consumo anual por navio (dependendo do nível de incrustação evitado). |
+| **2. Otimização de Limpezas e Docagens** | Evita limpezas prematuras ou atrasadas; planeja com base em dados reais. | Economia entre **R$ 300k e R$ 1M/ano** em serviços evitados e melhor uso de janelas operacionais. |
+| **3. Redução de Emissões (ESG)** | Monitoramento de CO₂ evita perdas energéticas, apoiando metas ambientais corporativas. | Potencial geração de **créditos de carbono** e redução de multas/regulação. |
+| **4. Redução de Penalidades Operacionais** | Navio com fouling excessivo pode perder performance mínima exigida em contratos. | Evita penalidades contratuais e atrasos — valores significativos em rotas críticas. |
+| **5. Melhor Planejamento de Frota** | Previsões confiáveis melhoram disponibilidade e eficiência. | Aumento da **taxa de utilização** da frota e menor ociosidade. |
 
 ---
 
-## 3. Revenue Growth Projection
+## Modelo de Monetização Interna (ROI)
 
-&emsp;Revenue growth is directly tied to the increase in Gross Merchandise Volume (GMV) and the stabilization of the *default rate* (inadimplência).
+### **Economia Direta (OPEX ↓)**
+A maior monetização do Nautilus vem da **redução de custos operacionais**, especialmente:  
+- combustível (maior parcela do custo operacional),  
+- limpezas e docagens,  
+- manutenção não planejada.
 
-| Horizon | Strategic Focus | Key Milestone |
-| :--- | :--- | :--- |
-| **Short Term (Year 1)** | Focus on platform validation and **AgroScore** stabilization. Revenue dominated by the **Origination Fee**. | **Break-Even Point:** Reached between **8 and 12 months** of operation, proving the sustainability of the model with initial volume. |
-| **Medium Term (Year 2-3)** | **GMV Scaling** (growth >100%), Increase in **Performance Fee** revenue. | **Consistent Profitability and Scalability:** Proving the ability to scale without increasing the *default rate*, generating **positive ROI** and attracting Series A investment. |
-| **Long Term (Year 5+)** | Diversification into new financial products indexed to ESG impact data and advanced *analytics*. | **Market Leadership:** Positioning as the main P2P digital credit *player* for rural SMEs, with high contribution margin. |
+### **Evitação de Custo (CAPEX/OPEX ↓)**
+O planejamento preditivo reduz:  
+- desgaste prematuro de hélices, eixo, motores,  
+- necessidade de repintura frequente,  
+- horas extras de equipes técnicas.
+
+### **Ganhos Estratégicos/Regulatórios**
+- Conformidade contínua com a **NORMAM 401** (menos risco e multas).  
+- Melhor pontuação em indicadores ESG (relatórios, certificações, financiamento verde).  
+- Possibilidade de acessar linhas de crédito incentivado por eficiência energética.
 
 ---
 
-## 4. Financial Risks and Mitigations
-&emsp;The sustainability of Reevo depends on the effective management of risks inherent to P2P credit and fintech operations. The main risks that can impact the cash flow and profitability of the project are detailed below, along with mitigation strategies integrated into the platform to ensure its stability and growth.
+## Estrutura de Projeção de Valor (Simplificada)
 
-| Financial Risk | Mitigation Strategy |
+| Horizonte | Foco Estratégico | Indicador Financeiro |
+| :--- | :--- | :--- |
+| **Curto Prazo (1º ano)** | Validação do modelo de fouling e painéis operacionais. | Economia anual inicial entre **2% a 4%** no consumo. |
+| **Médio Prazo (2 a 3 anos)** | Escala do sistema para toda a frota e melhoria contínua. | Redução acumulada de **5% a 8%** no consumo + docagens otimizadas. |
+| **Longo Prazo (5+ anos)** | Integração com ESG, créditos de carbono e IA avançada. | ROI consolidado com economia anual superior a **R$ 10M a R$ 30M** (dependendo da frota ativa). |
+
+---
+
+## Riscos Financeiros e Mitigações
+
+| Risco | Mitigação |
 | :--- | :--- |
-| **Lower than expected adoption (low GMV)** | **Strategic Partnerships:** Use Cooperatives and Input Resellers for farmer access and ESG channels for Investors. |
-| **Margin reduction due to competition** | **Continuous Innovation:** Maintain technological differentiation (**AgroScore** and **Secondary Market**) and the high value added by **integrated tax compliance**. |
-| **Default Risk Reduces Performance Revenue** | **Risk Governance:** Continuous refinement of the **AgroScore** based on real data and automated collection management. |
-| **Operational/Regulatory Risk** | **Proactive Compliance:** External audit of Smart Contracts and transparent tax reporting (RF-TAX-002) to avoid fines and interruptions. |
+| **Modelo de fouling impreciso no início** | Treinamento contínuo → mais dados → mais precisão. |
+| **Adoção baixa pelas equipes** | Treinamento + interface intuitiva + integração com painéis existentes. |
+| **Falta de dados operacionais completos** | Automatização de ingestão e validação de dados. |
+| **Variações ambientais que impactam previsões** | Inclusão de variáveis ambientais (corrente, temperatura, vento) no modelo. |
+
+---
+
+## Conclusão
+
+&emsp;O plano de monetização do **Nautilus** é baseado na geração de **valor financeiro direto** e **redução de custos operacionais**, não em cobrança externa.  
+Seu impacto se reflete em:
+
+- menor consumo,  
+- menos manutenção,  
+- maior eficiência da frota,  
+- redução de emissões,  
+- e maior previsibilidade operacional.
+
+Um sistema como o Nautilus tende a **se pagar sozinho rapidamente** devido às economias expressivas geradas desde o primeiro ciclo anual.
+
+---

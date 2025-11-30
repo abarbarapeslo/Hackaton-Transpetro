@@ -1,7 +1,7 @@
 {
   "id": "plano_negocio/plano_monetizacao",
   "title": "Plano de Monetização",
-  "description": "Contextualization",
+  "description": "Contextualização",
   "source": "@site/docs/plano_negocio/plano_monetizacao.md",
   "sourceDirName": "plano_negocio",
   "slug": "/plano_negocio/plano_monetizacao",
@@ -21,7 +21,7 @@
     "permalink": "/Hackaton-Transpetro/docs/plano_negocio/analise_financeira"
   },
   "next": {
-    "title": "Estratégia de Distribuição",
+    "title": "Estratégia de Implementação e Adoção",
     "permalink": "/Hackaton-Transpetro/docs/plano_negocio/estrategia_distribuicao"
   }
 }

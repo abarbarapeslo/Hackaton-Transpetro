@@ -1,7 +1,7 @@
 {
   "id": "plano_negocio/estrategia_distribuicao",
-  "title": "Estratégia de Distribuição",
-  "description": "Contextualization",
+  "title": "Estratégia de Implementação e Adoção",
+  "description": "Contextualização",
   "source": "@site/docs/plano_negocio/estrategia_distribuicao.md",
   "sourceDirName": "plano_negocio",
   "slug": "/plano_negocio/estrategia_distribuicao",
@@ -13,7 +13,7 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
-    "title": "Estratégia de Distribuição"
+    "title": "Estratégia de Implementação e Adoção"
   },
   "sidebar": "defaultSidebar",
   "previous": {
