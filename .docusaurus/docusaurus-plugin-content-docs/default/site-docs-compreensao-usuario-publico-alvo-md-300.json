@@ -5,7 +5,7 @@
   "source": "@site/docs/compreensao_usuario/publico_alvo.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/publico_alvo",
-  "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/publico_alvo",
+  "permalink": "/Nautilus/docs/compreensao_usuario/publico_alvo",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Compreensão do Usuário",
-    "permalink": "/Hackathon-Transpetro/docs/category/compreensão-do-usuário"
+    "permalink": "/Nautilus/docs/category/compreensão-do-usuário"
   },
   "next": {
     "title": "Personas",
-    "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/personas"
+    "permalink": "/Nautilus/docs/compreensao_usuario/personas"
   }
 }

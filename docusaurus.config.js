@@ -1,12 +1,12 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
-  title: 'Hackathon Transpetro',
-  tagline: 'Documentação Transpetro',
+  title: 'Nautilus',
+  tagline: 'Documentação Nautilus',
   url: 'https://abarbarapeslo.github.io',
-  baseUrl: '/Hackathon-Transpetro/',
+  baseUrl: '/Nautilus/',
   organizationName: 'abarbarapeslo',
-  projectName: 'Hackathon-Transpetro', // ← MUDEI "Hackaton" → "Hackathon"
+  projectName: 'Nautilus', // ← MUDEI "Hackaton" → "Hackathon"
 
   onBrokenLinks: 'throw',
 
@@ -25,7 +25,7 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'Hackathon Transpetro',
+      title: 'Nautilus',
       items: [{ type: 'docSidebar', sidebarId: 'defaultSidebar', position: 'left', label: 'Docs' }],
     },
   },

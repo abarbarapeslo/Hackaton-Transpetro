@@ -5,7 +5,7 @@
   "source": "@site/docs/solucao_problema/fluxo_dados.md",
   "sourceDirName": "solucao_problema",
   "slug": "/solucao_problema/fluxo_dados",
-  "permalink": "/Hackathon-Transpetro/docs/solucao_problema/fluxo_dados",
+  "permalink": "/Nautilus/docs/solucao_problema/fluxo_dados",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Solution Architecture",
-    "permalink": "/Hackathon-Transpetro/docs/solucao_problema/arquitetura_solucao"
+    "permalink": "/Nautilus/docs/solucao_problema/arquitetura_solucao"
   },
   "next": {
     "title": "Data Modeling",
-    "permalink": "/Hackathon-Transpetro/docs/solucao_problema/modelagem_dados"
+    "permalink": "/Nautilus/docs/solucao_problema/modelagem_dados"
   }
 }

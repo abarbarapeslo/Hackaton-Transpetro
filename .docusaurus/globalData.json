@@ -1,188 +1,188 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/Hackathon-Transpetro/docs",
+      "path": "/Nautilus/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/Hackathon-Transpetro/docs",
+          "path": "/Nautilus/docs",
           "mainDocId": "overview",
           "docs": [
             {
               "id": "compreensao_usuario/jornada_usuario",
-              "path": "/Hackathon-Transpetro/docs/compreensao_usuario/jornada_usuario",
+              "path": "/Nautilus/docs/compreensao_usuario/jornada_usuario",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "compreensao_usuario/personas",
-              "path": "/Hackathon-Transpetro/docs/compreensao_usuario/personas",
+              "path": "/Nautilus/docs/compreensao_usuario/personas",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "compreensao_usuario/publico_alvo",
-              "path": "/Hackathon-Transpetro/docs/compreensao_usuario/publico_alvo",
+              "path": "/Nautilus/docs/compreensao_usuario/publico_alvo",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "entendimento_problema/analise_negocios",
-              "path": "/Hackathon-Transpetro/docs/entendimento_problema/analise_negocios",
+              "path": "/Nautilus/docs/entendimento_problema/analise_negocios",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "entendimento_problema/mapeamento_problema",
-              "path": "/Hackathon-Transpetro/docs/entendimento_problema/mapeamento_problema",
+              "path": "/Nautilus/docs/entendimento_problema/mapeamento_problema",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "equipe",
-              "path": "/Hackathon-Transpetro/docs/equipe",
+              "path": "/Nautilus/docs/equipe",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/back_end",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/back_end",
+              "path": "/Nautilus/docs/implementacao_tecnica/back_end",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/banco_de_dados",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/banco_de_dados",
+              "path": "/Nautilus/docs/implementacao_tecnica/banco_de_dados",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/Blockchain",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/Blockchain",
+              "path": "/Nautilus/docs/implementacao_tecnica/Blockchain",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/devops",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/devops",
+              "path": "/Nautilus/docs/implementacao_tecnica/devops",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/front_end",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/front_end",
+              "path": "/Nautilus/docs/implementacao_tecnica/front_end",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/infraestrutura",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/infraestrutura",
+              "path": "/Nautilus/docs/implementacao_tecnica/infraestrutura",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/machine_learning",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/machine_learning",
+              "path": "/Nautilus/docs/implementacao_tecnica/machine_learning",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "implementacao_tecnica/seguranca",
-              "path": "/Hackathon-Transpetro/docs/implementacao_tecnica/seguranca",
+              "path": "/Nautilus/docs/implementacao_tecnica/seguranca",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "intro",
-              "path": "/Hackathon-Transpetro/docs/intro",
+              "path": "/Nautilus/docs/intro",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "overview",
-              "path": "/Hackathon-Transpetro/docs/",
+              "path": "/Nautilus/docs/",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "plano_negocio/analise_financeira",
-              "path": "/Hackathon-Transpetro/docs/plano_negocio/analise_financeira",
+              "path": "/Nautilus/docs/plano_negocio/analise_financeira",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "plano_negocio/analise_mercado",
-              "path": "/Hackathon-Transpetro/docs/plano_negocio/analise_mercado",
+              "path": "/Nautilus/docs/plano_negocio/analise_mercado",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "plano_negocio/estrategia_distribuicao",
-              "path": "/Hackathon-Transpetro/docs/plano_negocio/estrategia_distribuicao",
+              "path": "/Nautilus/docs/plano_negocio/estrategia_distribuicao",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "plano_negocio/metricas",
-              "path": "/Hackathon-Transpetro/docs/plano_negocio/metricas",
+              "path": "/Nautilus/docs/plano_negocio/metricas",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "plano_negocio/plano_monetizacao",
-              "path": "/Hackathon-Transpetro/docs/plano_negocio/plano_monetizacao",
+              "path": "/Nautilus/docs/plano_negocio/plano_monetizacao",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "roadmap",
-              "path": "/Hackathon-Transpetro/docs/roadmap",
+              "path": "/Nautilus/docs/roadmap",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/arquitetura_solucao",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/arquitetura_solucao",
+              "path": "/Nautilus/docs/solucao_problema/arquitetura_solucao",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/fluxo_dados",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/fluxo_dados",
+              "path": "/Nautilus/docs/solucao_problema/fluxo_dados",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/identidade_visual",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/identidade_visual",
+              "path": "/Nautilus/docs/solucao_problema/identidade_visual",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/modelagem_dados",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/modelagem_dados",
+              "path": "/Nautilus/docs/solucao_problema/modelagem_dados",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/proposta_valor",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/proposta_valor",
+              "path": "/Nautilus/docs/solucao_problema/proposta_valor",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/requisitos/requisitos_funcionais",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais",
+              "path": "/Nautilus/docs/solucao_problema/requisitos/requisitos_funcionais",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "solucao_problema/requisitos/requisitos_nao_funcionais",
-              "path": "/Hackathon-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais",
+              "path": "/Nautilus/docs/solucao_problema/requisitos/requisitos_nao_funcionais",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/entendimento-do-problema",
-              "path": "/Hackathon-Transpetro/docs/category/entendimento-do-problema",
+              "path": "/Nautilus/docs/category/entendimento-do-problema",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/compreensão-do-usuário",
-              "path": "/Hackathon-Transpetro/docs/category/compreensão-do-usuário",
+              "path": "/Nautilus/docs/category/compreensão-do-usuário",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/propósito-da-solução",
-              "path": "/Hackathon-Transpetro/docs/category/propósito-da-solução",
+              "path": "/Nautilus/docs/category/propósito-da-solução",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/requirements",
-              "path": "/Hackathon-Transpetro/docs/category/requirements",
+              "path": "/Nautilus/docs/category/requirements",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/implementação-técnica",
-              "path": "/Hackathon-Transpetro/docs/category/implementação-técnica",
+              "path": "/Nautilus/docs/category/implementação-técnica",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/plano-de-negócio",
-              "path": "/Hackathon-Transpetro/docs/category/plano-de-negócio",
+              "path": "/Nautilus/docs/category/plano-de-negócio",
               "sidebar": "defaultSidebar"
             }
           ],
@@ -190,7 +190,7 @@
           "sidebars": {
             "defaultSidebar": {
               "link": {
-                "path": "/Hackathon-Transpetro/docs/",
+                "path": "/Nautilus/docs/",
                 "label": "Overview"
               }
             }

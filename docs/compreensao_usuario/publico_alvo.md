@@ -7,59 +7,140 @@ sidebar_position: 1
 
 ## Compreensão do Tópico
 
-&emsp;**Reevo** was conceived to connect small and medium-sized farmers with individuals interested in investing directly in the agricultural sector, creating a credit ecosystem that is more agile, transparent, and sustainable. The target audience analysis considers both rural producers demanding financing and investors providing capital, thus ensuring the essential complementarity for the P2P model.
+&emsp;**Nautilus** foi concebido para atender um desafio central da indústria marítima: **monitorar, prever e mitigar a bioincrustação** em navios da frota Transpetro, apoiando decisões de eficiência, segurança e sustentabilidade. O público-alvo reúne desde os profissionais responsáveis por operar e manter embarcações até os agentes estratégicos que supervisionam conformidade ambiental e planejamento operacional.
+
+&emsp;A solução considera tanto quem **vivencia diariamente o impacto da bioincrustação** (tripulação, técnicos, engenheiros), quanto quem **depende de dados confiáveis para decisões corporativas** (gestores, planejadores, equipes de eficiência energética e centros de operações).
 
 ---
 
-## Family Farmers and Rural Producers
+## Equipes Técnicas e Operacionais da Frota Transpetro
 
-&emsp;The first central group of the target audience is composed of family farmers, young rural individuals, and small to medium-scale agro-entrepreneurs. Many own properties up to 50 hectares and operate in crops such as corn, soy, coffee, dairy, and vegetables. This segment faces significant barriers to accessing formal credit, whether due to bureaucracy, collateral requirements, or income variability tied to the harvest cycle.
+&emsp;O primeiro núcleo do público-alvo é composto pelas equipes embarcadas e de apoio técnico em terra, incluindo:
 
-&emsp;For medium-sized producers, who represent a relevant portion of national production, the credit need is linked to inputs, small machinery, irrigation technologies, and productive modernization. These farmers value digital solutions that offer speed, more suitable rates, and greater transparency.
+- Oficiais e tripulação  
+- Engenheiros navais  
+- Mecânicos de bordo  
+- Técnicos de automação e manutenção  
+- Supervisores de operações marítimas  
 
-:::info
-According to the 2017 Agricultural Census (IBGE), family farmers represent 77% of rural establishments in Brazil but access less than 15% of formal rural credit.
-:::
+&emsp;Esses profissionais lidam diretamente com consequências da bioincrustação, como:
 
-&emsp;Furthermore, rural cooperatives and associations emerge as strategic players. They consolidate hundreds of producers and can act as channels for acquiring Reevo users, benefiting from the offer of fairer and more agile credit. Data from OCB (2023) indicates that agricultural cooperatives transacted over R\$ 600 billion in 2023, reinforcing their relevance in the sector.
+- Aumento do consumo específico de combustível  
+- Queda de velocidade e desempenho propulsivo  
+- Vibrações e sobrecarga de sistemas  
+- Alterações no comportamento hidrodinâmico do casco  
+- Riscos de não conformidade com a **NORMAM 401**, que define critérios para bioincrustação aceitável  
 
----
+&emsp;Para esse grupo, Nautilus oferece:
 
-## Individual Investors
-
-&emsp;The other side of the Reevo ecosystem is formed by individuals interested in investing small amounts directly into agricultural operations. This group seeks portfolio diversification, potential returns superior to traditional fixed income, and positive social impact in the rural sector.
-
-&emsp;Among them are local investors, residents of rural areas or small towns, who see Reevo as a way to support the development of their communities. Small and medium-sized urban investors also stand out, attracted by the innovative model, traceability via blockchain, and the clarity of transparent risk models.
-
-:::info
-According to an ANBIMA report (2023), over 5 million Brazilians already invest outside of savings accounts, and interest in alternatives linked to social impact and ESG grows at annual rates above 20%.
-:::
-
----
-
-## Demographic and Behavioral Profile
-
-- Rural Producers: Predominantly 30 to 55 years old, based in the Central-West, South, and Southeast, seeking credit solutions that are fast, simple, and adapted to the agricultural cycle.  
-- Investors: Moderate profile, aged 25 to 45, concentrated in medium and large urban areas, as well as small local centers. They seek digital alternatives with greater transparency, diversification, and social impact.  
-- Both value digital, intuitive, and reliable platforms that combine technological security with real economic benefits.  
+- Diagnóstico contínuo do estado do casco  
+- Detecção antecipada de degradação  
+- Apoio na decisão sobre janelas ideais de limpeza  
+- Redução de custos operacionais por meio de planejamento preditivo  
 
 ---
 
-## Common Problems of the Target Audience
+## Centros de Controle, Engenharia e Eficiência Energética
 
-1. Farmers face difficulty accessing fair credit.  
-2. Lack of adequate collateral limits operations with traditional banks.  
-3. Investors face barriers to diversifying with direct social impact.  
-4. Low transparency and trust in conventional credit agents.  
-5. Demand for solutions that unite technology, sustainability, and financial inclusion.  
+&emsp;Outro público essencial é composto pelos times responsáveis por:
+
+- Planejamento de rotas  
+- Monitoramento da frota  
+- Análise de desempenho (Energy Efficiency Teams)  
+- Gestão de consumo e metas de descarbonização  
+- Sustentabilidade e conformidade regulatória  
+
+&emsp;Esses grupos dependem de dados confiáveis e integrados para:
+
+- **Estimar com precisão impacto energético da bioincrustação**, isolando variáveis como vento, corrente, profundidade e carga transportada  
+- Acompanhar indicadores ambientais e relatórios de emissões  
+- Cumprir regulações internacionais e nacionais  
+- Otimizar programação de docagem, limpeza e manutenção subaquática  
+
+&emsp;Nautilus integra dados AIS, consumo, eventos, inspeções (IWS) e **modelos oceânicos Copernicus** (ex.: **GLOBAL_MULTIYEAR_PHY_001_030**), garantindo maior robustez para análises operacionais e ambientais.
 
 ---
 
-## Bibliographic References
+## Gestores Ambientais e Conformidade
 
-- IBGE. 2017 Agricultural Census. Brasília, 2017.  
-- MAPA. 2023/2024 Harvest Plan. Brasília, 2023.  
-- OCB. Annual Report of Brazilian Cooperatives. Brasília, 2023.  
-- Banco Central do Brasil. Banking Economy Report. Brasília, 2022.  
-- ANBIMA. Individual Investor Report. São Paulo, 2023.  
-- SEBRAE. Family Agribusiness Panorama. Brasília, 2023.
+&emsp;A bioincrustação tem impacto direto sobre:
+
+- Emissões de CO₂  
+- Eficiência energética (EEXI / CII)  
+- Introdução de espécies invasoras  
+- Atendimentos aos requisitos da **NORMAM 401 (Marinha do Brasil)**  
+
+&emsp;Assim, gestores ambientais, compliance e ESG tornam-se um grupo vital para o Nautilus. Eles buscam:
+
+- Evidências técnicas do estado do casco  
+- Transparência sobre evolução da incrustação  
+- Indicadores para relatórios ambientais e auditorias  
+- Redução da pegada de carbono por meio de manutenção otimizada  
+
+---
+
+## Equipes Corporativas (Estratégia, Custos e Planejamento)
+
+&emsp;O impacto da bioincrustação transcende a esfera técnica: afeta custos operacionais, disponibilidade da frota e vida útil de revestimentos anti-incrustantes.  
+Entre os interessados:
+
+- Gerência de Operações  
+- Gerência de Planejamento e Custos  
+- Diretoria de Logística, ESG e Descarbonização  
+- Tomadores de decisão estratégicos  
+
+&emsp;Para esses públicos, Nautilus entrega:
+
+- Projeções financeiras sobre economia de combustível  
+- Cenários comparativos operacionais  
+- Insights para redução de emissões na frota  
+- Otimização do ciclo de manutenção e docagens  
+- Apoio estratégico para iniciativas Net Zero  
+
+---
+
+## Perfil Demográfico e Comportamental
+
+### Perfil Técnico-Operacional
+- Profissionais de 25 a 60 anos  
+- Experiência com operação, manutenção e hidrodinâmica  
+- Alta necessidade de dados práticos e acionáveis  
+- Uso constante de sistemas de monitoramento e relatórios  
+
+### Perfil Gerencial e Estratégico
+- 30 a 55 anos  
+- Orientação a métricas de custo, ESG e performance  
+- Busca por previsibilidade, redução de risco e planejamento robusto  
+- Perfil analítico e foco em tomada de decisão baseada em dados  
+
+### Necessidades Comuns
+- Dados confiáveis e integrados (AIS, consumo, eventos, ambiente, IWS)  
+- Previsões claras sobre degradação do casco  
+- Indicadores que traduzam bioincrustação → consumo → emissões → custo  
+- Soluções que reduzam incerteza e melhorem eficiência da frota  
+
+---
+
+## Principais Problemas Desse Público
+
+1. Falta de monitoramento contínuo do casco → decisões reativas, não preditivas  
+2. Inspeções IWS esporádicas, caras e pouco integradas ao histórico operacional  
+3. Dificuldade em mensurar impacto real da incrustação isolado de vento, ondas e correntes  
+4. Custos elevados com combustível por arrasto hidrodinâmico invisível  
+5. Pressão por conformidade com **NORMAM 401** e metas de descarbonização  
+6. Necessidade de integrar dados dispersos em múltiplas fontes (AIS, sensores, relatórios, Copernicus)  
+
+---
+
+## Referências Bibliográficas
+
+- **Marinha do Brasil — NORMAM 401**: Regras de bioincrustação e critérios de conformidade  
+- **Copernicus Marine Service (CMEMS)**  
+  - GLOBAL_MULTIYEAR_PHY_001_030  
+  - Modelos oceânicos e variáveis ambientais (vento, correntes, ondas)  
+  - https://data.marine.copernicus.eu/products  
+- International Maritime Organization (IMO) — EEXI / CII Guidelines  
+- Transpetro — Relatórios internos de eficiência energética (dados fornecidos no hackaton)  
+- IBAMA — Diretrizes de espécies invasoras e poluição marinha  
+- IPCC — Redução de emissões no transporte marítimo  
+

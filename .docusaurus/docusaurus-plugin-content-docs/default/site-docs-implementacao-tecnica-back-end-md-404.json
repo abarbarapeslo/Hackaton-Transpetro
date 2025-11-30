@@ -5,7 +5,7 @@
   "source": "@site/docs/implementacao_tecnica/back_end.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/back_end",
-  "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/back_end",
+  "permalink": "/Nautilus/docs/implementacao_tecnica/back_end",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "AgroScore",
-    "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/machine_learning"
+    "permalink": "/Nautilus/docs/implementacao_tecnica/machine_learning"
   },
   "next": {
     "title": "Plano de Negócio",
-    "permalink": "/Hackathon-Transpetro/docs/category/plano-de-negócio"
+    "permalink": "/Nautilus/docs/category/plano-de-negócio"
   }
 }

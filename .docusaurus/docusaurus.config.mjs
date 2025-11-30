@@ -4,12 +4,12 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Hackathon Transpetro",
-  "tagline": "Documentação Transpetro",
+  "title": "Nautilus",
+  "tagline": "Documentação Nautilus",
   "url": "https://abarbarapeslo.github.io",
-  "baseUrl": "/Hackathon-Transpetro/",
+  "baseUrl": "/Nautilus/",
   "organizationName": "abarbarapeslo",
-  "projectName": "Hackathon-Transpetro",
+  "projectName": "Nautilus",
   "onBrokenLinks": "throw",
   "presets": [
     [
@@ -22,7 +22,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Hackathon Transpetro",
+      "title": "Nautilus",
       "items": [
         {
           "type": "docSidebar",

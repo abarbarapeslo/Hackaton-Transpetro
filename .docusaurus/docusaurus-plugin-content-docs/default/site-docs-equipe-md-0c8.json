@@ -5,7 +5,7 @@
   "source": "@site/docs/equipe.md",
   "sourceDirName": ".",
   "slug": "/equipe",
-  "permalink": "/Hackathon-Transpetro/docs/equipe",
+  "permalink": "/Nautilus/docs/equipe",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,6 +19,6 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Roadmap",
-    "permalink": "/Hackathon-Transpetro/docs/roadmap"
+    "permalink": "/Nautilus/docs/roadmap"
   }
 }

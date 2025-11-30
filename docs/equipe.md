@@ -12,7 +12,7 @@ sidebar_position: 8
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Davi Nascimento de Jesus" />
+        <img src="/static/img/davi_3.png" style={{width: 1024}} alt="Davi Nascimento de Jesus" />
         <br/>
     </div>
 </div>
@@ -37,7 +37,7 @@ sidebar_position: 8
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Marcos Morais" />
+        <img src="/static/img/marcos_2.png" style={{width: 1024}} alt="Marcos Morais" />
         <br/>
     </div>
 </div>
@@ -63,7 +63,7 @@ sidebar_position: 8
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Bárbara Lopes" />
+        <img src="/static/img/barbara_1.png" style={{width: 1024}} alt="Bárbara Lopes" />
         <br/>
     </div>
 </div>
@@ -88,7 +88,7 @@ sidebar_position: 8
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="David Deodato" />
+        <img src="/static/img/david_4.png" style={{width: 1024}} alt="David Deodato" />
         <br/>
     </div>
 </div>

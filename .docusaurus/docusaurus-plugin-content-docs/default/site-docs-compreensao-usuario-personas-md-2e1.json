@@ -5,7 +5,7 @@
   "source": "@site/docs/compreensao_usuario/personas.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/personas",
-  "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/personas",
+  "permalink": "/Nautilus/docs/compreensao_usuario/personas",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Público Alvo",
-    "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/publico_alvo"
+    "permalink": "/Nautilus/docs/compreensao_usuario/publico_alvo"
   },
   "next": {
     "title": "Jornada do Usuário",
-    "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/jornada_usuario"
+    "permalink": "/Nautilus/docs/compreensao_usuario/jornada_usuario"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/plano_negocio/plano_monetizacao.md",
   "sourceDirName": "plano_negocio",
   "slug": "/plano_negocio/plano_monetizacao",
-  "permalink": "/Hackathon-Transpetro/docs/plano_negocio/plano_monetizacao",
+  "permalink": "/Nautilus/docs/plano_negocio/plano_monetizacao",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Análise Financeira",
-    "permalink": "/Hackathon-Transpetro/docs/plano_negocio/analise_financeira"
+    "permalink": "/Nautilus/docs/plano_negocio/analise_financeira"
   },
   "next": {
     "title": "Estratégia de Distribuição",
-    "permalink": "/Hackathon-Transpetro/docs/plano_negocio/estrategia_distribuicao"
+    "permalink": "/Nautilus/docs/plano_negocio/estrategia_distribuicao"
   }
 }

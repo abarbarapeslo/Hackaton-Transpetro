@@ -5,7 +5,7 @@
   "source": "@site/docs/implementacao_tecnica/machine_learning.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/machine_learning",
-  "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/machine_learning",
+  "permalink": "/Nautilus/docs/implementacao_tecnica/machine_learning",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "DevOps",
-    "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/devops"
+    "permalink": "/Nautilus/docs/implementacao_tecnica/devops"
   },
   "next": {
     "title": "back_end",
-    "permalink": "/Hackathon-Transpetro/docs/implementacao_tecnica/back_end"
+    "permalink": "/Nautilus/docs/implementacao_tecnica/back_end"
   }
 }

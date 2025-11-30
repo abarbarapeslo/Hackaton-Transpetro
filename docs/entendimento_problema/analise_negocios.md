@@ -56,20 +56,9 @@ A análise dos dados fornecidos no hackaton mostra:
 | **Regulatório** | Divergência entre previsão e inspeções oficiais | Algoritmos calibrados com IWS + histórico auditável |
 | **Financeiro** | Falta de clareza no impacto econômico | Modelos que traduzem fouling → litros → R$ com precisão |
 
+
+##
 ---
 
-## Conexão com a Marca Nautilus
 
-&emsp;A identidade Nautilus reforça o propósito da solução:
-
-### **Precisão**
-Leituras contínuas da performance real do casco, detectando pequenas perdas antes que se tornem grandes problemas.
-
-### **Sustentabilidade**
-Menos fouling → menos consumo → menos emissões → mais longevidade do casco.
-
-### **Segurança preditiva**
-Detecção precoce de anomalias que podem comprometer a operação.
-
-&emsp;Nautilus transforma dados operacionais em **decisões inteligentes**, garantindo eficiência, segurança e conformidade ambiental.
 
