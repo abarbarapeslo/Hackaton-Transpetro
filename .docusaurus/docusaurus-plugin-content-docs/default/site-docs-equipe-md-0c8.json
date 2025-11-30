@@ -1,11 +1,11 @@
 {
   "id": "equipe",
   "title": "Equipe",
-  "description": "&emsp;&emsp; O Nautilus é desenvolvido por quatro profissionais multidisciplinares, unindo engenharia de dados, ciência de dados, desenvolvimento de software, design e pesquisa aplicada ao setor marítimo. A equipe combina visão estratégica, capacidade técnica e experiência prática em soluções inovadoras para o setor naval.",
+  "description": "&emsp;&emsp; O projeto Nautilus é composto por quatro inovadores em tecnologia. A equipe combina experiência prática em tecnologia, empreendedorismo, design de produtos e execução de soluções. Abaixo, apresentamos os membros da equipe.",
   "source": "@site/docs/equipe.md",
   "sourceDirName": ".",
   "slug": "/equipe",
-  "permalink": "/Nautilus/docs/equipe",
+  "permalink": "/Hackaton-Transpetro/docs/equipe",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,6 +19,6 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Roadmap",
-    "permalink": "/Nautilus/docs/roadmap"
+    "permalink": "/Hackaton-Transpetro/docs/roadmap"
   }
 }

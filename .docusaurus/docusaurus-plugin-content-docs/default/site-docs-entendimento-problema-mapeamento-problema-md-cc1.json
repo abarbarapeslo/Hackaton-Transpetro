@@ -5,7 +5,7 @@
   "source": "@site/docs/entendimento_problema/mapeamento_problema.md",
   "sourceDirName": "entendimento_problema",
   "slug": "/entendimento_problema/mapeamento_problema",
-  "permalink": "/Nautilus/docs/entendimento_problema/mapeamento_problema",
+  "permalink": "/Hackaton-Transpetro/docs/entendimento_problema/mapeamento_problema",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Entendimento do Problema",
-    "permalink": "/Nautilus/docs/category/entendimento-do-problema"
+    "permalink": "/Hackaton-Transpetro/docs/category/entendimento-do-problema"
   },
   "next": {
     "title": "Análise de Negócio",
-    "permalink": "/Nautilus/docs/entendimento_problema/analise_negocios"
+    "permalink": "/Hackaton-Transpetro/docs/entendimento_problema/analise_negocios"
   }
 }

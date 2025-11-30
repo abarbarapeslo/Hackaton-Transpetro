@@ -1,11 +1,11 @@
 {
   "id": "intro",
   "title": "Introdução",
-  "description": "Introdução do Projeto Nautlus",
+  "description": "Introdução do Projeto Nautilus",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/Nautilus/docs/intro",
+  "permalink": "/Hackaton-Transpetro/docs/intro",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Overview",
-    "permalink": "/Nautilus/docs/"
+    "permalink": "/Hackaton-Transpetro/docs/"
   },
   "next": {
     "title": "Entendimento do Problema",
-    "permalink": "/Nautilus/docs/category/entendimento-do-problema"
+    "permalink": "/Hackaton-Transpetro/docs/category/entendimento-do-problema"
   }
 }

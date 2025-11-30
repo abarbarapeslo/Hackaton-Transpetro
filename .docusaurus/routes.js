@@ -3,259 +3,259 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/Nautilus/__docusaurus/debug',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug', 'e18'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug', 'a16'),
     exact: true
   },
   {
-    path: '/Nautilus/__docusaurus/debug/config',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug/config', 'a6b'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug/config',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/config', '3e8'),
     exact: true
   },
   {
-    path: '/Nautilus/__docusaurus/debug/content',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug/content', '993'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug/content',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/content', 'f34'),
     exact: true
   },
   {
-    path: '/Nautilus/__docusaurus/debug/globalData',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug/globalData', '771'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug/globalData',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/globalData', '6ae'),
     exact: true
   },
   {
-    path: '/Nautilus/__docusaurus/debug/metadata',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug/metadata', 'd40'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug/metadata',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/metadata', '5ca'),
     exact: true
   },
   {
-    path: '/Nautilus/__docusaurus/debug/registry',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug/registry', '7e8'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug/registry',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/registry', '4b2'),
     exact: true
   },
   {
-    path: '/Nautilus/__docusaurus/debug/routes',
-    component: ComponentCreator('/Nautilus/__docusaurus/debug/routes', '4ec'),
+    path: '/Hackaton-Transpetro/__docusaurus/debug/routes',
+    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/routes', '947'),
     exact: true
   },
   {
-    path: '/Nautilus/docs',
-    component: ComponentCreator('/Nautilus/docs', 'e7d'),
+    path: '/Hackaton-Transpetro/docs',
+    component: ComponentCreator('/Hackaton-Transpetro/docs', '3f2'),
     routes: [
       {
-        path: '/Nautilus/docs',
-        component: ComponentCreator('/Nautilus/docs', 'b2b'),
+        path: '/Hackaton-Transpetro/docs',
+        component: ComponentCreator('/Hackaton-Transpetro/docs', 'c65'),
         routes: [
           {
-            path: '/Nautilus/docs',
-            component: ComponentCreator('/Nautilus/docs', 'fbb'),
+            path: '/Hackaton-Transpetro/docs',
+            component: ComponentCreator('/Hackaton-Transpetro/docs', 'ae1'),
             routes: [
               {
-                path: '/Nautilus/docs/',
-                component: ComponentCreator('/Nautilus/docs/', 'c05'),
+                path: '/Hackaton-Transpetro/docs/',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/', 'f20'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/category/compreensão-do-usuário',
-                component: ComponentCreator('/Nautilus/docs/category/compreensão-do-usuário', '8fb'),
+                path: '/Hackaton-Transpetro/docs/category/compreensão-do-usuário',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/compreensão-do-usuário', 'dc2'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/category/entendimento-do-problema',
-                component: ComponentCreator('/Nautilus/docs/category/entendimento-do-problema', 'b44'),
+                path: '/Hackaton-Transpetro/docs/category/entendimento-do-problema',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/entendimento-do-problema', 'e5b'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/category/implementação-técnica',
-                component: ComponentCreator('/Nautilus/docs/category/implementação-técnica', 'e44'),
+                path: '/Hackaton-Transpetro/docs/category/implementação-técnica',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/implementação-técnica', 'f3a'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/category/plano-de-negócio',
-                component: ComponentCreator('/Nautilus/docs/category/plano-de-negócio', 'fdc'),
+                path: '/Hackaton-Transpetro/docs/category/plano-de-negócio',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/plano-de-negócio', '7d6'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/category/propósito-da-solução',
-                component: ComponentCreator('/Nautilus/docs/category/propósito-da-solução', '623'),
+                path: '/Hackaton-Transpetro/docs/category/propósito-da-solução',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/propósito-da-solução', '04f'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/category/requirements',
-                component: ComponentCreator('/Nautilus/docs/category/requirements', '539'),
+                path: '/Hackaton-Transpetro/docs/category/requirements',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/requirements', '9e5'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/compreensao_usuario/jornada_usuario',
-                component: ComponentCreator('/Nautilus/docs/compreensao_usuario/jornada_usuario', '5c9'),
+                path: '/Hackaton-Transpetro/docs/compreensao_usuario/jornada_usuario',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/jornada_usuario', '639'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/compreensao_usuario/personas',
-                component: ComponentCreator('/Nautilus/docs/compreensao_usuario/personas', 'ba1'),
+                path: '/Hackaton-Transpetro/docs/compreensao_usuario/personas',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/personas', 'f70'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/compreensao_usuario/publico_alvo',
-                component: ComponentCreator('/Nautilus/docs/compreensao_usuario/publico_alvo', '787'),
+                path: '/Hackaton-Transpetro/docs/compreensao_usuario/publico_alvo',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/publico_alvo', 'eaf'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/entendimento_problema/analise_negocios',
-                component: ComponentCreator('/Nautilus/docs/entendimento_problema/analise_negocios', '112'),
+                path: '/Hackaton-Transpetro/docs/entendimento_problema/analise_negocios',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/entendimento_problema/analise_negocios', '525'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/entendimento_problema/mapeamento_problema',
-                component: ComponentCreator('/Nautilus/docs/entendimento_problema/mapeamento_problema', '5b7'),
+                path: '/Hackaton-Transpetro/docs/entendimento_problema/mapeamento_problema',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/entendimento_problema/mapeamento_problema', 'f47'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/equipe',
-                component: ComponentCreator('/Nautilus/docs/equipe', 'ee6'),
+                path: '/Hackaton-Transpetro/docs/equipe',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/equipe', '0f6'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/back_end',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/back_end', '88f'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/back_end',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/back_end', '4e8'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/banco_de_dados',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/banco_de_dados', '3fb'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/banco_de_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/banco_de_dados', '0ae'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/Blockchain',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/Blockchain', '6ee'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/Blockchain',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/Blockchain', '0f7'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/devops',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/devops', '012'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/devops',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/devops', 'ae9'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/front_end',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/front_end', 'a9e'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/front_end',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/front_end', 'e13'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/infraestrutura',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/infraestrutura', '176'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura', 'f75'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/machine_learning',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/machine_learning', '7c4'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning', 'b84'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/implementacao_tecnica/seguranca',
-                component: ComponentCreator('/Nautilus/docs/implementacao_tecnica/seguranca', '7df'),
+                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca', '144'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/intro',
-                component: ComponentCreator('/Nautilus/docs/intro', '9dd'),
+                path: '/Hackaton-Transpetro/docs/intro',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/intro', 'da0'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/plano_negocio/analise_financeira',
-                component: ComponentCreator('/Nautilus/docs/plano_negocio/analise_financeira', '1f4'),
+                path: '/Hackaton-Transpetro/docs/plano_negocio/analise_financeira',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/analise_financeira', '614'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/plano_negocio/analise_mercado',
-                component: ComponentCreator('/Nautilus/docs/plano_negocio/analise_mercado', 'dd2'),
+                path: '/Hackaton-Transpetro/docs/plano_negocio/analise_mercado',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/analise_mercado', '390'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/plano_negocio/estrategia_distribuicao',
-                component: ComponentCreator('/Nautilus/docs/plano_negocio/estrategia_distribuicao', 'fcf'),
+                path: '/Hackaton-Transpetro/docs/plano_negocio/estrategia_distribuicao',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/estrategia_distribuicao', '12c'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/plano_negocio/metricas',
-                component: ComponentCreator('/Nautilus/docs/plano_negocio/metricas', '45f'),
+                path: '/Hackaton-Transpetro/docs/plano_negocio/metricas',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/metricas', 'a55'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/plano_negocio/plano_monetizacao',
-                component: ComponentCreator('/Nautilus/docs/plano_negocio/plano_monetizacao', 'f5d'),
+                path: '/Hackaton-Transpetro/docs/plano_negocio/plano_monetizacao',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/plano_monetizacao', '4c6'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/roadmap',
-                component: ComponentCreator('/Nautilus/docs/roadmap', '33c'),
+                path: '/Hackaton-Transpetro/docs/roadmap',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/roadmap', 'e59'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/arquitetura_solucao',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/arquitetura_solucao', '061'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao', 'a1e'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/fluxo_dados',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/fluxo_dados', '214'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/fluxo_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/fluxo_dados', 'e3e'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/identidade_visual',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/identidade_visual', '4fa'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/identidade_visual',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/identidade_visual', '6b4'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/modelagem_dados',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/modelagem_dados', 'fdf'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/modelagem_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/modelagem_dados', 'b3d'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/proposta_valor',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/proposta_valor', '6ac'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/proposta_valor',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/proposta_valor', 'c36'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/requisitos/requisitos_funcionais',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/requisitos/requisitos_funcionais', '47a'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais', 'c88'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Nautilus/docs/solucao_problema/requisitos/requisitos_nao_funcionais',
-                component: ComponentCreator('/Nautilus/docs/solucao_problema/requisitos/requisitos_nao_funcionais', '15d'),
+                path: '/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais', 'e61'),
                 exact: true,
                 sidebar: "defaultSidebar"
               }

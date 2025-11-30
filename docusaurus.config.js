@@ -3,10 +3,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Nautilus',
   tagline: 'Documentação Nautilus',
+
   url: 'https://abarbarapeslo.github.io',
-  baseUrl: '/Nautilus/',
+  baseUrl: '/Hackaton-Transpetro/',
+
   organizationName: 'abarbarapeslo',
-  projectName: 'Nautilus',
+  projectName: 'Hackaton-Transpetro',
 
   onBrokenLinks: 'throw',
 
@@ -34,7 +36,7 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'defaultSidebar', // ou o id que você usa no sidebars.js
+          sidebarId: 'defaultSidebar',
           position: 'left',
           label: 'Docs',
         },

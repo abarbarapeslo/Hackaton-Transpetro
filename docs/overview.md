@@ -8,7 +8,7 @@ sidebar_position: 0
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/static/img/nautilus_logo.svg" style={{width: 1024}} alt="Nautilus" />
+        <img src="/img/nautilus_banner.jpg" style={{width: 1024}} alt="Nautilus" />
         <br/>
     </div>
 </div>

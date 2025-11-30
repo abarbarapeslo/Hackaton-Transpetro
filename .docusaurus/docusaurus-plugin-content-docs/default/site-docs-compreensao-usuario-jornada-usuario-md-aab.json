@@ -5,7 +5,7 @@
   "source": "@site/docs/compreensao_usuario/jornada_usuario.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/jornada_usuario",
-  "permalink": "/Nautilus/docs/compreensao_usuario/jornada_usuario",
+  "permalink": "/Hackaton-Transpetro/docs/compreensao_usuario/jornada_usuario",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Personas",
-    "permalink": "/Nautilus/docs/compreensao_usuario/personas"
+    "permalink": "/Hackaton-Transpetro/docs/compreensao_usuario/personas"
   },
   "next": {
     "title": "Propósito da Solução",
-    "permalink": "/Nautilus/docs/category/propósito-da-solução"
+    "permalink": "/Hackaton-Transpetro/docs/category/propósito-da-solução"
   }
 }

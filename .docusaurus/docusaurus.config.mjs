@@ -7,9 +7,9 @@ export default {
   "title": "Nautilus",
   "tagline": "Documentação Nautilus",
   "url": "https://abarbarapeslo.github.io",
-  "baseUrl": "/Nautilus/",
+  "baseUrl": "/Hackaton-Transpetro/",
   "organizationName": "abarbarapeslo",
-  "projectName": "Nautilus",
+  "projectName": "Hackaton-Transpetro",
   "onBrokenLinks": "throw",
   "presets": [
     [

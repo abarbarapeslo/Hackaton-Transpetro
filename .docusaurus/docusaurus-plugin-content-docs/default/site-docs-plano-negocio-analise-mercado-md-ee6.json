@@ -5,7 +5,7 @@
   "source": "@site/docs/plano_negocio/analise_mercado.md",
   "sourceDirName": "plano_negocio",
   "slug": "/plano_negocio/analise_mercado",
-  "permalink": "/Nautilus/docs/plano_negocio/analise_mercado",
+  "permalink": "/Hackaton-Transpetro/docs/plano_negocio/analise_mercado",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Plano de Negócio",
-    "permalink": "/Nautilus/docs/category/plano-de-negócio"
+    "permalink": "/Hackaton-Transpetro/docs/category/plano-de-negócio"
   },
   "next": {
     "title": "Análise Financeira",
-    "permalink": "/Nautilus/docs/plano_negocio/analise_financeira"
+    "permalink": "/Hackaton-Transpetro/docs/plano_negocio/analise_financeira"
   }
 }
