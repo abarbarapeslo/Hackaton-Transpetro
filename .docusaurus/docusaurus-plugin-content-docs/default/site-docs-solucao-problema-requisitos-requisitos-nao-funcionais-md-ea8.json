@@ -1,7 +1,7 @@
 {
   "id": "solucao_problema/requisitos/requisitos_nao_funcionais",
-  "title": "Non-Functional Requirements",
-  "description": "Contextualization",
+  "title": "Requerimentos Não-Funcionais",
+  "description": "Contextualização",
   "source": "@site/docs/solucao_problema/requisitos/requisitos_nao_funcionais.md",
   "sourceDirName": "solucao_problema/requisitos",
   "slug": "/solucao_problema/requisitos/requisitos_nao_funcionais",
@@ -13,15 +13,15 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "Non-Functional Requirements"
+    "title": "Requerimentos Não-Funcionais"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Functional Requirements",
+    "title": "Requisitos Funcionais",
     "permalink": "/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_funcionais"
   },
   "next": {
-    "title": "Solution Architecture",
+    "title": "Arquitetura da Solução",
     "permalink": "/Hackaton-Transpetro/docs/solucao_problema/arquitetura_solucao"
   }
 }

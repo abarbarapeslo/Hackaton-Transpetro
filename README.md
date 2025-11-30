@@ -37,12 +37,6 @@
           <sub><b>Barbara Lopes</b></sub>
         </a>
       </td>
-      <td align="center">
-        <a href="https://www.linkedin.com/in/david-deodato/">
-          <img src="https://github.com/DavidDeodato.png" style="border-radius: 10%; width: 150px;" alt="David Deodato"/><br>
-          <sub><b>David Deodato</b></sub>
-        </a>
-      </td>
     </tr>
   </table>
 </div>
@@ -137,8 +131,6 @@ _COLOCAR LINK_
 
 - Python (Pandas, NumPy, Scikit-learn)
 - IA/ML para previsão de fouling
-- Docusaurus para documentação técnica
-- GitHub Pages
 - Visualização e análise exploratória
 - Engenharia de dados (merge_asof, normalização temporal)
 - Tratamento de dados AIS, IWS, Consumo e Eventos

@@ -17,8 +17,8 @@
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Blockchain",
-    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/Blockchain"
+    "title": "Data Architecture",
+    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/banco_de_dados"
   },
   "next": {
     "title": "Security",

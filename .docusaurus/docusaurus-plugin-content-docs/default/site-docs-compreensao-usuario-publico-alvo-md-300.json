@@ -1,7 +1,7 @@
 {
   "id": "compreensao_usuario/publico_alvo",
   "title": "Público Alvo",
-  "description": "Compreensão do Tópico",
+  "description": "Visão Geral",
   "source": "@site/docs/compreensao_usuario/publico_alvo.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/publico_alvo",
@@ -17,8 +17,8 @@
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Compreensão do Usuário",
-    "permalink": "/Hackaton-Transpetro/docs/category/compreensão-do-usuário"
+    "title": "Compreensão da Solução",
+    "permalink": "/Hackaton-Transpetro/docs/category/compreensão-da-solução"
   },
   "next": {
     "title": "Personas",

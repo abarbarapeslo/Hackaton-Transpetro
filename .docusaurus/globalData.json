@@ -11,8 +11,8 @@
           "mainDocId": "overview",
           "docs": [
             {
-              "id": "compreensao_usuario/jornada_usuario",
-              "path": "/Hackaton-Transpetro/docs/compreensao_usuario/jornada_usuario",
+              "id": "compreensao_usuario/jornada_solucao",
+              "path": "/Hackaton-Transpetro/docs/compreensao_usuario/jornada_solucao",
               "sidebar": "defaultSidebar"
             },
             {
@@ -51,18 +51,8 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "implementacao_tecnica/Blockchain",
-              "path": "/Hackaton-Transpetro/docs/implementacao_tecnica/Blockchain",
-              "sidebar": "defaultSidebar"
-            },
-            {
               "id": "implementacao_tecnica/devops",
               "path": "/Hackaton-Transpetro/docs/implementacao_tecnica/devops",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implementacao_tecnica/front_end",
-              "path": "/Hackaton-Transpetro/docs/implementacao_tecnica/front_end",
               "sidebar": "defaultSidebar"
             },
             {
@@ -161,8 +151,8 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/compreensão-do-usuário",
-              "path": "/Hackaton-Transpetro/docs/category/compreensão-do-usuário",
+              "id": "/category/compreensão-da-solução",
+              "path": "/Hackaton-Transpetro/docs/category/compreensão-da-solução",
               "sidebar": "defaultSidebar"
             },
             {
@@ -171,8 +161,8 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "/category/requirements",
-              "path": "/Hackaton-Transpetro/docs/category/requirements",
+              "id": "/category/requisitos",
+              "path": "/Hackaton-Transpetro/docs/category/requisitos",
               "sidebar": "defaultSidebar"
             },
             {

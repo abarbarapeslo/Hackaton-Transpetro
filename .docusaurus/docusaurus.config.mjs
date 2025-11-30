@@ -11,13 +11,15 @@ export default {
   "organizationName": "abarbarapeslo",
   "projectName": "Hackaton-Transpetro",
   "onBrokenLinks": "throw",
+  "staticDirectories": [
+    "static"
+  ],
+  "trailingSlash": false,
   "presets": [
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.js"
-        },
+        "docs": {},
         "theme": {}
       }
     ]
@@ -236,9 +238,6 @@ export default {
   },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
   "plugins": [],
   "themes": [],

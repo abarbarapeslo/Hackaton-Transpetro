@@ -39,25 +39,25 @@ export default [
   },
   {
     path: '/Hackaton-Transpetro/docs',
-    component: ComponentCreator('/Hackaton-Transpetro/docs', '3f2'),
+    component: ComponentCreator('/Hackaton-Transpetro/docs', '0aa'),
     routes: [
       {
         path: '/Hackaton-Transpetro/docs',
-        component: ComponentCreator('/Hackaton-Transpetro/docs', 'c65'),
+        component: ComponentCreator('/Hackaton-Transpetro/docs', '4cc'),
         routes: [
           {
             path: '/Hackaton-Transpetro/docs',
-            component: ComponentCreator('/Hackaton-Transpetro/docs', 'ae1'),
+            component: ComponentCreator('/Hackaton-Transpetro/docs', '634'),
             routes: [
               {
-                path: '/Hackaton-Transpetro/docs/',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/', 'f20'),
+                path: '/Hackaton-Transpetro/docs',
+                component: ComponentCreator('/Hackaton-Transpetro/docs', '3e7'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/compreensão-do-usuário',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/compreensão-do-usuário', 'dc2'),
+                path: '/Hackaton-Transpetro/docs/category/compreensão-da-solução',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/compreensão-da-solução', '744'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
@@ -86,14 +86,14 @@ export default [
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/requirements',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/requirements', '9e5'),
+                path: '/Hackaton-Transpetro/docs/category/requisitos',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/category/requisitos', 'bd6'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/compreensao_usuario/jornada_usuario',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/jornada_usuario', '639'),
+                path: '/Hackaton-Transpetro/docs/compreensao_usuario/jornada_solucao',
+                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/jornada_solucao', '8b6'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
@@ -140,20 +140,8 @@ export default [
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/Blockchain',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/Blockchain', '0f7'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
                 path: '/Hackaton-Transpetro/docs/implementacao_tecnica/devops',
                 component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/devops', 'ae9'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/front_end',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/front_end', 'e13'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },

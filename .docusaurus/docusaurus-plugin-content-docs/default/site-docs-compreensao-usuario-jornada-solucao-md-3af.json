@@ -1,0 +1,27 @@
+{
+  "id": "compreensao_usuario/jornada_solucao",
+  "title": "Jornada da Solução",
+  "description": "Compreensão",
+  "source": "@site/docs/compreensao_usuario/jornada_solucao.md",
+  "sourceDirName": "compreensao_usuario",
+  "slug": "/compreensao_usuario/jornada_solucao",
+  "permalink": "/Hackaton-Transpetro/docs/compreensao_usuario/jornada_solucao",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Jornada da Solução",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Personas",
+    "permalink": "/Hackaton-Transpetro/docs/compreensao_usuario/personas"
+  },
+  "next": {
+    "title": "Propósito da Solução",
+    "permalink": "/Hackaton-Transpetro/docs/category/propósito-da-solução"
+  }
+}

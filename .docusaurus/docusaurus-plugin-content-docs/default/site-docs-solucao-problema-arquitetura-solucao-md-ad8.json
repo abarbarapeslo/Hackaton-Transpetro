@@ -1,7 +1,7 @@
 {
   "id": "solucao_problema/arquitetura_solucao",
-  "title": "Solution Architecture",
-  "description": "Introduction",
+  "title": "Arquitetura da Solução",
+  "description": "Introdução",
   "source": "@site/docs/solucao_problema/arquitetura_solucao.md",
   "sourceDirName": "solucao_problema",
   "slug": "/solucao_problema/arquitetura_solucao",
@@ -13,11 +13,11 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "title": "Solution Architecture"
+    "title": "Arquitetura da Solução"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Non-Functional Requirements",
+    "title": "Requerimentos Não-Funcionais",
     "permalink": "/Hackaton-Transpetro/docs/solucao_problema/requisitos/requisitos_nao_funcionais"
   },
   "next": {

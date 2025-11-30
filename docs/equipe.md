@@ -49,7 +49,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </div>
 
 - **Diploma**: Nanotecnologia - UFRJ  
-- **Funções no Projeto**: Engenheiro Back-end, Desenvolvimento de Blockchain
+- **Funções no Projeto**: Engenheiro Back-end, Desenvolvedor de IA
 
 <div style={{textAlign: 'center', marginTop: '8px'}}>
   <a style={{margin:'10px'}} href="https://www.linkedin.com/in/marcos-morais79/" target="_blank" rel="noreferrer">
@@ -87,25 +87,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ---
 
-## David Deodato
-
-<div style={{margin: '15px', textAlign: 'center'}}>
-  <img
-    src={useBaseUrl('/img/david.png')}
-    alt="David Deodato"
-    style={{width: '1024px', borderRadius: '8px'}}
-  />
-  <p style={{textAlign: 'center', fontSize: '0.9rem'}}>Fonte: Produzido pelos autores (2025).</p>
-</div>
-
-- **Diploma**: Sistemas da Informação – Inteli  
-- **Funções no Projeto**: Desenvolvedor de IA
-
-<div style={{textAlign: 'center', marginTop: '8px'}}>
-  <a style={{margin:'10px'}} href="https://www.linkedin.com/in/david-deodato/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-David%20Deodato-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="https://github.com/DavidDeodato" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-davidijesus-black?style=for-the-badge&logo=github" />
-  </a>
-</div>

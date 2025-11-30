@@ -5,142 +5,96 @@ sidebar_position: 1
 
 # Público Alvo
 
-## Compreensão do Tópico
+## Visão Geral
 
-&emsp;**Nautilus** foi concebido para atender um desafio central da indústria marítima: **monitorar, prever e mitigar a bioincrustação** em navios da frota Transpetro, apoiando decisões de eficiência, segurança e sustentabilidade. O público-alvo reúne desde os profissionais responsáveis por operar e manter embarcações até os agentes estratégicos que supervisionam conformidade ambiental e planejamento operacional.
-
-&emsp;A solução considera tanto quem **vivencia diariamente o impacto da bioincrustação** (tripulação, técnicos, engenheiros), quanto quem **depende de dados confiáveis para decisões corporativas** (gestores, planejadores, equipes de eficiência energética e centros de operações).
-
----
-
-## Equipes Técnicas e Operacionais da Frota Transpetro
-
-&emsp;O primeiro núcleo do público-alvo é composto pelas equipes embarcadas e de apoio técnico em terra, incluindo:
-
-- Oficiais e tripulação  
-- Engenheiros navais  
-- Mecânicos de bordo  
-- Técnicos de automação e manutenção  
-- Supervisores de operações marítimas  
-
-&emsp;Esses profissionais lidam diretamente com consequências da bioincrustação, como:
-
-- Aumento do consumo específico de combustível  
-- Queda de velocidade e desempenho propulsivo  
-- Vibrações e sobrecarga de sistemas  
-- Alterações no comportamento hidrodinâmico do casco  
-- Riscos de não conformidade com a **NORMAM 401**, que define critérios para bioincrustação aceitável  
-
-&emsp;Para esse grupo, Nautilus oferece:
-
-- Diagnóstico contínuo do estado do casco  
-- Detecção antecipada de degradação  
-- Apoio na decisão sobre janelas ideais de limpeza  
-- Redução de custos operacionais por meio de planejamento preditivo  
+&emsp;O **Nautilus** foi desenvolvido para atender profissionais da Transpetro que dependem de informações confiáveis sobre o **estado do casco**, **eficiência energética**, **planejamento de manutenção** e **conformidade ambiental**.  
+&emsp;A solução reúne em uma única plataforma o que hoje está disperso em inspeções, relatórios e dados operacionais, oferecendo previsões e diagnósticos claros sobre bioincrustação.
 
 ---
 
-## Centros de Controle, Engenharia e Eficiência Energética
+# Personas Principais
 
-&emsp;Outro público essencial é composto pelos times responsáveis por:
+## 1. Centro de Operações da Transpetro (COT)
 
-- Planejamento de rotas  
-- Monitoramento da frota  
-- Análise de desempenho (Energy Efficiency Teams)  
-- Gestão de consumo e metas de descarbonização  
-- Sustentabilidade e conformidade regulatória  
+### Responsabilidades
+- Monitorar a frota em tempo real  
+- Apoiar decisões de operação e eficiência energética  
+- Avaliar impacto da bioincrustação no desempenho  
 
-&emsp;Esses grupos dependem de dados confiáveis e integrados para:
+### Necessidades
+- Indicadores de fouling atualizados  
+- Alertas sobre aumento de arrasto hidrodinâmico  
+- Informações rápidas e consolidadas  
 
-- **Estimar com precisão impacto energético da bioincrustação**, isolando variáveis como vento, corrente, profundidade e carga transportada  
-- Acompanhar indicadores ambientais e relatórios de emissões  
-- Cumprir regulações internacionais e nacionais  
-- Otimizar programação de docagem, limpeza e manutenção subaquática  
-
-&emsp;Nautilus integra dados AIS, consumo, eventos, inspeções (IWS) e **modelos oceânicos Copernicus** (ex.: **GLOBAL_MULTIYEAR_PHY_001_030**), garantindo maior robustez para análises operacionais e ambientais.
-
----
-
-## Gestores Ambientais e Conformidade
-
-&emsp;A bioincrustação tem impacto direto sobre:
-
-- Emissões de CO₂  
-- Eficiência energética (EEXI / CII)  
-- Introdução de espécies invasoras  
-- Atendimentos aos requisitos da **NORMAM 401 (Marinha do Brasil)**  
-
-&emsp;Assim, gestores ambientais, compliance e ESG tornam-se um grupo vital para o Nautilus. Eles buscam:
-
-- Evidências técnicas do estado do casco  
-- Transparência sobre evolução da incrustação  
-- Indicadores para relatórios ambientais e auditorias  
-- Redução da pegada de carbono por meio de manutenção otimizada  
+### Como o Nautilus ajuda
+- Painel operacional com saúde do casco por embarcação  
+- Detecção antecipada de perdas de velocidade x fouling  
+- Apoio direto a decisões de limpeza e ajuste de rota  
 
 ---
 
-## Equipes Corporativas (Estratégia, Custos e Planejamento)
+## 2. Engenheiros Navais / Gerentes de Manutenção
 
-&emsp;O impacto da bioincrustação transcende a esfera técnica: afeta custos operacionais, disponibilidade da frota e vida útil de revestimentos anti-incrustantes.  
-Entre os interessados:
+### Responsabilidades
+- Planejar docagens, limpezas e pinturas  
+- Avaliar inspeções IWS  
+- Garantir desempenho hidrodinâmico do casco  
 
-- Gerência de Operações  
-- Gerência de Planejamento e Custos  
-- Diretoria de Logística, ESG e Descarbonização  
-- Tomadores de decisão estratégicos  
+### Necessidades
+- Previsões confiáveis da evolução da incrustação  
+- Correlação entre fouling, consumo e velocidade  
+- Sugestão do momento ideal de limpeza técnica  
 
-&emsp;Para esses públicos, Nautilus entrega:
-
-- Projeções financeiras sobre economia de combustível  
-- Cenários comparativos operacionais  
-- Insights para redução de emissões na frota  
-- Otimização do ciclo de manutenção e docagens  
-- Apoio estratégico para iniciativas Net Zero  
-
----
-
-## Perfil Demográfico e Comportamental
-
-### Perfil Técnico-Operacional
-- Profissionais de 25 a 60 anos  
-- Experiência com operação, manutenção e hidrodinâmica  
-- Alta necessidade de dados práticos e acionáveis  
-- Uso constante de sistemas de monitoramento e relatórios  
-
-### Perfil Gerencial e Estratégico
-- 30 a 55 anos  
-- Orientação a métricas de custo, ESG e performance  
-- Busca por previsibilidade, redução de risco e planejamento robusto  
-- Perfil analítico e foco em tomada de decisão baseada em dados  
-
-### Necessidades Comuns
-- Dados confiáveis e integrados (AIS, consumo, eventos, ambiente, IWS)  
-- Previsões claras sobre degradação do casco  
-- Indicadores que traduzam bioincrustação → consumo → emissões → custo  
-- Soluções que reduzam incerteza e melhorem eficiência da frota  
+### Como o Nautilus ajuda
+- Modelo preditivo baseado em AIS + consumo + IWS  
+- Estimativa automática de impacto energético  
+- “IWS Planner”: previsão de janela ótima de intervenção  
 
 ---
 
-## Principais Problemas Desse Público
+## 3. Analistas de Eficiência Energética (ESG)
 
-1. Falta de monitoramento contínuo do casco → decisões reativas, não preditivas  
-2. Inspeções IWS esporádicas, caras e pouco integradas ao histórico operacional  
-3. Dificuldade em mensurar impacto real da incrustação isolado de vento, ondas e correntes  
-4. Custos elevados com combustível por arrasto hidrodinâmico invisível  
-5. Pressão por conformidade com **NORMAM 401** e metas de descarbonização  
-6. Necessidade de integrar dados dispersos em múltiplas fontes (AIS, sensores, relatórios, Copernicus)  
+### Responsabilidades
+- Avaliar consumo e emissões  
+- Monitorar aderência à **NORMAM-401**  
+- Apoiar metas de eficiência energética e descarbonização  
+
+### Necessidades
+- Dados confiáveis sobre impacto do fouling em CO₂  
+- Relatórios ambientais auditáveis  
+- Indicadores comparativos entre embarcações  
+
+### Como o Nautilus ajuda
+- Cálculo direto: fouling → arrasto → consumo → emissões  
+- Relatórios de conformidade com a NORMAM-401  
+- Simulações de economia de combustível e CO₂ evitado  
 
 ---
 
-## Referências Bibliográficas
+# Problemas Comuns do Público
 
-- **Marinha do Brasil — NORMAM 401**: Regras de bioincrustação e critérios de conformidade  
-- **Copernicus Marine Service (CMEMS)**  
-  - GLOBAL_MULTIYEAR_PHY_001_030  
-  - Modelos oceânicos e variáveis ambientais (vento, correntes, ondas)  
-  - https://data.marine.copernicus.eu/products  
-- International Maritime Organization (IMO) — EEXI / CII Guidelines  
-- Transpetro — Relatórios internos de eficiência energética (dados fornecidos no hackaton)  
-- IBAMA — Diretrizes de espécies invasoras e poluição marinha  
-- IPCC — Redução de emissões no transporte marítimo  
+1. Falta de monitoramento contínuo do casco  
+2. Inspeções IWS esporádicas e caras  
+3. Dificuldade de isolar impacto real da incrustação  
+4. Custos elevados com combustível por arrasto invisível  
+5. Pressão crescente de conformidade ambiental  
+6. Dados dispersos em várias fontes (AIS, consumo, eventos, Copernicus, IWS)  
 
+---
+
+# Resumo das Necessidades
+
+| Público | Necessidades Principais |
+|--------|--------------------------|
+| **COT** | Monitoramento em tempo real, alertas, impacto operacional |
+| **Engenharia** | Previsões confiáveis, janela ideal de limpeza, análise técnica |
+| **ESG/Energia** | Indicadores de emissões, relatórios NORMAM-401, métricas ambientais |
+
+---
+
+# Conclusão
+
+&emsp;O **Nautilus** conecta operação, engenharia e ESG em uma única fonte de verdade sobre o estado do casco.  
+&emsp;Com dados integrados, previsões e indicadores energéticos, a plataforma reduz incertezas, otimiza custos e fortalece a conformidade ambiental da frota Transpetro.
+
+---

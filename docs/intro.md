@@ -5,6 +5,16 @@ slug: /intro
 ---
 
 import Admonition from '@theme/Admonition';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{textAlign: 'center', margin: '20px 0'}}>
+  <img 
+    src={useBaseUrl('/img/nautilus_logo.svg')} 
+    alt="Logo Nautilus" 
+    style={{width: 512}} 
+  />
+</div>
+
 
 ## Introdução do Projeto Nautilus
 
@@ -20,7 +30,7 @@ import Admonition from '@theme/Admonition';
 
 ## Pilares para a Inovação
 
-### **📌 Inteligência Hidrodinâmica e Monitoramento Contínuo**
+### **Inteligência Hidrodinâmica e Monitoramento Contínuo**
 &emsp;No centro do Nautilus está o uso combinado de dados reais da frota Transpetro:
 
 - Consumo de combustível (CONSUMED_QUANTITY)  
@@ -36,7 +46,7 @@ import Admonition from '@theme/Admonition';
 
 ---
 
-### **📌 Previsão do Impacto Econômico e Energético**
+### **Previsão do Impacto Econômico e Energético**
 &emsp;Com base nos dados processados durante o hackathon, a plataforma:
 
 - Calcula como o fouling influencia o aumento do consumo real.  
@@ -48,7 +58,7 @@ import Admonition from '@theme/Admonition';
 
 ---
 
-### **📌 Recomendações Preditivas de Manutenção**
+### **Recomendações Preditivas de Manutenção**
 &emsp;O Nautilus gera previsões sobre o **momento ideal para limpeza**, combinando:
 
 - Histórico de inspeções IWS  
@@ -61,7 +71,7 @@ import Admonition from '@theme/Admonition';
 
 ---
 
-### **📌 Transparência, Precisão e Segurança**
+### **Transparência, Precisão e Segurança**
 &emsp;A plataforma utiliza princípios de observabilidade contínua para garantir:
 
 - Integridade dos dados  

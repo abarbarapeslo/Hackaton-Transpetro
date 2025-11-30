@@ -1,7 +1,7 @@
 {
   "id": "solucao_problema/proposta_valor",
-  "title": "Value Proposition",
-  "description": "Value Delivery",
+  "title": "Proposta de Valor",
+  "description": "Entrega de Valor",
   "source": "@site/docs/solucao_problema/proposta_valor.md",
   "sourceDirName": "solucao_problema",
   "slug": "/solucao_problema/proposta_valor",
@@ -13,7 +13,7 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "Value Proposition"
+    "title": "Proposta de Valor"
   },
   "sidebar": "defaultSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/Hackaton-Transpetro/docs/category/propósito-da-solução"
   },
   "next": {
-    "title": "Requirements",
-    "permalink": "/Hackaton-Transpetro/docs/category/requirements"
+    "title": "Requisitos",
+    "permalink": "/Hackaton-Transpetro/docs/category/requisitos"
   }
 }

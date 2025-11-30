@@ -1,8 +1,8 @@
 {
-	"label": "Compreensão do Usuário",
+	"label": "Compreensão da Solução",
 	"position": 3,
 	"link": {
 		"type": "generated-index",
-		"description": "Entendendo os usuários do [nome do projeto]."
+		"description": "Entendendo a solução Nautilus."
 	}
 }

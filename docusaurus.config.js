@@ -12,15 +12,19 @@ const config = {
 
   onBrokenLinks: 'throw',
 
+  // ADICIONE ESTAS DUAS LINHAS:
+  staticDirectories: ['static'],
+  trailingSlash: false,
+
   presets: [
     [
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js',
+          //sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
-          // customCss: './src/css/custom.css',
+          //customCss: require.resolve('docs/src/css/custom.css'),
         },
       },
     ],

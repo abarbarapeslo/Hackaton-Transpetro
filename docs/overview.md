@@ -4,13 +4,15 @@ slug: /
 sidebar_position: 0
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Overview do Projeto Nautilus
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/static/img/nautilus_banner.jpg" style={{width: 1024}} alt="Nautilus" />
-        <br/>
-    </div>
+    <img src={useBaseUrl('/img/banner.jpg')} style={{width: 1024}} alt="Nautilus Banner" />
+    <br/>
+  </div>
 </div>
 
 ## Introdução
@@ -23,16 +25,19 @@ sidebar_position: 0
 
 ## Problema
 
+
 &emsp;A **bioincrustação** é um dos maiores desafios da indústria marítima. Cracas, algas e organismos marinhos aderidos ao casco aumentam o arrasto hidrodinâmico, reduzindo a velocidade, elevando o gasto energético e impactando diretamente a emissão de gases de efeito estufa.
 
 &emsp;Estudos globais indicam que o fouling pode aumentar o consumo em **até 40%** em casos severos. Já a **NORMAM 401** estabelece limites e diretrizes para inspeção, limpeza e mitigação — tornando o monitoramento contínuo um requisito operacional e regulatório.
 
-&emsp;Hoje, esse acompanhamento depende majoritariamente de **inspeções periódicas**, que são:
 
-- custosas,  
-- esporádicas,  
-- pouco preditivas,  
-- e incapazes de capturar a degradação do casco *em tempo real*.
+<div style={{margin: 15}}>
+  <div style={{textAlign: 'center'}}>
+    <img src={useBaseUrl('/img/nautilus_problema.png')} style={{width: 1024}} alt="Gráfico de fouling vs. consumo" />
+    <br/>
+  </div>
+</div>
+
 
 ### Dados analisados pelo time
 
@@ -44,16 +49,7 @@ O dataset fornecido no hackathon permitiu mapear:
 - **Inspeções IWS** com avaliação de fouling por área do casco.  
 - **Características dos navios** (classe, nome, porte etc.).  
 
-<div style={{textAlign: 'center', marginTop: 20}}>
-  <i>Gráfico: Relação entre fouling registrado em IWS e consumo médio por viagem</i>
-</div>
-
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Graph fouling vs. consumption" />
-        <br/>
-    </div>
-</div>
+<p style={{textAlign: 'center'}}>Gráfico: Relação entre fouling registrado em IWS e consumo médio por viagem</p>
 
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
@@ -93,15 +89,13 @@ Nautilus transforma o casco em um ativo de informação contínua — previsíve
 - **Comandantes e equipe de bordo**  
   Alertas e diagnósticos sobre desempenho do casco ao longo da viagem.
 
-<div style={{textAlign: 'center'}}> Ilustração do Usuário-Alvo </div>
-
+<p style={{textAlign: 'center'}}>Ilustração do Usuário-Alvo</p>
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Target audience Nautilus" />
-        <br/>
-    </div>
+    <img src={useBaseUrl('/img/publico_alvo.png')} style={{width: 1024}} alt="Público-alvo do Nautilus" />
+    <br/>
+  </div>
 </div>
-
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---
@@ -120,15 +114,13 @@ Nautilus transforma o casco em um ativo de informação contínua — previsíve
 - **Arquitetura Web Responsiva + Painel de Operações**  
   Dashboard unificado para previsões, alertas e indicadores energéticos.
 
-<div style={{textAlign: 'center'}}> Visão das Funcionalidades da Plataforma </div>
-
+<p style={{textAlign: 'center'}}>Visão das Funcionalidades da Plataforma</p>
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Nautilus functionalities" />
-        <br/>
-    </div>
+    <img src={useBaseUrl('/img/nome.png')} style={{width: 1024}} alt="Funcionalidades do Nautilus" />
+    <br/>
+  </div>
 </div>
-
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---
@@ -147,15 +139,13 @@ Nautilus transforma o casco em um ativo de informação contínua — previsíve
 4. **Compliance com NORMAM 401**  
    Registra histórico e apoia conformidade regulatória automaticamente.
 
-<div style={{textAlign: 'center'}}> Diferenciais do Nautilus </div>
-
+<p style={{textAlign: 'center'}}>Diferenciais do Nautilus</p>
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Differentials" />
-        <br/>
-    </div>
+    <img src={useBaseUrl('/img/nautilus_chaves.png')} style={{width: 1024}} alt="Diferenciais do Nautilus" />
+    <br/>
+  </div>
 </div>
-
 <p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---

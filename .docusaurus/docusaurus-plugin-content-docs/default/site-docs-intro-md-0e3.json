@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Introdução",
-  "description": "Introdução do Projeto Nautilus",
+  "description": "<img",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
