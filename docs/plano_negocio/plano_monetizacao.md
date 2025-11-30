@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Monetization Plan
+title: Plano de Monetização
 ---
 
 ## Contextualization

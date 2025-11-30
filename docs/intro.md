@@ -6,14 +6,14 @@ slug: /intro
 
 import Admonition from '@theme/Admonition';
 
-## Introduction to the Reevo Project
+## Introdução do Projeto Nautlus
 &emsp; Agribusiness is the driving force of the Brazilian economy, a sector of superlatives that feeds the country and the world. However, behind this strength, there is a silent challenge that limits its potential: **the abyss between capital and the land**.
 
 &emsp; On one side, small and medium-sized rural producers, responsible for a vital portion of the national production, face a cycle of dependence on expensive, slow, and bureaucratic credit.
 
 &emsp; On the other, millions of individual investors seek opportunities to diversify their portfolios with attractive returns and, increasingly, with a clear purpose of social and environmental impact (ESG), but they find a potential for investment in the field that is practically unexplored and inaccessible.
 
-&emsp; It is to break this cycle that Reevo is born. We are a **P2P (peer-to-peer) fintech credit platform** that proposes to be the digital, transparent, and efficient bridge between these two worlds. We directly connect rural producers who need financing to grow with a community of investors who want to actively participate in the success of Brazilian agribusiness.
+&emsp; It is to break this cycle that Nautilus is born. We are a **P2P (peer-to-peer) fintech credit platform** that proposes to be the digital, transparent, and efficient bridge between these two worlds. We directly connect rural producers who need financing to grow with a community of investors who want to actively participate in the success of Brazilian agribusiness.
 
 ---
 ## Pilares para a Inovação
@@ -37,6 +37,6 @@ import Admonition from '@theme/Admonition';
 &emsp; All transactions are recorded in a ledger with cryptographic traceability, and the use of **stablecoins (USDC)** as an internal medium of exchange offers an additional layer of efficiency and transparency.
 
 ---
-## Conclusion
+## Conclusão
 
-&emsp; Reevo is more than a credit platform. It is a movement to **democratize agribusiness financing**, empowering farmers with the necessary resources to innovate and prosper, while offering investors the opportunity to participate directly in the growth of the real Brazilian economy. Our goal is to build a future where credit is fairer, investment has purpose, and the Brazilian countryside can flourish to its maximum potential.
+&emsp; Nautilus is more than a credit platform. It is a movement to **democratize agribusiness financing**, empowering farmers with the necessary resources to innovate and prosper, while offering investors the opportunity to participate directly in the growth of the real Brazilian economy. Our goal is to build a future where credit is fairer, investment has purpose, and the Brazilian countryside can flourish to its maximum potential.

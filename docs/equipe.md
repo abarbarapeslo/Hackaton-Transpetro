@@ -103,7 +103,7 @@ sidebar_position: 8
     <img src="https://img.shields.io/badge/LinkedIn-David%20Deodato-blue?style=for-the-badge&logo=linkedin" />
   </a>
 
-  <a href="https://github.com/davidijesus" target="_blank">
+  <a href="https://github.com/DavidDeodato" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-davidijesus-black?style=for-the-badge&logo=github" />
   </a>
 </div>

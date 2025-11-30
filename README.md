@@ -1,11 +1,11 @@
 <div align="center">
 
-# Transpetro
+# Nautilus
 
 </div>
 
 <p align="center">
-  <img src="/img/nome.png" alt="Transpetro" width="600">
+  <img src="/static/img/nautilus_vs_white.png" alt="Nautilus" width="600">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <div align="center">
-  <img src="/img/nome.png" alt="Hackathon Transpetro" width="800">
+  <img src="/static/img/nautilus_vs_white.png" alt="Nautilus" width="800">
 </div>
 
 ## Membros da Equipe
@@ -41,7 +41,7 @@
       </td>
       <td align="center">
         <a href="https://www.linkedin.com/in/david-deodato/">
-          <img src="https://github.com/david-deodato.png" style="border-radius: 10%; width: 150px;" alt="David Deodato"/><br>
+          <img src="https://github.com/DavidDeodato.png" style="border-radius: 10%; width: 150px;" alt="David Deodato"/><br>
           <sub><b>David Deodato</b></sub>
         </a>
       </td>
@@ -51,7 +51,7 @@
 
 ## Descrição
 
-**Transpetro** é uma plataforma fintech P2P (peer-to-peer) de crédito projetada para conectar pequenos e médios produtores rurais brasileiros com indivíduos interessados em investir diretamente no agronegócio. Usando análise de dados, IA e arquitetura de microsserviços em nuvem, nossa missão é criar um ecossistema de crédito mais ágil, transparente e sustentável.
+**Nautilus** é uma plataforma fintech P2P (peer-to-peer) de crédito projetada para conectar pequenos e médios produtores rurais brasileiros com indivíduos interessados em investir diretamente no agronegócio. Usando análise de dados, IA e arquitetura de microsserviços em nuvem, nossa missão é criar um ecossistema de crédito mais ágil, transparente e sustentável.
 
 A documentação completa do projeto, incluindo arquitetura, fluxos e modelo de dados, está disponível em nosso site Docusaurus.
 
@@ -67,7 +67,7 @@ O agronegócio brasileiro enfrenta um paradoxo: enquanto o setor é uma potênci
 - **Oferta de liquidez** para investidores através de mercado secundário
 - **Redução de burocracia** e altas taxas de intermediários tradicionais
 
-## Ecossistema Transpetro
+## Ecossistema Nautilus
 
 O sistema opera baseado em conceitos-chave que garantem sua funcionalidade e transparência:
 

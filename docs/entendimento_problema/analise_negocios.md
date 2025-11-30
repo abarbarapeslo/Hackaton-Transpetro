@@ -1,15 +1,15 @@
 ---
 sidebar_position: 2
-title: Business Analysis
+title: Análise de Negócio
 ---
 
-## Executive Summary
+## Resumo
 
 &emsp;The **Reevo** is a **digital agricultural credit platform** operating under a **tokenized Peer-to-Peer (P2P) model**. It is primarily aimed at **Small and Medium-sized Rural Producers (SMEs)**—a public largely excluded from formal credit—seeking agile and fair financing, and **Individual Investors** looking to diversify their investment portfolio. The platform seeks to promote the **democratization of credit access**, eliminating banking bureaucracy through automated analysis and digital formalization of the Rural Product Bill (CPR), while offering liquidity and transparency to the invested capital.
 
 ---
 
-## Context
+## Contexto
 
 &emsp;The current scenario in the agricultural credit market is marked by a deep disparity in access to financing. Although agribusiness represents an economic engine, Small and Medium-sized Rural Producers face difficulties in accessing these resources due to banking bureaucracy, excessive guarantee requirements, and inadequate rates for their harvest cycles, resulting in a huge portion of repressed credit.
 
@@ -19,8 +19,8 @@ title: Business Analysis
 
 ---
 
-## Stakeholder Analysis
-### Mapping, Expectations, and Resistances
+## Análise de Parte Interessadas (Stakeholder)
+### Mapeamento, Expectativas, e Resistências
 
 &emsp;The table below details the main interest groups and how Reevo should manage their interactions.
 
@@ -44,8 +44,8 @@ title: Business Analysis
 
 ---
 
-## Risks and Mitigations
-### Reevo Project Risks and Mitigations
+## Riscos e Mitigações
+### Risco e Mitigações do Projeto [nome do projeto]
 
 &emsp;Reevo, being an innovative P2P credit and tokenization platform in agribusiness, is subject to financial, technological, market, and regulatory risks. The table below details the main risks and mitigation strategies integrated into the project's Functional Requirements (RFs).
 

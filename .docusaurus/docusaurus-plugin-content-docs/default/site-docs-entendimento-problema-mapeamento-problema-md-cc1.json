@@ -1,7 +1,7 @@
 {
   "id": "entendimento_problema/mapeamento_problema",
-  "title": "Problem Mapping",
-  "description": "Sector Contextualization",
+  "title": "Mapeamento do Problema",
+  "description": "Contextualização",
   "source": "@site/docs/entendimento_problema/mapeamento_problema.md",
   "sourceDirName": "entendimento_problema",
   "slug": "/entendimento_problema/mapeamento_problema",
@@ -13,7 +13,7 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "Problem Mapping"
+    "title": "Mapeamento do Problema"
   },
   "sidebar": "defaultSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/Hackathon-Transpetro/docs/category/entendimento-do-problema"
   },
   "next": {
-    "title": "Business Analysis",
+    "title": "Análise de Negócio",
     "permalink": "/Hackathon-Transpetro/docs/entendimento_problema/analise_negocios"
   }
 }

@@ -4,7 +4,7 @@ title: "Personas"
 sidebar_position: 2
 ---
 
-## User Representations
+## Representações de Usuários
 
 ### Sérgio – Family Farmer
 

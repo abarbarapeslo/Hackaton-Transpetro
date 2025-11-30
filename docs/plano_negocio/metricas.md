@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: Evaluation metrics
+title: Métricas de Avaliação
 ---
 
 ## Contextualization

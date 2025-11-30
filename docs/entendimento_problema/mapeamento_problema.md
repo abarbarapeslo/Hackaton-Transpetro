@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
-title: Problem Mapping
+title: Mapeamento do Problema
 ---
 
 
-## Sector Contextualization
+## Contextualização
 
 &emsp;The **Brazilian agricultural credit** operates in a paradox of high relevance: the agribusiness sector is a national economic engine, but its financing system is marked by **inequality**. The market is dominated by slow and bureaucratic processes that exclude the **Small and Medium Rural Producer (PME)**. The relevance of the theme is crucial, as, despite family farmers representing **77% of rural establishments**, they access **less than 15% of formal credit**.
 
 ---
-## Key Pains and Challenges Identified
+## Principais Dores e Desafios Identificados
 
 &emsp;The problems critically affect both those who need capital (the Farmer) and those who provide it (the Investor).
 
@@ -24,7 +24,7 @@ title: Problem Mapping
 * **Regulatory Complexity:** Difficulty managing tax withholding (IR/IOF) and ensuring the legal compliance of credit titles.
 
 ---
-## Root Causes
+## Causas
 
 &emsp;The above problems originate from structural factors in the credit ecosystem:
 
@@ -34,7 +34,7 @@ title: Problem Mapping
 * **Digital Barrier and Trust:** The producer has low familiarity and high distrust towards new digital channels that are not endorsed by their local network (Cooperatives).
 
 ---
-## Consequences of Non-Solution
+## Consequências da Não-Solução
 
 &emsp;Failure to resolve these problems perpetuates inefficiency and risks in the sector:
 

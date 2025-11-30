@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Distribution Strategy
+title: Estratégia de Distribuição
 ---
 
 ## Contextualization

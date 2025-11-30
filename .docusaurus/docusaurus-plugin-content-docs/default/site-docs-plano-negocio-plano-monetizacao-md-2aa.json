@@ -1,6 +1,6 @@
 {
   "id": "plano_negocio/plano_monetizacao",
-  "title": "Monetization Plan",
+  "title": "Plano de Monetização",
   "description": "Contextualization",
   "source": "@site/docs/plano_negocio/plano_monetizacao.md",
   "sourceDirName": "plano_negocio",
@@ -13,15 +13,15 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "title": "Monetization Plan"
+    "title": "Plano de Monetização"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Financing Analysis",
+    "title": "Análise Financeira",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/analise_financeira"
   },
   "next": {
-    "title": "Distribution Strategy",
+    "title": "Estratégia de Distribuição",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/estrategia_distribuicao"
   }
 }

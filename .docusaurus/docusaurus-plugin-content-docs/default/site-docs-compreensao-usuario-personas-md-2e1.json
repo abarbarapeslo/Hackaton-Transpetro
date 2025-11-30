@@ -1,7 +1,7 @@
 {
   "id": "compreensao_usuario/personas",
   "title": "Personas",
-  "description": "User Representations",
+  "description": "Representações de Usuários",
   "source": "@site/docs/compreensao_usuario/personas.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/personas",
@@ -18,11 +18,11 @@
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Target Audience",
+    "title": "Público Alvo",
     "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/publico_alvo"
   },
   "next": {
-    "title": "User Journey",
+    "title": "Jornada do Usuário",
     "permalink": "/Hackathon-Transpetro/docs/compreensao_usuario/jornada_usuario"
   }
 }

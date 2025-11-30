@@ -1,7 +1,7 @@
 {
   "id": "entendimento_problema/analise_negocios",
-  "title": "Business Analysis",
-  "description": "Executive Summary",
+  "title": "Análise de Negócio",
+  "description": "Resumo",
   "source": "@site/docs/entendimento_problema/analise_negocios.md",
   "sourceDirName": "entendimento_problema",
   "slug": "/entendimento_problema/analise_negocios",
@@ -13,11 +13,11 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "Business Analysis"
+    "title": "Análise de Negócio"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Problem Mapping",
+    "title": "Mapeamento do Problema",
     "permalink": "/Hackathon-Transpetro/docs/entendimento_problema/mapeamento_problema"
   },
   "next": {

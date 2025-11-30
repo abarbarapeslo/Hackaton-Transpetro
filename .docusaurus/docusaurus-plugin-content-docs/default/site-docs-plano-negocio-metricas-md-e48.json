@@ -1,6 +1,6 @@
 {
   "id": "plano_negocio/metricas",
-  "title": "Evaluation metrics",
+  "title": "Métricas de Avaliação",
   "description": "Contextualization",
   "source": "@site/docs/plano_negocio/metricas.md",
   "sourceDirName": "plano_negocio",
@@ -13,11 +13,11 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5,
-    "title": "Evaluation metrics"
+    "title": "Métricas de Avaliação"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Distribution Strategy",
+    "title": "Estratégia de Distribuição",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/estrategia_distribuicao"
   },
   "next": {

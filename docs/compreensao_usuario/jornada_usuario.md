@@ -1,11 +1,11 @@
 ---
-sidebar_label: "User Journey"
+sidebar_label: "Jornada do Usuário"
 sidebar_position: 3
 ---
 
-# User Journey
+# Jornada do Usuário
 
-## Understanding
+## Compreensão
 
 &emsp;The user journey for **Reevo** reflects the path taken by farmers seeking credit and investors looking to diversify their portfolio with social impact. It allows us to visualize each stage of the experience, the contact points with the platform, and the personas' thoughts during the process. Thus, it's possible to identify opportunities for improvement and create solutions that truly respond to the needs of both sides of the P2P ecosystem.
 
@@ -24,10 +24,10 @@ sidebar_position: 3
 </div>
 <p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
 
-### Scenario
+### Cenário
 Sérgio is 41 years old and manages a 32-hectare farm in the Midwest, focused on planting corn and soybeans. He uses his smartphone daily but faces difficulties accessing bank credit due to bureaucracy, collateral requirements, and variable income. He seeks a fairer, faster, and more transparent alternative.
 
-### Journey in 5 Phases
+### Jornada em 5 Fases
 
 **1. Registration and Application** Sérgio quickly creates his account and initiates a credit request through a guided, simple process.  
 **Thought:** “Finally something straightforward, I can do this myself on my phone.”
@@ -57,7 +57,7 @@ Sérgio is 41 years old and manages a 32-hectare farm in the Midwest, focused on
 </div>
 <p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
 
-### Scenario
+### Cenário
 Marina is 35 years old, lives in São Paulo, and works in the IT sector. She seeks investments that combine financial return with social/environmental impact. Her profile is moderate: she desires diversification beyond traditional fixed income but requires security and clarity about risks.
 
 ### Journey in 5 Phases

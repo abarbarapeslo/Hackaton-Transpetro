@@ -4,18 +4,18 @@ slug: /
 sidebar_position: 0
 ---
 
-# Overview do Projeto
+# Overview do Projeto Nautilus
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Transpetro" />
+        <img src="/img/nome.png" style={{width: 1024}} alt="Nautilus" />
         <br/>
     </div>
 </div>
 
 ## Introdução
 
-&emsp;**Reevo** is a digital peer-to-peer (P2P) credit platform that connects small and medium-sized farmers with individual investors interested in portfolio diversification and positive socio-environmental impact.  
+&emsp;**Nautilus** is a digital peer-to-peer (P2P) credit platform that connects small and medium-sized farmers with individual investors interested in portfolio diversification and positive socio-environmental impact.  
 
 &emsp;The project stems from the need to offer more agile, fair, and transparent credit to the agricultural sector, reducing reliance on traditional banks and valuing sustainable practices.
 
@@ -38,14 +38,14 @@ sidebar_position: 0
 
 ---
 
-## Valor do Propósito
+## Proposta de Valor
 
 - 🌱 **For Farmers**: Simplified access to credit, competitive rates compatible with their reality, and recognition for good agricultural practices.  
 - 💰 **For Investors**: Opportunity to invest accessible amounts in agricultural operations, with transparency via blockchain and clear socio-environmental impact indicators.  
 - 🔒 **For Both**: Anti-fraud security, digital contracts guaranteed by CPR (Rural Product Bill), and real-time monitoring.  
 
 :::info
-Reevo acts as a collaborative ecosystem, bringing urban capital closer to rural production.
+Nautilus acts as a collaborative ecosystem, bringing urban capital closer to rural production.
 :::
 
 ---
@@ -105,7 +105,7 @@ Reevo acts as a collaborative ecosystem, bringing urban capital closer to rural 
 
 ## Conclusão
 
-&emsp;**Reevo** represents the convergence between digital finance and sustainable agribusiness, creating an innovative model that benefits both producers and investors.  
+&emsp;**Nautilus** represents the convergence between digital finance and sustainable agribusiness, creating an innovative model that benefits both producers and investors.  
 By uniting technology, financial inclusion, and socio-environmental impact, the platform seeks to empower farmers' lives and offer new opportunities to conscious investors.
 
 ---

@@ -1,11 +1,11 @@
 ---
-sidebar_label: "Target Audience"
+sidebar_label: "Público Alvo"
 sidebar_position: 1
 ---
 
-# Target Audience
+# Público Alvo
 
-## Topic Understanding
+## Compreensão do Tópico
 
 &emsp;**Reevo** was conceived to connect small and medium-sized farmers with individuals interested in investing directly in the agricultural sector, creating a credit ecosystem that is more agile, transparent, and sustainable. The target audience analysis considers both rural producers demanding financing and investors providing capital, thus ensuring the essential complementarity for the P2P model.
 

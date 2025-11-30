@@ -1,7 +1,7 @@
 {
   "id": "compreensao_usuario/jornada_usuario",
-  "title": "User Journey",
-  "description": "Understanding",
+  "title": "Jornada do Usuário",
+  "description": "Compreensão",
   "source": "@site/docs/compreensao_usuario/jornada_usuario.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/jornada_usuario",
@@ -12,7 +12,7 @@
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_label": "User Journey",
+    "sidebar_label": "Jornada do Usuário",
     "sidebar_position": 3
   },
   "sidebar": "defaultSidebar",

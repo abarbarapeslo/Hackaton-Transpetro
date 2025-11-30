@@ -1,6 +1,6 @@
 {
   "id": "plano_negocio/estrategia_distribuicao",
-  "title": "Distribution Strategy",
+  "title": "Estratégia de Distribuição",
   "description": "Contextualization",
   "source": "@site/docs/plano_negocio/estrategia_distribuicao.md",
   "sourceDirName": "plano_negocio",
@@ -13,15 +13,15 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
-    "title": "Distribution Strategy"
+    "title": "Estratégia de Distribuição"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Monetization Plan",
+    "title": "Plano de Monetização",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/plano_monetizacao"
   },
   "next": {
-    "title": "Evaluation metrics",
+    "title": "Métricas de Avaliação",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/metricas"
   }
 }

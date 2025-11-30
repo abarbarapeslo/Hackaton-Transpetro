@@ -1,7 +1,7 @@
 {
   "id": "compreensao_usuario/publico_alvo",
-  "title": "Target Audience",
-  "description": "Topic Understanding",
+  "title": "Público Alvo",
+  "description": "Compreensão do Tópico",
   "source": "@site/docs/compreensao_usuario/publico_alvo.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/publico_alvo",
@@ -12,7 +12,7 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_label": "Target Audience",
+    "sidebar_label": "Público Alvo",
     "sidebar_position": 1
   },
   "sidebar": "defaultSidebar",

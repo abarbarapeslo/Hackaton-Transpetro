@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
-title: Financing Analysis
+title: Análise Financeira
 ---
 
-## Contextualization
+## Contextualização
 
 &emsp; This section consolidates the viability analysis of Reevo, translating the financial, architectural, and risk results into a Strategic Action Plan.
 
-## Project & Product Description
+## Projeto e Descrição do Produto
 
 * **Product / Service:** Hybrid **P2P Platform** to originate agricultural credit (tokenized CPR) for rural SMEs, with risk analysis via **AgroScore** (AI) and liquidity guarantee via the **Secondary Market**.
 * **Value Proposition:** Democratization of credit to the SME Farmer, with faster analysis than traditional credit models and the offer of an asset with **liquidity** and **ESG compliance** to the Investor.

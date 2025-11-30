@@ -1,6 +1,6 @@
 {
   "id": "plano_negocio/analise_mercado",
-  "title": "Market Analysis",
+  "title": "Análise de Mercado",
   "description": "Contextualization",
   "source": "@site/docs/plano_negocio/analise_mercado.md",
   "sourceDirName": "plano_negocio",
@@ -13,7 +13,7 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "Market Analysis"
+    "title": "Análise de Mercado"
   },
   "sidebar": "defaultSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/Hackathon-Transpetro/docs/category/plano-de-negócio"
   },
   "next": {
-    "title": "Financing Analysis",
+    "title": "Análise Financeira",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/analise_financeira"
   }
 }

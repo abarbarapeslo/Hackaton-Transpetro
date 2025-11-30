@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Introdução",
-  "description": "Introduction to the Reevo Project",
+  "description": "Introdução do Projeto Nautlus",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

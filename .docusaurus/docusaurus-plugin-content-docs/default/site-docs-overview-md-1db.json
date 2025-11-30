@@ -1,6 +1,6 @@
 {
   "id": "overview",
-  "title": "Overview do Projeto",
+  "title": "Overview do Projeto Nautilus",
   "description": "Introdução",
   "source": "@site/docs/overview.md",
   "sourceDirName": ".",

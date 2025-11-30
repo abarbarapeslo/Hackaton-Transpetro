@@ -1,7 +1,7 @@
 {
   "id": "plano_negocio/analise_financeira",
-  "title": "Financing Analysis",
-  "description": "Contextualization",
+  "title": "Análise Financeira",
+  "description": "Contextualização",
   "source": "@site/docs/plano_negocio/analise_financeira.md",
   "sourceDirName": "plano_negocio",
   "slug": "/plano_negocio/analise_financeira",
@@ -13,15 +13,15 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "Financing Analysis"
+    "title": "Análise Financeira"
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Market Analysis",
+    "title": "Análise de Mercado",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/analise_mercado"
   },
   "next": {
-    "title": "Monetization Plan",
+    "title": "Plano de Monetização",
     "permalink": "/Hackathon-Transpetro/docs/plano_negocio/plano_monetizacao"
   }
 }
