@@ -3,11 +3,18 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Nautilus',
   tagline: 'Documentação Nautilus',
+
+  // URL do seu GitHub Pages
   url: 'https://abarbarapeslo.github.io',
-  baseUrl: '/Hackaton-Transpetro',
+
+  // **CORREÇÃO IMPORTANTE — barra final obrigatória**
+  baseUrl: '/Hackaton-Transpetro/',
+
   favicon: 'img/favicon-48.png',
+
   organizationName: 'abarbarapeslo',
   projectName: 'Hackaton-Transpetro',
+
   onBrokenLinks: 'throw',
   staticDirectories: ['static'],
   trailingSlash: false,
@@ -17,12 +24,9 @@ const config = {
       'classic',
       {
         docs: {
-          //sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          routeBasePath: '/', // docs são a home
         },
-        theme: {
-          //customCss: require.resolve('docs/src/css/custom.css'),
-        },
+        theme: {},
       },
     ],
   ],
