@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/Hackaton-Transpetro/__docusaurus/debug',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug', 'a16'),
-    exact: true
-  },
-  {
-    path: '/Hackaton-Transpetro/__docusaurus/debug/config',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/config', '3e8'),
-    exact: true
-  },
-  {
-    path: '/Hackaton-Transpetro/__docusaurus/debug/content',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/content', 'f34'),
-    exact: true
-  },
-  {
-    path: '/Hackaton-Transpetro/__docusaurus/debug/globalData',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/globalData', '6ae'),
-    exact: true
-  },
-  {
-    path: '/Hackaton-Transpetro/__docusaurus/debug/metadata',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/metadata', '5ca'),
-    exact: true
-  },
-  {
-    path: '/Hackaton-Transpetro/__docusaurus/debug/registry',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/registry', '4b2'),
-    exact: true
-  },
-  {
-    path: '/Hackaton-Transpetro/__docusaurus/debug/routes',
-    component: ComponentCreator('/Hackaton-Transpetro/__docusaurus/debug/routes', '947'),
-    exact: true
-  },
-  {
     path: '/Hackaton-Transpetro/',
     component: ComponentCreator('/Hackaton-Transpetro/', 'ca4'),
     routes: [

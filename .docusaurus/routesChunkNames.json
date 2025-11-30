@@ -1,190 +1,147 @@
 {
-  "/Hackaton-Transpetro/__docusaurus/debug-a16": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    }
-  },
-  "/Hackaton-Transpetro/__docusaurus/debug/config-3e8": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    }
-  },
-  "/Hackaton-Transpetro/__docusaurus/debug/content-f34": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    },
-    "__props": "__props---hackaton-transpetro-docusaurus-debug-contentd-28-1e9"
-  },
-  "/Hackaton-Transpetro/__docusaurus/debug/globalData-6ae": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    }
-  },
-  "/Hackaton-Transpetro/__docusaurus/debug/metadata-5ca": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    }
-  },
-  "/Hackaton-Transpetro/__docusaurus/debug/registry-4b2": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    }
-  },
-  "/Hackaton-Transpetro/__docusaurus/debug/routes-947": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---hackaton-transpetro-docusaurus-debugb-38-0d5"
-    }
-  },
   "/Hackaton-Transpetro/-ca4": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---hackaton-transpetro-docsaba-e0e"
+      "plugin": "aba21aa0"
     }
   },
   "/Hackaton-Transpetro/-8a6": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---hackaton-transpetro-fad-2c0"
+    "__comp": "a7bd4aaa",
+    "__props": "fadc8c9e"
   },
   "/Hackaton-Transpetro/-f93": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/Hackaton-Transpetro/category/compreensão-da-solução-07d": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackaton-transpetro-category-compreensao-da-solucao-77-f-7d4"
+    "__comp": "14eb3368",
+    "__props": "77f96d04"
   },
   "/Hackaton-Transpetro/category/entendimento-do-problema-00a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackaton-transpetro-category-entendimento-do-problema-47-d-eba"
+    "__comp": "14eb3368",
+    "__props": "47dbedd7"
   },
   "/Hackaton-Transpetro/category/implementação-técnica-659": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackaton-transpetro-category-implementacao-tecnica-92-f-8a3"
+    "__comp": "14eb3368",
+    "__props": "92f44983"
   },
   "/Hackaton-Transpetro/category/plano-de-negócio-b46": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackaton-transpetro-category-plano-de-negociobed-77b"
+    "__comp": "14eb3368",
+    "__props": "bed24ca4"
   },
   "/Hackaton-Transpetro/category/propósito-da-solução-71c": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackaton-transpetro-category-proposito-da-solucao-270-efd"
+    "__comp": "14eb3368",
+    "__props": "270f3bc4"
   },
   "/Hackaton-Transpetro/category/requisitos-823": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---hackaton-transpetro-category-requisitosf-05-b56"
+    "__comp": "14eb3368",
+    "__props": "f051cbdd"
   },
   "/Hackaton-Transpetro/compreensao_usuario/jornada_solucao-9de": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-compreensao-usuario-jornada-solucao-3-af-05d"
+    "__comp": "17896441",
+    "content": "3afa3b68"
   },
   "/Hackaton-Transpetro/compreensao_usuario/personas-18b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-compreensao-usuario-personas-2-e-1-68b"
+    "__comp": "17896441",
+    "content": "2e1dc0ff"
   },
   "/Hackaton-Transpetro/compreensao_usuario/publico_alvo-b68": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-compreensao-usuario-publico-alvo-300-cbf"
+    "__comp": "17896441",
+    "content": "300ab5f1"
   },
   "/Hackaton-Transpetro/entendimento_problema/analise_negocios-10b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-entendimento-problema-analise-negocios-9-be-f42"
+    "__comp": "17896441",
+    "content": "9be235fd"
   },
   "/Hackaton-Transpetro/entendimento_problema/mapeamento_problema-ed2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-entendimento-problema-mapeamento-problemacc-1-f9d"
+    "__comp": "17896441",
+    "content": "cc148c87"
   },
   "/Hackaton-Transpetro/equipe-6df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-equipe-0-c-8-99d"
+    "__comp": "17896441",
+    "content": "0c8bb1d2"
   },
   "/Hackaton-Transpetro/implementacao_tecnica/back_end-0cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-implementacao-tecnica-back-end-404-3d6"
+    "__comp": "17896441",
+    "content": "404f711b"
   },
   "/Hackaton-Transpetro/implementacao_tecnica/banco_de_dados-12a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-implementacao-tecnica-banco-de-dadosd-81-c31"
+    "__comp": "17896441",
+    "content": "d81b6261"
   },
   "/Hackaton-Transpetro/implementacao_tecnica/devops-b01": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-implementacao-tecnica-devopse-6-e-fe4"
+    "__comp": "17896441",
+    "content": "e6eb6abf"
   },
   "/Hackaton-Transpetro/implementacao_tecnica/infraestrutura-ad3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-implementacao-tecnica-infraestrutura-132-bf2"
+    "__comp": "17896441",
+    "content": "132db0ce"
   },
   "/Hackaton-Transpetro/implementacao_tecnica/machine_learning-cea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-implementacao-tecnica-machine-learning-5-ab-406"
+    "__comp": "17896441",
+    "content": "5abe673c"
   },
   "/Hackaton-Transpetro/implementacao_tecnica/seguranca-570": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-implementacao-tecnica-seguranca-537-b8f"
+    "__comp": "17896441",
+    "content": "53715999"
   },
   "/Hackaton-Transpetro/intro-c36": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-intro-0-e-3-be7"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/Hackaton-Transpetro/plano_negocio/analise_financeira-1cd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-plano-negocio-analise-financeiraf-31-f6a"
+    "__comp": "17896441",
+    "content": "f31ac533"
   },
   "/Hackaton-Transpetro/plano_negocio/analise_mercado-077": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-plano-negocio-analise-mercadoee-6-b6a"
+    "__comp": "17896441",
+    "content": "ee64a2a3"
   },
   "/Hackaton-Transpetro/plano_negocio/estrategia_distribuicao-069": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-plano-negocio-estrategia-distribuicaocfd-2fa"
+    "__comp": "17896441",
+    "content": "cfd82472"
   },
   "/Hackaton-Transpetro/plano_negocio/metricas-1e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-plano-negocio-metricase-48-f2d"
+    "__comp": "17896441",
+    "content": "e4829e4d"
   },
   "/Hackaton-Transpetro/plano_negocio/plano_monetizacao-893": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-plano-negocio-plano-monetizacao-2-aa-ed7"
+    "__comp": "17896441",
+    "content": "2aa2c4b1"
   },
   "/Hackaton-Transpetro/proposito_solucao/arquitetura_solucao-51b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-arquitetura-solucaob-0-a-3c5"
+    "__comp": "17896441",
+    "content": "b0a06e95"
   },
   "/Hackaton-Transpetro/proposito_solucao/fluxo_dados-12b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-fluxo-dados-051-088"
+    "__comp": "17896441",
+    "content": "051df4a7"
   },
   "/Hackaton-Transpetro/proposito_solucao/identidade_visual-443": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-identidade-visual-806-a40"
+    "__comp": "17896441",
+    "content": "806f8110"
   },
   "/Hackaton-Transpetro/proposito_solucao/modelagem_dados-f54": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-modelagem-dadosd-91-eb3"
+    "__comp": "17896441",
+    "content": "d9121a48"
   },
   "/Hackaton-Transpetro/proposito_solucao/proposta_valor-109": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-proposta-valor-3-da-c99"
+    "__comp": "17896441",
+    "content": "3daef075"
   },
   "/Hackaton-Transpetro/proposito_solucao/requisitos/requisitos_funcionais-db0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-requisitos-requisitos-funcionais-0-f-9-c99"
+    "__comp": "17896441",
+    "content": "0f9391a7"
   },
   "/Hackaton-Transpetro/proposito_solucao/requisitos/requisitos_nao_funcionais-bcc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-proposito-solucao-requisitos-requisitos-nao-funcionais-8-d-1-64e"
+    "__comp": "17896441",
+    "content": "8d107e31"
   },
   "/Hackaton-Transpetro/roadmap-69c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-roadmap-0-df-cf7"
+    "__comp": "17896441",
+    "content": "0dffb83e"
   },
   "/Hackaton-Transpetro/-75e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackaton-transpetro-docs-1-db-5c7"
+    "__comp": "17896441",
+    "content": "1db64337"
   }
 }
