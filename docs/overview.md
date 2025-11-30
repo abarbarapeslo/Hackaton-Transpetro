@@ -8,104 +8,170 @@ sidebar_position: 0
 
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nautilus_banner.jpg" style={{width: 1024}} alt="Nautilus" />
+        <img src="/static/img/nautilus_banner.jpg" style={{width: 1024}} alt="Nautilus" />
         <br/>
     </div>
 </div>
 
 ## Introdução
 
-&emsp;**Nautilus** is a digital peer-to-peer (P2P) credit platform that connects small and medium-sized farmers with individual investors interested in portfolio diversification and positive socio-environmental impact.  
+&emsp;**Nautilus** é uma plataforma avançada de **monitoramento e previsão de bioincrustação (fouling)** criada para apoiar a Transpetro na redução de consumo de combustível, emissões atmosféricas e custos de manutenção da frota.  
 
-&emsp;The project stems from the need to offer more agile, fair, and transparent credit to the agricultural sector, reducing reliance on traditional banks and valuing sustainable practices.
+&emsp;A solução combina **engenharia naval, dados AIS, relatórios IWS, histórico operacional, consumo de combustível e modelos de IA** para transformar o casco — tradicionalmente invisível — em uma fonte contínua de eficiência, segurança e sustentabilidade.
 
 ---
 
 ## Problema
 
-&emsp;In Brazil, family farmers represent 77% of rural establishments (IBGE, 2017), but they access less than 15% of formal rural credit. High bureaucracy, collateral requirements, and variable income tied to harvests make bank credit restrictive.  
+&emsp;A **bioincrustação** é um dos maiores desafios da indústria marítima. Cracas, algas e organismos marinhos aderidos ao casco aumentam o arrasto hidrodinâmico, reduzindo a velocidade, elevando o gasto energético e impactando diretamente a emissão de gases de efeito estufa.
 
-<p style={{textAlign: 'center'}}> Graph of Credit Access Distribution Among Family Farmers in Brazil</p>
+&emsp;Estudos globais indicam que o fouling pode aumentar o consumo em **até 40%** em casos severos. Já a **NORMAM 401** estabelece limites e diretrizes para inspeção, limpeza e mitigação — tornando o monitoramento contínuo um requisito operacional e regulatório.
+
+&emsp;Hoje, esse acompanhamento depende majoritariamente de **inspeções periódicas**, que são:
+
+- custosas,  
+- esporádicas,  
+- pouco preditivas,  
+- e incapazes de capturar a degradação do casco *em tempo real*.
+
+### Dados analisados pelo time
+
+O dataset fornecido no hackathon permitiu mapear:
+
+- **Eventos operacionais** com data, duração e tipo.  
+- **Consumo de combustível** por sessão (CONSUMED_QUANTITY).  
+- **Velocidade (AIS)**, latitude e longitude.  
+- **Inspeções IWS** com avaliação de fouling por área do casco.  
+- **Características dos navios** (classe, nome, porte etc.).  
+
+<div style={{textAlign: 'center', marginTop: 20}}>
+  <i>Gráfico: Relação entre fouling registrado em IWS e consumo médio por viagem</i>
+</div>
+
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Graph of credit distribution among family farmers in Brazil." />
+        <img src="/img/nome.png" style={{width: 1024}} alt="Graph fouling vs. consumption" />
         <br/>
     </div>
 </div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
 
-&emsp;Simultaneously, small and medium investors are seeking alternatives beyond traditional fixed income, looking for competitive returns, flexible liquidity, and direct social impact.
+<p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---
 
 ## Proposta de Valor
 
-- 🌱 **For Farmers**: Simplified access to credit, competitive rates compatible with their reality, and recognition for good agricultural practices.  
-- 💰 **For Investors**: Opportunity to invest accessible amounts in agricultural operations, with transparency via blockchain and clear socio-environmental impact indicators.  
-- 🔒 **For Both**: Anti-fraud security, digital contracts guaranteed by CPR (Rural Product Bill), and real-time monitoring.  
+- 🧠 **Para a Transpetro**  
+  Modelos que estimam o nível de fouling **em tempo real**, sem depender apenas de inspeções.  
+
+- ⛽ **Para Operações e Eficiência Energética**  
+  Correlação entre fouling, velocidade e consumo para estimar perdas energéticas e oportunidades de economia.  
+
+- 🔧 **Para Manutenção**  
+  Predição do **melhor momento para limpeza**, evitando intervenções desnecessárias ou tardias.  
+
+- 🌎 **Para ESG e Descarbonização**  
+  Monitoramento contínuo do impacto do casco nas emissões de CO₂, atendendo padrões globais e NORMAM 401.
 
 :::info
-Nautilus acts as a collaborative ecosystem, bringing urban capital closer to rural production.
+Nautilus transforma o casco em um ativo de informação contínua — previsível, monitorável e otimizado.
 :::
 
 ---
 
 ## Target de Audiência
 
-- **Small and medium farmers**: Family producers, rural youth, and agri-entrepreneurs who need fast and less bureaucratic credit.  
-- **Individual investors**: Local and urban, interested in diversification, social impact, and greater transparency in investments.  
+- **Centro de Operações da Transpetro (COT)**  
+  Monitoramento de desempenho das embarcações e eficiência energética.  
 
-<p style={{textAlign: 'center'}}> Solução Target de Audiência </p>
+- **Engenharia Naval e Manutenção**  
+  Planejamento de janelas de limpeza e estimativa de degradação de desempenho.  
+
+- **Gerência de Meio Ambiente / ESG**  
+  Tracking de emissões evitadas e indicador ambiental por embarcação.  
+
+- **Comandantes e equipe de bordo**  
+  Alertas e diagnósticos sobre desempenho do casco ao longo da viagem.
+
+<div style={{textAlign: 'center'}}> Ilustração do Usuário-Alvo </div>
+
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Solution target audience." />
+        <img src="/img/nome.png" style={{width: 1024}} alt="Target audience Nautilus" />
         <br/>
     </div>
 </div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
 
+<p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---
 
 ## Tecnologias
 
-- **Machine Learning (ML)** for automated credit analysis and fair score attribution.  
-- **Blockchain** for contract registration and transparency in fundraising/investments.  
-- **Responsive Web Architecture** to ensure access via desktop and mobile, even in areas with limited internet access. 
-- **Telethon** for simpler farmer access to application functionalities via Telegram.
+- **Machine Learning e Modelos Preditivos**  
+  Para estimar fouling a partir de velocidade, histórico AIS, consumo e inspeções IWS.
 
-<p style={{textAlign: 'center'}}>Application Functionalities</p>
+- **Sensoriamento via Dados AIS**  
+  Correlação entre perda de velocidade, variações operacionais e resistência hidrodinâmica.
+
+- **Integração com Copernicus Marine / NOAA**  
+  Dados ambientais como temperatura da água, correntes e salinidade.  
+
+- **Arquitetura Web Responsiva + Painel de Operações**  
+  Dashboard unificado para previsões, alertas e indicadores energéticos.
+
+<div style={{textAlign: 'center'}}> Visão das Funcionalidades da Plataforma </div>
+
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Application functionalities." />
+        <img src="/img/nome.png" style={{width: 1024}} alt="Nautilus functionalities" />
         <br/>
     </div>
 </div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
 
+<p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---
 
 ## Diferenciadores Chave
 
-1. **Accessibility via Telegram**: In addition to the numerical score, explains the factors that increased or reduced the rating.  
-2. **Dual Registration (Farmer and Investor)**: Possibility of accepting partial values, extending deadlines, or cancelling the request.  
-3. **Investments Beyond Production**: Digital showcase that directly connects farmers and investors.  
+1. **Modelo híbrido Fouling + Impacto energético**  
+   Não apenas classifica o fouling — estima impacto no consumo e emissões.
 
-<p style={{textAlign: 'center'}}>Application Differentiators</p>
+2. **Previsão baseada em regressão temporal + dados reais**  
+   Combina AIS, IWS, consumo e ambiente para prever trajetória do fouling.
+
+3. **Painel de limpeza ideal (IWS Planner)**  
+   Sugere o *ponto ótimo* de intervenção para cada embarcação.
+
+4. **Compliance com NORMAM 401**  
+   Registra histórico e apoia conformidade regulatória automaticamente.
+
+<div style={{textAlign: 'center'}}> Diferenciais do Nautilus </div>
+
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Application differentiators." />
+        <img src="/img/nome.png" style={{width: 1024}} alt="Differentials" />
         <br/>
     </div>
 </div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
+
+<p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
 
 ---
 
 ## Conclusão
 
-&emsp;**Nautilus** represents the convergence between digital finance and sustainable agribusiness, creating an innovative model that benefits both producers and investors.  
-By uniting technology, financial inclusion, and socio-environmental impact, the platform seeks to empower farmers' lives and offer new opportunities to conscious investors.
+&emsp;**Nautilus** representa uma nova geração de monitoramento marítimo.  
+Ao unir **dados operacionais**, **inteligência artificial** e **engenharia naval**, a solução revela o que está abaixo da superfície — permitindo decisões mais eficientes, econômicas e sustentáveis.
+
+&emsp;Com Nautilus, a Transpetro ganha:
+
+- previsibilidade,  
+- economia de combustível,  
+- redução de emissões,  
+- e maior segurança operacional.
+
+&emsp;Nautilus é **precisão que navega** — inteligência contra a bioincrustação, performance a favor do planeta.
 
 ---
