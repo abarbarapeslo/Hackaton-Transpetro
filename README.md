@@ -1,18 +1,18 @@
 <div align="center">
 
+# Nautilus
 
 </div>
 
-<br><br>
 <p align="center">
-  <img src="/static/img/nautilus_logo.svg" alt="Nautilus Banner" width="600">
-</p>
-<br><br>
-
-<p align="center">
-  <i>Como usar tecnologias inovadoras para monitorar e prever a bioincrustação, aumentando a eficiência operacional, reduzindo consumo de combustível e apoiando a descarbonização da frota da Transpetro.</i>
+  <img src="/static/img/nautilus_logo.svg" alt="Nautilus" width="400" style="margin-bottom: 30px;">
 </p>
 
+<p align="center">
+  <i>Inteligência para monitorar e prever bioincrustação — eficiência para navegar mais longe, gastar menos e emitir menos.</i>
+</p>
+
+---
 
 ## Membros da Equipe
 
@@ -47,51 +47,106 @@
   </table>
 </div>
 
+---
+
 ## Descrição
 
-**Nautilus** é uma plataforma fintech P2P (peer-to-peer) de crédito projetada para conectar pequenos e médios produtores rurais brasileiros com indivíduos interessados em investir diretamente no agronegócio. Usando análise de dados, IA e arquitetura de microsserviços em nuvem, nossa missão é criar um ecossistema de crédito mais ágil, transparente e sustentável.
+**Nautilus** é uma plataforma de monitoramento inteligente desenvolvida para o **Hackathon Transpetro 2025**, combinando engenharia naval, ciência de dados e inteligência artificial.
 
-A documentação completa do projeto, incluindo arquitetura, fluxos e modelo de dados, está disponível em nosso site Docusaurus.
+Nosso propósito é **prever e monitorar a bioincrustação** no casco das embarcações, permitindo decisões operacionais baseadas em dados que:
 
-**[>> Acesse a Documentação Completa Aqui <<](https://abarbarapeslo.github.io/Hackathon-Transpetro/)**  
-**[>> Assista ao vídeo explicativo da estrutura técnica <<](COLOQUE_SEU_LINK_AQUI)**
+- reduzem consumo de combustível,  
+- minimizam emissões de gases de efeito estufa,  
+- antecipam riscos de segurança,  
+- aumentam eficiência e disponibilidade da frota.
 
-### Solução do Problema
+Inspirado na hidrodinâmica do organismo marinho *nautilus*, o projeto representa **precisão, adaptação e profundidade analítica**, revelando o que está abaixo da superfície.
 
-O agronegócio brasileiro enfrenta um paradoxo: enquanto o setor é uma potência, pequenos e médios produtores rurais sofrem com acesso restrito e burocrático ao crédito tradicional. Por outro lado, investidores buscam alternativas de investimento com impacto e transparência. Transpetro resolve este problema através de:
+---
 
-- **Análise de crédito automatizada** para respostas rápidas aos produtores
-- **Criação de marketplace** para investimentos acessíveis e transparentes
-- **Oferta de liquidez** para investidores através de mercado secundário
-- **Redução de burocracia** e altas taxas de intermediários tradicionais
+## Valores da Marca
 
-## Ecossistema Nautilus
+### **Precisão**
+Inteligência capaz de interpretar a performance real do casco, cruzando dados de sensores, eventos e inspeções para entregar recomendações confiáveis.
 
-O sistema opera baseado em conceitos-chave que garantem sua funcionalidade e transparência:
+### **Sustentabilidade**
+Monitoramento contínuo da degradação hidrodinâmica e do aumento de fouling, permitindo reduzir emissões e consumo operacional.
 
-| Conceito | Descrição | Objetivo |
-|:--------|:----------|:---------|
-| **AgroScore** | Pontuação de crédito (0-1000) gerada por IA, que analisa dados do produtor e mercado | Democratizar e acelerar análise de risco, oferecendo taxas mais justas |
-| **CPR** | Cédula de Produtor Rural, a garantia que formaliza o empréstimo do produtor | Servir como ativo base para investimento, garantindo segurança jurídica |
-| **Cotas de Investimento** | A CPR é fracionada em pequenas cotas (ex: R$ 100 cada), que são os ativos comprados pelos investidores | Permitir investimento pulverizado, reduzindo risco e facilitando captação |
-| **Mercado Secundário** | Funcionalidade que permite investidores venderem suas cotas antes do vencimento da CPR | Proporcionar liquidez, maior diferencial da plataforma |
+### **Segurança Preditiva**
+Antecipação de anomalias e riscos que impactam o desempenho ou a integridade da embarcação.
 
-## Funcionalidades Chave
+---
 
-### 1. **Análise de Crédito Automatizada (AgroScore)**
-- Processo 100% digital de solicitação
-- Análise de risco data-driven, gerando score em minutos
-- Feedback transparente para o produtor
+## Problema
 
-### 2. **Marketplace de Investimentos**
-- Vitrine de oportunidades de crédito (CPRs) para investidores
-- Informações claras sobre risco, retorno, prazo e impacto de cada projeto
-- Investimento fracionado a partir de pequenos valores
+A bioincrustação aumenta o arrasto hidrodinâmico, elevando consumo de combustível e emissões.  
+Sua avaliação hoje depende de inspeções visuais esporádicas, caras e tardias.
 
-### 3. **Mercado Secundário para Liquidez**
-- Permite investidores venderem suas cotas a qualquer momento
-- Aumenta atratividade do investimento oferecendo porta de saída
+O desafio do hackathon:
 
-### 4. **Carteira Digital Integrada**
-- Gerenciamento de saldos, extratos e transações (depósitos, saques, investimentos)
-- Suporte a operações via Pix e criptomoedas (stablecoin USDC)
+> **"Como usar tecnologias inovadoras para monitorar e prever a bioincrustação, aumentando a eficiência operacional, reduzindo consumo e apoiando a descarbonização da frota?"**
+
+---
+
+## O que o Nautilus resolve
+
+- 📈 **Prevê a evolução da bioincrustação** com base em dados operacionais e históricos  
+- 🔎 **Identifica mudanças na eficiência do casco** antes mesmo das inspeções  
+- 🌎 **Estimula decisões sustentáveis** baseadas em consumo, velocidade e condição real  
+- ⚙️ **Sugerimos o momento ideal** para limpeza/inspeção do casco  
+- 🚢 **Integra dados AIS, consumo, eventos e IWS** em um dataset unificado  
+- 🧠 **Utiliza Machine Learning** para prever condições do casco  
+
+---
+
+## Fluxo de Funcionamento da Solução
+
+1. **Ingestão dos dados**  
+   Consumo, velocidade, GPS, inspeções, eventos de navegação, características dos navios.
+
+2. **Tratamento e Engenharia de Dados**  
+   • Normalização, padronização e merge inteligente (merge_asof).  
+   • Criação do dataset integrado.
+
+3. **Análise da Condição do Casco**  
+   • Correlação entre fouling e consumo.  
+   • Detecção de padrões de degradação.
+
+4. **Modelo Preditivo**  
+   • Previsão da condição do casco (target).  
+   • Estimativa de impacto energético.
+
+5. **Recomendações Operacionais**  
+   • Janelas ideais para limpeza.  
+   • Alertas de risco.  
+   • Insights de eficiência.
+
+---
+
+## Acesse a Documentação Completa
+
+📘 **Documentação Docusaurus:**  
+https://abarbarapeslo.github.io/Hackathon-Transpetro/
+
+🎥 **Vídeo explicativo:**  
+_COLOCAR LINK_
+
+---
+
+## Tecnologias
+
+- Python (Pandas, NumPy, Scikit-learn)
+- IA/ML para previsão de fouling
+- Docusaurus para documentação técnica
+- GitHub Pages
+- Visualização e análise exploratória
+- Engenharia de dados (merge_asof, normalização temporal)
+- Tratamento de dados AIS, IWS, Consumo e Eventos
+
+---
+## 🌀 Uma nova visão para o mar
+
+Nautilus não apenas analisa o casco.  
+Ele revela o que está abaixo da superfície, traduz operações complexas em decisões inteligentes e guia frotas para um futuro mais eficiente e sustentável.
+
+> **Nautilus é precisão que navega.**
