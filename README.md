@@ -1,20 +1,18 @@
 <div align="center">
 
-# Nautilus
 
 </div>
 
+<br><br>
 <p align="center">
-  <img src="/static/img/nautilus_logo.svg" alt="Nautilus" width="600">
+  <img src="/static/img/nautilus_logo.svg" alt="Nautilus Banner" width="600">
 </p>
+<br><br>
 
 <p align="center">
   <i>Como usar tecnologias inovadoras para monitorar e prever a bioincrustação, aumentando a eficiência operacional, reduzindo consumo de combustível e apoiando a descarbonização da frota da Transpetro.</i>
 </p>
 
-<div align="center">
-  <img src="/static/img/nautilus_logo.svg" alt="Nautilus" width="800">
-</div>
 
 ## Membros da Equipe
 
