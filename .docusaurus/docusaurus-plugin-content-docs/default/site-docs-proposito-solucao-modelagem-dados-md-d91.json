@@ -5,7 +5,7 @@
   "source": "@site/docs/proposito_solucao/modelagem_dados.md",
   "sourceDirName": "proposito_solucao",
   "slug": "/proposito_solucao/modelagem_dados",
-  "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados",
+  "permalink": "/Hackaton-Transpetro/proposito_solucao/modelagem_dados",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Fluxo de Dados",
-    "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados"
+    "permalink": "/Hackaton-Transpetro/proposito_solucao/fluxo_dados"
   },
   "next": {
     "title": "Identidade Visual",
-    "permalink": "/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual"
+    "permalink": "/Hackaton-Transpetro/proposito_solucao/identidade_visual"
   }
 }

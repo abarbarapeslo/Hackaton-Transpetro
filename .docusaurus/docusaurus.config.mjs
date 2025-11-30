@@ -8,6 +8,7 @@ export default {
   "tagline": "Documentação Nautilus",
   "url": "https://abarbarapeslo.github.io",
   "baseUrl": "/Hackaton-Transpetro/",
+  "favicon": "img/favicon-48.png",
   "organizationName": "abarbarapeslo",
   "projectName": "Hackaton-Transpetro",
   "onBrokenLinks": "throw",
@@ -19,7 +20,9 @@ export default {
     [
       "classic",
       {
-        "docs": {},
+        "docs": {
+          "routeBasePath": "/"
+        },
         "theme": {}
       }
     ]

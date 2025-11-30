@@ -3,16 +3,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Nautilus',
   tagline: 'Documentação Nautilus',
-
   url: 'https://abarbarapeslo.github.io',
-  baseUrl: '/Hackaton-Transpetro/',
-
+  baseUrl: '/Hackaton-Transpetro',
+  favicon: 'img/favicon-48.png',
   organizationName: 'abarbarapeslo',
   projectName: 'Hackaton-Transpetro',
-
   onBrokenLinks: 'throw',
-
-  // ADICIONE ESTAS DUAS LINHAS:
   staticDirectories: ['static'],
   trailingSlash: false,
 
@@ -22,6 +18,7 @@ const config = {
       {
         docs: {
           //sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
         },
         theme: {
           //customCss: require.resolve('docs/src/css/custom.css'),

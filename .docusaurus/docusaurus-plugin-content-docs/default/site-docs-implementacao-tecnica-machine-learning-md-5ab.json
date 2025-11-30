@@ -5,7 +5,7 @@
   "source": "@site/docs/implementacao_tecnica/machine_learning.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/machine_learning",
-  "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning",
+  "permalink": "/Hackaton-Transpetro/implementacao_tecnica/machine_learning",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "DevOps",
-    "permalink": "/Hackaton-Transpetro/docs/implementacao_tecnica/devops"
+    "permalink": "/Hackaton-Transpetro/implementacao_tecnica/devops"
   },
   "next": {
     "title": "Plano de Negócio",
-    "permalink": "/Hackaton-Transpetro/docs/category/plano-de-negócio"
+    "permalink": "/Hackaton-Transpetro/category/plano-de-negócio"
   }
 }

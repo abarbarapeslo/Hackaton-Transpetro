@@ -5,7 +5,7 @@
   "source": "@site/docs/compreensao_usuario/publico_alvo.md",
   "sourceDirName": "compreensao_usuario",
   "slug": "/compreensao_usuario/publico_alvo",
-  "permalink": "/Hackaton-Transpetro/docs/compreensao_usuario/publico_alvo",
+  "permalink": "/Hackaton-Transpetro/compreensao_usuario/publico_alvo",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Compreensão da Solução",
-    "permalink": "/Hackaton-Transpetro/docs/category/compreensão-da-solução"
+    "permalink": "/Hackaton-Transpetro/category/compreensão-da-solução"
   },
   "next": {
     "title": "Personas",
-    "permalink": "/Hackaton-Transpetro/docs/compreensao_usuario/personas"
+    "permalink": "/Hackaton-Transpetro/compreensao_usuario/personas"
   }
 }

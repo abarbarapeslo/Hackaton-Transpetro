@@ -5,7 +5,7 @@
   "source": "@site/docs/overview.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/Hackaton-Transpetro/docs/",
+  "permalink": "/Hackaton-Transpetro/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,6 +19,6 @@
   "sidebar": "defaultSidebar",
   "next": {
     "title": "Introdução",
-    "permalink": "/Hackaton-Transpetro/docs/intro"
+    "permalink": "/Hackaton-Transpetro/intro"
   }
 }

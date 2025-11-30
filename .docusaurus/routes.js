@@ -38,212 +38,212 @@ export default [
     exact: true
   },
   {
-    path: '/Hackaton-Transpetro/docs',
-    component: ComponentCreator('/Hackaton-Transpetro/docs', '520'),
+    path: '/Hackaton-Transpetro/',
+    component: ComponentCreator('/Hackaton-Transpetro/', 'ca4'),
     routes: [
       {
-        path: '/Hackaton-Transpetro/docs',
-        component: ComponentCreator('/Hackaton-Transpetro/docs', '99d'),
+        path: '/Hackaton-Transpetro/',
+        component: ComponentCreator('/Hackaton-Transpetro/', '8a6'),
         routes: [
           {
-            path: '/Hackaton-Transpetro/docs',
-            component: ComponentCreator('/Hackaton-Transpetro/docs', '458'),
+            path: '/Hackaton-Transpetro/',
+            component: ComponentCreator('/Hackaton-Transpetro/', 'f93'),
             routes: [
               {
-                path: '/Hackaton-Transpetro/docs',
-                component: ComponentCreator('/Hackaton-Transpetro/docs', '3e7'),
+                path: '/Hackaton-Transpetro/category/compreensão-da-solução',
+                component: ComponentCreator('/Hackaton-Transpetro/category/compreensão-da-solução', '07d'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/compreensão-da-solução',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/compreensão-da-solução', '744'),
+                path: '/Hackaton-Transpetro/category/entendimento-do-problema',
+                component: ComponentCreator('/Hackaton-Transpetro/category/entendimento-do-problema', '00a'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/entendimento-do-problema',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/entendimento-do-problema', 'e5b'),
+                path: '/Hackaton-Transpetro/category/implementação-técnica',
+                component: ComponentCreator('/Hackaton-Transpetro/category/implementação-técnica', '659'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/implementação-técnica',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/implementação-técnica', 'f3a'),
+                path: '/Hackaton-Transpetro/category/plano-de-negócio',
+                component: ComponentCreator('/Hackaton-Transpetro/category/plano-de-negócio', 'b46'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/plano-de-negócio',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/plano-de-negócio', '7d6'),
+                path: '/Hackaton-Transpetro/category/propósito-da-solução',
+                component: ComponentCreator('/Hackaton-Transpetro/category/propósito-da-solução', '71c'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/propósito-da-solução',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/propósito-da-solução', '04f'),
+                path: '/Hackaton-Transpetro/category/requisitos',
+                component: ComponentCreator('/Hackaton-Transpetro/category/requisitos', '823'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/category/requisitos',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/category/requisitos', 'bd6'),
+                path: '/Hackaton-Transpetro/compreensao_usuario/jornada_solucao',
+                component: ComponentCreator('/Hackaton-Transpetro/compreensao_usuario/jornada_solucao', '9de'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/compreensao_usuario/jornada_solucao',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/jornada_solucao', '8b6'),
+                path: '/Hackaton-Transpetro/compreensao_usuario/personas',
+                component: ComponentCreator('/Hackaton-Transpetro/compreensao_usuario/personas', '18b'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/compreensao_usuario/personas',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/personas', 'f70'),
+                path: '/Hackaton-Transpetro/compreensao_usuario/publico_alvo',
+                component: ComponentCreator('/Hackaton-Transpetro/compreensao_usuario/publico_alvo', 'b68'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/compreensao_usuario/publico_alvo',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/compreensao_usuario/publico_alvo', 'eaf'),
+                path: '/Hackaton-Transpetro/entendimento_problema/analise_negocios',
+                component: ComponentCreator('/Hackaton-Transpetro/entendimento_problema/analise_negocios', '10b'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/entendimento_problema/analise_negocios',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/entendimento_problema/analise_negocios', '525'),
+                path: '/Hackaton-Transpetro/entendimento_problema/mapeamento_problema',
+                component: ComponentCreator('/Hackaton-Transpetro/entendimento_problema/mapeamento_problema', 'ed2'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/entendimento_problema/mapeamento_problema',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/entendimento_problema/mapeamento_problema', 'f47'),
+                path: '/Hackaton-Transpetro/equipe',
+                component: ComponentCreator('/Hackaton-Transpetro/equipe', '6df'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/equipe',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/equipe', '0f6'),
+                path: '/Hackaton-Transpetro/implementacao_tecnica/back_end',
+                component: ComponentCreator('/Hackaton-Transpetro/implementacao_tecnica/back_end', '0cb'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/back_end',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/back_end', '4e8'),
+                path: '/Hackaton-Transpetro/implementacao_tecnica/banco_de_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/implementacao_tecnica/banco_de_dados', '12a'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/banco_de_dados',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/banco_de_dados', '0ae'),
+                path: '/Hackaton-Transpetro/implementacao_tecnica/devops',
+                component: ComponentCreator('/Hackaton-Transpetro/implementacao_tecnica/devops', 'b01'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/devops',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/devops', 'ae9'),
+                path: '/Hackaton-Transpetro/implementacao_tecnica/infraestrutura',
+                component: ComponentCreator('/Hackaton-Transpetro/implementacao_tecnica/infraestrutura', 'ad3'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/infraestrutura', 'f75'),
+                path: '/Hackaton-Transpetro/implementacao_tecnica/machine_learning',
+                component: ComponentCreator('/Hackaton-Transpetro/implementacao_tecnica/machine_learning', 'cea'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/machine_learning', 'b84'),
+                path: '/Hackaton-Transpetro/implementacao_tecnica/seguranca',
+                component: ComponentCreator('/Hackaton-Transpetro/implementacao_tecnica/seguranca', '570'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/implementacao_tecnica/seguranca', '144'),
+                path: '/Hackaton-Transpetro/intro',
+                component: ComponentCreator('/Hackaton-Transpetro/intro', 'c36'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/intro',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/intro', 'da0'),
+                path: '/Hackaton-Transpetro/plano_negocio/analise_financeira',
+                component: ComponentCreator('/Hackaton-Transpetro/plano_negocio/analise_financeira', '1cd'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/plano_negocio/analise_financeira',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/analise_financeira', '614'),
+                path: '/Hackaton-Transpetro/plano_negocio/analise_mercado',
+                component: ComponentCreator('/Hackaton-Transpetro/plano_negocio/analise_mercado', '077'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/plano_negocio/analise_mercado',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/analise_mercado', '390'),
+                path: '/Hackaton-Transpetro/plano_negocio/estrategia_distribuicao',
+                component: ComponentCreator('/Hackaton-Transpetro/plano_negocio/estrategia_distribuicao', '069'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/plano_negocio/estrategia_distribuicao',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/estrategia_distribuicao', '12c'),
+                path: '/Hackaton-Transpetro/plano_negocio/metricas',
+                component: ComponentCreator('/Hackaton-Transpetro/plano_negocio/metricas', '1e5'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/plano_negocio/metricas',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/metricas', 'a55'),
+                path: '/Hackaton-Transpetro/plano_negocio/plano_monetizacao',
+                component: ComponentCreator('/Hackaton-Transpetro/plano_negocio/plano_monetizacao', '893'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/plano_negocio/plano_monetizacao',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/plano_negocio/plano_monetizacao', '4c6'),
+                path: '/Hackaton-Transpetro/proposito_solucao/arquitetura_solucao',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/arquitetura_solucao', '51b'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/arquitetura_solucao', '6d6'),
+                path: '/Hackaton-Transpetro/proposito_solucao/fluxo_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/fluxo_dados', '12b'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/fluxo_dados', 'b64'),
+                path: '/Hackaton-Transpetro/proposito_solucao/identidade_visual',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/identidade_visual', '443'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/identidade_visual', '44a'),
+                path: '/Hackaton-Transpetro/proposito_solucao/modelagem_dados',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/modelagem_dados', 'f54'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/modelagem_dados', '1f1'),
+                path: '/Hackaton-Transpetro/proposito_solucao/proposta_valor',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/proposta_valor', '109'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/proposta_valor',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/proposta_valor', 'e35'),
+                path: '/Hackaton-Transpetro/proposito_solucao/requisitos/requisitos_funcionais',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/requisitos/requisitos_funcionais', 'db0'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_funcionais', '0a0'),
+                path: '/Hackaton-Transpetro/proposito_solucao/requisitos/requisitos_nao_funcionais',
+                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/requisitos/requisitos_nao_funcionais', 'bcc'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/proposito_solucao/requisitos/requisitos_nao_funcionais', '9a5'),
+                path: '/Hackaton-Transpetro/roadmap',
+                component: ComponentCreator('/Hackaton-Transpetro/roadmap', '69c'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },
               {
-                path: '/Hackaton-Transpetro/docs/roadmap',
-                component: ComponentCreator('/Hackaton-Transpetro/docs/roadmap', 'e59'),
+                path: '/Hackaton-Transpetro/',
+                component: ComponentCreator('/Hackaton-Transpetro/', '75e'),
                 exact: true,
                 sidebar: "defaultSidebar"
               }
