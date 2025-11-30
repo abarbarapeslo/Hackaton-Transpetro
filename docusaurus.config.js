@@ -6,27 +6,39 @@ const config = {
   url: 'https://abarbarapeslo.github.io',
   baseUrl: '/Nautilus/',
   organizationName: 'abarbarapeslo',
-  projectName: 'Nautilus', // ← MUDEI "Hackaton" → "Hackathon"
+  projectName: 'Nautilus',
 
   onBrokenLinks: 'throw',
 
   presets: [
-    ['classic', {
-      docs: {
-        // sidebarPath: './sidebars.js',  ← COMENTE ESTA LINHA
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.js',
+        },
+        theme: {
+          // customCss: './src/css/custom.css',
+        },
       },
-      theme: {
-        //customCss: './src/css/custom.css'
-      },
-    }],
+    ],
   ],
-
-
 
   themeConfig: {
     navbar: {
       title: 'Nautilus',
-      items: [{ type: 'docSidebar', sidebarId: 'defaultSidebar', position: 'left', label: 'Docs' }],
+      logo: {
+        alt: 'Logo Nautilus',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'defaultSidebar', // ou o id que você usa no sidebars.js
+          position: 'left',
+          label: 'Docs',
+        },
+      ],
     },
   },
 };

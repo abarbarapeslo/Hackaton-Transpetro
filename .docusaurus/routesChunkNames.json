@@ -2,50 +2,50 @@
   "/Nautilus/__docusaurus/debug-e18": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     }
   },
   "/Nautilus/__docusaurus/debug/config-a6b": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     }
   },
   "/Nautilus/__docusaurus/debug/content-993": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     },
     "__props": "__props---nautilus-docusaurus-debug-contentd-80-184"
   },
   "/Nautilus/__docusaurus/debug/globalData-771": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     }
   },
   "/Nautilus/__docusaurus/debug/metadata-d40": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     }
   },
   "/Nautilus/__docusaurus/debug/registry-7e8": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     }
   },
   "/Nautilus/__docusaurus/debug/routes-4ec": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docusaurus-debugb-38-a9e"
+      "plugin": "plugin---nautilus-docusaurus-debugb-38-861"
     }
   },
   "/Nautilus/docs-e7d": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---hackathon-transpetro-docsaba-00c"
+      "plugin": "plugin---nautilus-docsaba-02b"
     }
   },
   "/Nautilus/docs-b2b": {
@@ -57,7 +57,7 @@
   },
   "/Nautilus/docs/-c05": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-1-db-2aa"
+    "content": "content---nautilus-docs-1-db-e4e"
   },
   "/Nautilus/docs/category/compreensão-do-usuário-8fb": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -85,114 +85,114 @@
   },
   "/Nautilus/docs/compreensao_usuario/jornada_usuario-5c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-compreensao-usuario-jornada-usuarioaab-bab"
+    "content": "content---nautilus-docs-compreensao-usuario-jornada-usuarioaab-752"
   },
   "/Nautilus/docs/compreensao_usuario/personas-ba1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-compreensao-usuario-personas-2-e-1-b81"
+    "content": "content---nautilus-docs-compreensao-usuario-personas-2-e-1-ab6"
   },
   "/Nautilus/docs/compreensao_usuario/publico_alvo-787": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-compreensao-usuario-publico-alvo-300-31a"
+    "content": "content---nautilus-docs-compreensao-usuario-publico-alvo-300-777"
   },
   "/Nautilus/docs/entendimento_problema/analise_negocios-112": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-entendimento-problema-analise-negocios-9-be-4d4"
+    "content": "content---nautilus-docs-entendimento-problema-analise-negocios-9-be-ac6"
   },
   "/Nautilus/docs/entendimento_problema/mapeamento_problema-5b7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-entendimento-problema-mapeamento-problemacc-1-6f4"
+    "content": "content---nautilus-docs-entendimento-problema-mapeamento-problemacc-1-ee9"
   },
   "/Nautilus/docs/equipe-ee6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-equipe-0-c-8-2b4"
+    "content": "content---nautilus-docs-equipe-0-c-8-70c"
   },
   "/Nautilus/docs/implementacao_tecnica/back_end-88f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-back-end-404-5c9"
+    "content": "content---nautilus-docs-implementacao-tecnica-back-end-404-f34"
   },
   "/Nautilus/docs/implementacao_tecnica/banco_de_dados-3fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-banco-de-dadosd-81-93d"
+    "content": "content---nautilus-docs-implementacao-tecnica-banco-de-dadosd-81-ca6"
   },
   "/Nautilus/docs/implementacao_tecnica/Blockchain-6ee": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-blockchain-829-14d"
+    "content": "content---nautilus-docs-implementacao-tecnica-blockchain-829-a1a"
   },
   "/Nautilus/docs/implementacao_tecnica/devops-012": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-devopse-6-e-060"
+    "content": "content---nautilus-docs-implementacao-tecnica-devopse-6-e-596"
   },
   "/Nautilus/docs/implementacao_tecnica/front_end-a9e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-front-endf-30-5d6"
+    "content": "content---nautilus-docs-implementacao-tecnica-front-endf-30-c3d"
   },
   "/Nautilus/docs/implementacao_tecnica/infraestrutura-176": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-infraestrutura-132-4f7"
+    "content": "content---nautilus-docs-implementacao-tecnica-infraestrutura-132-502"
   },
   "/Nautilus/docs/implementacao_tecnica/machine_learning-7c4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-machine-learning-5-ab-56c"
+    "content": "content---nautilus-docs-implementacao-tecnica-machine-learning-5-ab-47c"
   },
   "/Nautilus/docs/implementacao_tecnica/seguranca-7df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-implementacao-tecnica-seguranca-537-8f1"
+    "content": "content---nautilus-docs-implementacao-tecnica-seguranca-537-53f"
   },
   "/Nautilus/docs/intro-9dd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-intro-0-e-3-78b"
+    "content": "content---nautilus-docs-intro-0-e-3-672"
   },
   "/Nautilus/docs/plano_negocio/analise_financeira-1f4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-plano-negocio-analise-financeiraf-31-982"
+    "content": "content---nautilus-docs-plano-negocio-analise-financeiraf-31-db7"
   },
   "/Nautilus/docs/plano_negocio/analise_mercado-dd2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-plano-negocio-analise-mercadoee-6-7f9"
+    "content": "content---nautilus-docs-plano-negocio-analise-mercadoee-6-425"
   },
   "/Nautilus/docs/plano_negocio/estrategia_distribuicao-fcf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-plano-negocio-estrategia-distribuicaocfd-fdf"
+    "content": "content---nautilus-docs-plano-negocio-estrategia-distribuicaocfd-d60"
   },
   "/Nautilus/docs/plano_negocio/metricas-45f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-plano-negocio-metricase-48-2f7"
+    "content": "content---nautilus-docs-plano-negocio-metricase-48-c0c"
   },
   "/Nautilus/docs/plano_negocio/plano_monetizacao-f5d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-plano-negocio-plano-monetizacao-2-aa-4ca"
+    "content": "content---nautilus-docs-plano-negocio-plano-monetizacao-2-aa-5ae"
   },
   "/Nautilus/docs/roadmap-33c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-roadmap-0-df-702"
+    "content": "content---nautilus-docs-roadmap-0-df-78d"
   },
   "/Nautilus/docs/solucao_problema/arquitetura_solucao-061": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-arquitetura-solucaoad-8-f98"
+    "content": "content---nautilus-docs-solucao-problema-arquitetura-solucaoad-8-c82"
   },
   "/Nautilus/docs/solucao_problema/fluxo_dados-214": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-fluxo-dados-165-f37"
+    "content": "content---nautilus-docs-solucao-problema-fluxo-dados-165-4bb"
   },
   "/Nautilus/docs/solucao_problema/identidade_visual-4fa": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-identidade-visual-3-df-78b"
+    "content": "content---nautilus-docs-solucao-problema-identidade-visual-3-df-c4b"
   },
   "/Nautilus/docs/solucao_problema/modelagem_dados-fdf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-modelagem-dados-8-a-7-187"
+    "content": "content---nautilus-docs-solucao-problema-modelagem-dados-8-a-7-b44"
   },
   "/Nautilus/docs/solucao_problema/proposta_valor-6ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-proposta-valor-348-5ff"
+    "content": "content---nautilus-docs-solucao-problema-proposta-valor-348-2a2"
   },
   "/Nautilus/docs/solucao_problema/requisitos/requisitos_funcionais-47a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-requisitos-requisitos-funcionais-78-d-792"
+    "content": "content---nautilus-docs-solucao-problema-requisitos-requisitos-funcionais-78-d-8f3"
   },
   "/Nautilus/docs/solucao_problema/requisitos/requisitos_nao_funcionais-15d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---hackathon-transpetro-docs-solucao-problema-requisitos-requisitos-nao-funcionaisea-8-161"
+    "content": "content---nautilus-docs-solucao-problema-requisitos-requisitos-nao-funcionaisea-8-287"
   }
 }

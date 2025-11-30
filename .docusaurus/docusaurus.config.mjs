@@ -15,7 +15,9 @@ export default {
     [
       "classic",
       {
-        "docs": {},
+        "docs": {
+          "sidebarPath": "./sidebars.js"
+        },
         "theme": {}
       }
     ]
@@ -23,6 +25,10 @@ export default {
   "themeConfig": {
     "navbar": {
       "title": "Nautilus",
+      "logo": {
+        "alt": "Logo Nautilus",
+        "src": "img/logo.svg"
+      },
       "items": [
         {
           "type": "docSidebar",
