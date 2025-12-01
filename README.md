@@ -120,10 +120,10 @@ O desafio do hackathon:
 ## Acesse a Documentação Completa
 
 📘 **Documentação Docusaurus:**  
-https://abarbarapeslo.github.io/Hackathon-Transpetro/
+https://abarbarapeslo.github.io/Hackaton-Transpetro/
 
 🎥 **Vídeo explicativo:**  
-_COLOCAR LINK_
+_https://youtu.be/wMuoxjCrAS0_
 
 ---
 
