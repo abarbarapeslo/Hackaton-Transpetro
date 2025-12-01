@@ -1,7 +1,7 @@
 {
   "id": "proposito_solucao/modelagem_dados",
   "title": "Modelagem dos Dados",
-  "description": "Introduction",
+  "description": "Introdução",
   "source": "@site/docs/proposito_solucao/modelagem_dados.md",
   "sourceDirName": "proposito_solucao",
   "slug": "/proposito_solucao/modelagem_dados",
@@ -17,8 +17,8 @@
   },
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Fluxo de Dados",
-    "permalink": "/Hackaton-Transpetro/proposito_solucao/fluxo_dados"
+    "title": "Arquitetura da Solução",
+    "permalink": "/Hackaton-Transpetro/proposito_solucao/arquitetura_solucao"
   },
   "next": {
     "title": "Identidade Visual",

@@ -3,81 +3,73 @@ sidebar_position: 5
 title: Back End
 ---
 
-
 ## Introdução
 
-&emsp; The Reevo backend architecture is based on a set of independent microservices, written in **Python**. The choice of this approach aims to ensure **high scalability, resilience, and maintainability**, allowing teams to develop, deploy, and scale each business domain autonomously.
+&emsp;A arquitetura de backend do **Nautilus / Transpetro** é composta por um conjunto de microserviços independentes, escritos em **Python**. Essa abordagem busca garantir **alta escalabilidade, resiliência e manutenibilidade**, permitindo que equipes desenvolvam, deployem e escalem cada domínio de negócio de forma autônoma.
 
-&emsp; This document establishes the standard technology stack, directory structure, and communication patterns that must be followed by all backend services to maintain technical cohesion and quality across the entire ecosystem.
+&emsp;Este documento estabelece o **stack tecnológico padrão**, a **estrutura de diretórios** e os **padrões de comunicação** que devem ser seguidos por todos os serviços backend para manter coesão técnica e qualidade em todo o ecossistema.
 
-### Core Technology Stack
+---
 
-&emsp; To ensure consistency and productivity, all Reevo backend services must be built using the following technology stack:
+## Stack Tecnológico Core
 
-| Component | Recommended Technology/Standard | Primary Advantage |
+&emsp;Para garantir consistência e produtividade, os serviços backend devem adotar o seguinte stack:
+
+| Componente | Tecnologia / Padrão recomendado | Vantagem principal |
 | :--- | :--- | :--- |
-| **API Framework** | **FastAPI** | Performance, native async, automatic docs and validation |
-| **ORM (DB)** | **SQLAlchemy 2.0+** | Industry standard, productive, and with async support |
-| **Schema Migrations** | **Alembic** | Secure database versioning |
-| **Validation/Serialization** | **Pydantic** | Integrated with FastAPI, ensures data integrity |
-| **Authentication** | **JWT with OAuth2** | Stateless and secure standard for microservices |
-| **Dependencies** | **Poetry** | Modern management and repeatable builds |
-| **Testing** | **Pytest** | Python community standard, flexible and powerful |
+| **API Framework** | **FastAPI** | Alta performance, suporte nativo a async, documentação automática e validação integrada. |
+| **ORM (DB)** | **SQLAlchemy 2.0+ (async)** | Padrão da comunidade, produtivo e com suporte assíncrono. |
+| **Migrações** | **Alembic** | Versionamento seguro do esquema de banco de dados. |
+| **Validação / Serialização** | **Pydantic** | Integração nativa com FastAPI; fonte de verdade para OpenAPI. |
+| **Autenticação** | **JWT (OAuth2)** | Padrão stateless e seguro para microserviços. |
+| **Gerenciamento de dependências** | **Poetry** | Builds reprodutíveis e gerenciamento moderno de pacotes. |
+| **Testes** | **Pytest** | Padrão da comunidade Python para testes unitários e de integração. |
 
-### Component Stack Detail
+---
 
-**API Framework: FastAPI**
-&emsp; FastAPI is the foundation of all our services. Its **high performance** and native support for **asynchronous operations** (`async/await`) are essential for building a responsive and scalable platform, capable of handling a large volume of I/O operations (database queries, external API calls), in compliance with our performance requirements (`RNF-ED-01`).
+## Detalhamento dos Componentes
 
-**Database Interaction: SQLAlchemy**
-&emsp; Communication with the **PostgreSQL** database is abstracted by **SQLAlchemy**, the standard ORM for the Python community. We exclusively use its **asynchronous engine** (`create_async_engine`), which integrates with FastAPI. Database tables are mapped to Python classes (`models`), which increases productivity and code safety.
+### API Framework — FastAPI
+&emsp;FastAPI é a base de todos os nossos serviços. Seu alto desempenho e suporte a operações assíncronas (`async/await`) são fundamentais para construir uma plataforma responsiva e escalável, capaz de lidar com um grande volume de I/O (consultas ao banco, chamadas a APIs externas).
 
-**Data Validation: Pydantic**
-&emsp; Pydantic is used to define clear data schemas for all API operations. We adopt the standard of having specific schemas for input (**Request Models**) and output (**Response Models**), which provides us with:
-* **Automatic Validation:** Requests with invalid or missing data are automatically rejected by the framework.
-* **Security:** Prevents accidental leakage of internal data by exposing only the fields defined in the response schema.
-* **Automatic Documentation:** Pydantic schemas are the single source of truth for **OpenAPI documentation generation**.
+### Interação com Banco de Dados — SQLAlchemy (async)
+&emsp;A comunicação com o banco (PostgreSQL recomendado) é feita via **SQLAlchemy** com engine assíncrono (`create_async_engine`). As tabelas são mapeadas em classes Python (models), facilitando a manutenção e segurança do código.
 
-**Database Migrations: Alembic**
-&emsp; Every change to the database schema (SQLAlchemy models) must be accompanied by a migration script generated by **Alembic**. This ensures that database evolution is controlled, versioned, and can be applied safely and consistently in any environment.
+### Validação de Dados — Pydantic
+&emsp;Pydantic define schemas claros para inputs e outputs da API. Boas práticas:
+- modelos de **Request** e **Response** separados;
+- evitar exposição de campos internos sensíveis;
+- usar `Field(...)` com descrições para gerar documentação rica.
 
-**Authentication and Authorization: JWT (OAuth2)**
-&emsp; Security between services is based on **JSON Web Tokens (JWT)**. The Accounts Service acts as the identity provider, issuing a JWT to the user after a successful login. All subsequent calls to any microservice must contain this token in the **Authorization header**. Each service is responsible for validating the token's signature and permissions before processing the request.
+### Migrações — Alembic
+&emsp;Toda alteração no modelo de dados (SQLAlchemy) deve ser acompanhada por um script de migração gerado via Alembic e versionado no repositório.
 
-**Dependency Management: Poetry**
-&emsp; **Poetry** is the standard tool for dependency management and virtual environments across all projects. The use of `pyproject.toml` and `poetry.lock` ensures that all environments (development, testing, production) are **identical**, eliminating consistency issues.
+### Autenticação e Autorização — JWT / OAuth2
+&emsp;A autenticação é baseada em **JWT** emitidos pelo Accounts Service. Todos os requests entre serviços e do cliente devem conter o token no header `Authorization: Bearer <token>`. Cada serviço valida assinatura e escopos antes de processar a requisição.
 
-**Testing: Pytest**
-&emsp; Software quality is ensured through an automated test suite written with **Pytest**. FastAPI provides a **TestClient** that facilitates writing integration tests, allowing API requests to be simulated without the need for a running server.
+### Gerenciamento de Dependências — Poetry
+&emsp;Padronizamos o uso do **Poetry** (`pyproject.toml` + `poetry.lock`) para garantir ambientes reprodutíveis entre dev/test/prod.
 
-### Standard Directory Structure
+### Testes — Pytest
+&emsp;A qualidade do software é assegurada por testes automatizados com **Pytest**. Utilize o `TestClient` do FastAPI para testes de integração sem necessidade de servidor em execução.
 
-To ensure consistency and facilitate navigation between projects, all microservices must follow the directory structure below:
-```md
+---
+
+## Estrutura de Diretórios Padrão
+
+&emsp;Para consistência entre serviços, adote a estrutura abaixo:
+
+```text
 /service-name
-├── /alembic/                # Database migration scripts (Alembic)
+├── /alembic/                # Scripts de migração do banco (Alembic)
 ├── /app/
-│   ├── /api/                  # API Endpoints/Routers, request entry layer.
-│   ├── /core/                 # Central application configurations (e.g., settings).
-│   ├── /crud/                 # Data access functions (database logic).
-│   ├── /models/               # Classes representing database tables (SQLAlchemy).
-│   ├── /schemas/              # API data validation classes (Pydantic).
-│   └── main.py                # FastAPI application entry point.
-├── /tests/                    # Automated tests (Pytest).
-├── pyproject.toml             # Project definition and dependencies (Poetry).
-└── poetry.lock                # Dependency lock file.
-```
-
-### Inter-Service Communication Patterns
-
-&emsp; Communication within the Reevo microservice ecosystem follows two main patterns:
-
-**Synchronous Communication (RESTful APIs)**
-* **When to use:** For command or query interactions that require an immediate response.
-* **Example:** The Frontend requests the list of available CPRs from the Marketplace Service. The request must be answered immediately with the data.
-* **Mechanism:** Direct **HTTP/S calls** between services, generally orchestrated through an **API Gateway**, which acts as the single entry point for all external requests.
-
-**Asynchronous Communication (Event-Driven)**
-* **When to use:** To **decouple services** and for processes that can be executed in the background, without the requester needing to wait for a response.
-* **Example:** When the Wallet Service confirms an installment payment, it publishes a `PaymentConfirmed` event. The Notifications Service and the Distribution Service listen to this event and react to it independently, without the Wallet Service needing to know of their existence.
-* **Mechanism:** Use of a **Message Broker** (such as RabbitMQ or AWS SQS), which has already been anticipated in our sequence diagrams.
+│   ├── /api/                # Endpoints / Routers (camada de entrada)
+│   ├── /core/               # Configurações centrais (settings, logger)
+│   ├── /crud/               # Funções de acesso a dados (DB logic)
+│   ├── /models/             # SQLAlchemy models (tabelas)
+│   ├── /schemas/            # Pydantic schemas (Request/Response)
+│   ├── /services/           # Regras de negócio / integrações externas
+│   └── main.py              # Ponto de entrada do FastAPI
+├── /tests/                  # Testes automatizados (Pytest)
+├── pyproject.toml           # Dependências e configuração do Poetry
+└── poetry.lock              # Lockfile de dependências

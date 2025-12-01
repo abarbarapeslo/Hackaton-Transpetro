@@ -13,19 +13,6 @@ sidebar_position: 3
 
 ---
 
-## Visão Geral da Jornada da Solução
-
-<p style={{textAlign: 'center'}}> Jornada da Solução Nautilus </p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Jornada da Solução Nautilus" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Fonte: Produzido pelos autores (2025). </p>
-
----
-
 ## 1. Coleta de Dados (Input Layer)
 
 &emsp;O processo inicia com a ingestão de diferentes fontes operacionais e ambientais:
@@ -103,15 +90,6 @@ Cada alerta vem acompanhado de:
 ---
 
 ## 6. Visualização no Dashboard
-
-<p style={{textAlign: 'center'}}> Dashboard da Solução </p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Dashboard Nautilus" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Fonte: Produzido pelos autores (2025). </p>
 
 &emsp;O dashboard integra:
 

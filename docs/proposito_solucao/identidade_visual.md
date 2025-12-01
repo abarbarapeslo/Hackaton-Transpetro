@@ -63,7 +63,7 @@ A paleta foi pensada para funcionar bem em **dashboards analíticos**, garantind
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
     <img 
-      src={require('@site/static/img/logo.svg').default} 
+      src={require('@site/static/img/tipografia.jpeg').default} 
       style={{width: 1024}} 
       alt="Nautilus Typography" 
     />
@@ -94,7 +94,7 @@ A paleta foi pensada para funcionar bem em **dashboards analíticos**, garantind
 <div style={{margin: 15}}>
   <div style={{textAlign: 'center'}}>
     <img 
-      src={require('@site/static/img/nautilus_vs_white.png').default} 
+      src={require('@site/static/img/nautilus_vs_black.png').default} 
       style={{width: 1024}} 
       alt="Nautilus Logo" 
     />

@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/Hackaton-Transpetro/',
-    component: ComponentCreator('/Hackaton-Transpetro/', 'ca4'),
+    component: ComponentCreator('/Hackaton-Transpetro/', '250'),
     routes: [
       {
         path: '/Hackaton-Transpetro/',
-        component: ComponentCreator('/Hackaton-Transpetro/', '8a6'),
+        component: ComponentCreator('/Hackaton-Transpetro/', '283'),
         routes: [
           {
             path: '/Hackaton-Transpetro/',
-            component: ComponentCreator('/Hackaton-Transpetro/', 'f93'),
+            component: ComponentCreator('/Hackaton-Transpetro/', 'f00'),
             routes: [
               {
                 path: '/Hackaton-Transpetro/category/compreensão-da-solução',
@@ -196,12 +196,6 @@ export default [
               {
                 path: '/Hackaton-Transpetro/proposito_solucao/arquitetura_solucao',
                 component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/arquitetura_solucao', '51b'),
-                exact: true,
-                sidebar: "defaultSidebar"
-              },
-              {
-                path: '/Hackaton-Transpetro/proposito_solucao/fluxo_dados',
-                component: ComponentCreator('/Hackaton-Transpetro/proposito_solucao/fluxo_dados', '12b'),
                 exact: true,
                 sidebar: "defaultSidebar"
               },

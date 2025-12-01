@@ -114,15 +114,6 @@ Nautilus transforma o casco em um ativo de informação contínua — previsíve
 - **Arquitetura Web Responsiva + Painel de Operações**  
   Dashboard unificado para previsões, alertas e indicadores energéticos.
 
-<p style={{textAlign: 'center'}}>Visão das Funcionalidades da Plataforma</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-    <img src={useBaseUrl('/img/nome.png')} style={{width: 1024}} alt="Funcionalidades do Nautilus" />
-    <br/>
-  </div>
-</div>
-<p style={{textAlign: 'center'}}>Fonte: Produzido pelos autores (2025).</p>
-
 ---
 
 ## Diferenciadores Chave

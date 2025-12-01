@@ -3,184 +3,72 @@ sidebar_position: 5
 title: Modelagem dos Dados
 ---
 
-## Introduction
+## Introdução
 
-&emsp; The database is the pillar of any robust application, especially in a project like Reevo, where data integrity, security, and consistency are paramount. For the transactional core of our system, we opted for a relational database.
+&emsp;A modelagem de dados do **Nautilus – Cleaning Forecast Service** garante que toda a comunicação entre cliente e API siga regras claras de validação, estrutura e coerência.  
+&emsp;A API foi projetada seguindo boas práticas de engenharia de machine learning, utilizando modelos **Pydantic (FastAPI)** para validar entradas e estruturar as respostas do modelo de previsão.
 
-&emsp;This choice is due to its compliance with **ACID (Atomicity, Consistency, Isolation, and Durability)** properties, which ensure that complex financial operations (such as an investment or a payment distribution) are either entirely completed successfully or entirely rolled back, never leaving the data in an inconsistent state.
+&emsp;A modelagem é dividida em três blocos principais:
 
-The diagram below illustrates the main entities of our system and how they interconnect to model the Reevo business.
+1. **Entrada (Request Body)** – Representa o estado atual da embarcação.  
+2. **Saída Detalhada (Prediction Loop)** – Representa os 60 dias de simulação.  
+3. **Saída Final (Response Body)** – Concentra o resumo e a recomendação principal.
 
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
+---
 
-## Detailing Entities and Relationships
+## Diagrama Conceitual da Modelagem
 
-&emsp; Below, we justify the existence and structure of each table, focusing on their keys and the relationships they establish.
+<p style={{textAlign: 'center'}}> Modelagem dos Dados da API (Estrutura Conceitual) </p>
 
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
+<p style={{textAlign: 'center'}}> *Sem imagem — estrutura descrita abaixo* </p>
 
-### Tabela: `usuarios` (Users)
+---
 
-This is the central identity table. It stores the login and profile information of all platform participants, whether they are FARMERS or INVESTORS. The `perfil` (profile) column distinguishes their roles and the functionalities they can access.
+## Estruturas Principais
 
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
+A modelagem da API utiliza três estruturas base:
 
-**Keys and Relationships:**
+| Estrutura                         | Propósito                                                        | Mapeamento no Código                   |
+|----------------------------------|------------------------------------------------------------------|----------------------------------------|
+| **Entrada (Request Body)**       | Representa o estado atual da embarcação enviado à API.          | `InputFeatures`                        |
+| **Saída Detalhada (Prediction Loop)** | Representa a previsão diária para 60 dias.                         | `PredictionRecord`, `RecommendationDetail` |
+| **Saída Final (Response Body)**  | Consolida as previsões e a recomendação principal.              | `PredictionOutput`                     |
 
-- **Primary Key (PK):** `id` (UUID). It is the unique internal identifier for each user, used to relate them to all other tables.
+---
 
-- **Relationships:** This table is the starting point for most relationships. A user can request multiple `cprs`, make multiple `investimentos`, and register multiple `contas_bancarias`.
+# 1. Modelo de Entrada — `InputFeatures`
 
-### Tabela: `carteiras` (Wallets)
+&emsp;Este modelo garante que todos os **14 features obrigatórios** estejam presentes e com seus tipos corretos (`float` ou `int`) antes que a previsão seja executada.
 
-Represents the digital wallet of each user on the platform, where their stablecoin balances (USDC) are maintained and managed. The separation between `saldo_usdc` (available balance) and `saldo_bloqueado_usdc` (locked balance) is crucial for managing funds that are committed to a transaction (like an in-progress investment) but have not yet been debited.
+Cada campo representa um aspecto crucial do comportamento operacional, histórico e estrutural do navio.
 
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
+### 💡 **Categorias de Features**
 
-**Keys and Relationships:**
+| Categoria | Features | Tipo |
+|----------|----------|------|
+| **Performance** | `distance`, `duration`, `velocidade_media`, `consumo_total`, `consumo_por_milha` | float |
+| **Estado do Navio** | `draft_medio`, `draft_ratio` | float |
+| **Histórico Recente** | `dias_desde_docagem`, `dias_parado_acumulado`, `consumo_medio_30d`, `distancia_90d` | float/int |
+| **Temporal** | `ano`, `mes`, `trimestre` | int |
 
- - **Primary Key (PK):** `id` (UUID).
+---
 
-- **Foreign Key (FK):** `usuario_id` references `usuarios(id)`. The `UNIQUE` constraint on this key ensures a one-to-one relationship, guaranteeing that each user has exactly one wallet.
+### 📥 Exemplo do Modelo Completo (InputFeatures)
 
-### Tabela: `cprs` (Rural Product Bills)
-
-Models the investment opportunity. Each row represents a credit request made by a farmer that has been approved and is ready for fundraising in the marketplace. It contains all the loan terms, such as value, interest rate, and term.
-
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
-
-**Keys and Relationships:**
-
-- **Primary Key (PK):** `id` (UUID).
-
-- **Foreign Key (FK):** `agricultor_id` references `usuarios(id)`, creating a one-to-many relationship (one farmer can have several CPRs over time).
-
-### Tabela: `parcelas` (Installments)
-Details the payment schedule for a CPR. When a CPR is created, this table is populated with all future installments, their values, and due dates. This is fundamental for payment and default management.
-
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
-
-**Keys and Relationships:**
-
-- **Primary Key (PK):** `id` (UUID).
-
-- **Foreign Key (FK):** `cpr_id` references `cprs(id)`, creating a one-to-many relationship (one CPR is composed of multiple installments).
-
-### Tabela: `investimentos` (Investments)
-
-This is a crucial linking table that materializes the many-to-many relationship between `usuarios` (investors) and `cprs`. Each row means a specific investor allocated a certain value to a specific CPR.
-
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
-
-**Keys and Relationships:**
-
-- **Primary Key (PK):** `id` (UUID).
-
-- **Foreign Keys (FK):**
-
-    - `investidor_id` references `usuarios(id)`.
-
-    - `cpr_id` references `cprs(id)`.
-
-### Tabela: `transacoes` (Transactions)
-Functions as the **ledger** (book of record) for all financial movements on the platform. Whether it's a deposit, withdrawal, investment, or interest receipt, every operation generates an **immutable record** in this table, ensuring total traceability and auditability.
-
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
-
-**Keys and Relationships:**
-
-- **Primary Key (PK):** `id` (UUID).
-
-- **Foreign Key (FK):** `carteira_id` references `carteiras(id)`, linking each transaction to a specific wallet.
-
-### Tabela: `ofertas_secundario` (Secondary Offers)
-Models the sell offers in the **secondary market**. When an investor decides to sell their share (their investment), a row is created here with the selling price. This allows the platform to function as a P2P trading environment.
-
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
-
-**Keys and Relationships:**
-
-**Primary Key (PK):** `id` (UUID).
-
-**Foreign Key (FK):** `investimento_id` references `investimentos(id)`. The `UNIQUE` constraint on this key ensures that the same investment cannot have more than one active sell offer at the same time.
-
-### Tabela: `contas_bancarias` (Bank Accounts)
-Stores users' bank details securely for withdrawal operations (**off-ramp**) via Pix. Keeping this in a separate table allows a user to have multiple registered accounts and choose a primary one.
-
-<p style={{textAlign: 'center'}}> Simple Entity-Relationship Diagram (ERD)</p>
-<div style={{margin: 15}}>
-  <div style={{textAlign: 'center'}}>
-        <img src="/img/nome.png" style={{width: 1024}} alt="Credit Request and Approval Flow" />
-        <br/>
-    </div>
-</div>
-<p style={{textAlign: 'center'}}> Source: Produced by the authors (2025).</p>
-
-**Keys and Relationships:**
-
-- **Primary Key (PK):** `id` (UUID).
-
- - **Foreign Key (FK):** `usuario_id` references `usuarios(id)`, creating a one-to-many relationship.
+```json
+{
+  "distance": 120.5,
+  "duration": 18.2,
+  "draft_medio": 7.3,
+  "velocidade_media": 12.4,
+  "consumo_total": 11200,
+  "consumo_por_milha": 93.0,
+  "dias_desde_docagem": 135,
+  "dias_parado_acumulado": 12,
+  "draft_ratio": 0.85,
+  "consumo_medio_30d": 105.4,
+  "distancia_90d": 2340,
+  "ano": 2025,
+  "mes": 11,
+  "trimestre": 4
+}

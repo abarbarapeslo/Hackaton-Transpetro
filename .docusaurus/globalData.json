@@ -111,11 +111,6 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "proposito_solucao/fluxo_dados",
-              "path": "/Hackaton-Transpetro/proposito_solucao/fluxo_dados",
-              "sidebar": "defaultSidebar"
-            },
-            {
               "id": "proposito_solucao/identidade_visual",
               "path": "/Hackaton-Transpetro/proposito_solucao/identidade_visual",
               "sidebar": "defaultSidebar"

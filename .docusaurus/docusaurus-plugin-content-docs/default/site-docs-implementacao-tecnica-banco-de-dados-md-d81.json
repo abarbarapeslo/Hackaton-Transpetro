@@ -1,7 +1,7 @@
 {
   "id": "implementacao_tecnica/banco_de_dados",
-  "title": "Arquitetura de Dados",
-  "description": "Storage Layer",
+  "title": "Arquitetura de Dados — Serviço de Previsão de Bioincrustação",
+  "description": "Visão Geral",
   "source": "@site/docs/implementacao_tecnica/banco_de_dados.md",
   "sourceDirName": "implementacao_tecnica",
   "slug": "/implementacao_tecnica/banco_de_dados",
@@ -13,7 +13,7 @@
   "sidebarPosition": 0,
   "frontMatter": {
     "sidebar_position": 0,
-    "title": "Arquitetura de Dados"
+    "title": "Arquitetura de Dados — Serviço de Previsão de Bioincrustação"
   },
   "sidebar": "defaultSidebar",
   "previous": {
