@@ -142,3 +142,5 @@ Nautilus não apenas analisa o casco.
 Ele revela o que está abaixo da superfície, traduz operações complexas em decisões inteligentes e guia frotas para um futuro mais eficiente e sustentável.
 
 > **Nautilus é precisão que navega.**
+
+Redeploy forced at 2025-11-30T21:54:46.4148695-03:00
