@@ -98,3 +98,4 @@ docker-compose.override.yml
 #telegram
 *.session
 node_modules
+node_modules
